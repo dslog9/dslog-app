@@ -1,0 +1,210 @@
+/* buttons */
+
+.btn
+{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 34px;
+
+    padding: 0 14px;
+    border: 0;
+    border-radius: var(--radius-max);
+
+    cursor: pointer;
+    transition: .18s ease;
+}
+
+
+.btn:hover {
+    opacity: .82;
+}
+
+
+.btn-primary-b {
+    background: var(--gradient-b);
+    color: var(--color-back-0);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-sm);
+}
+
+.btn-primary-b0 {
+    background: var(--gradient-b0);
+    color: var(--color-back-0);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-sm);
+}
+
+.btn-primary-bb {
+    background: var(--gradient-bb);
+    color: var(--color-back-0);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-sm);
+}
+
+.btn-primary-lb {
+    background: var(--gradient-lb);
+    color: var(--color-back-0);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-sm);
+}
+
+.btn-primary-lbb {
+    background: var(--gradient-lbb);
+    color: var(--color-back-0);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-sm);
+}
+
+.btn-primary-g {
+    background: var(--gradient-g);
+    color: var(--color-back-0);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-sm);
+}
+
+.btn-primary-o {
+    background: var(--gradient-o);
+    color: var(--color-back-0);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-sm);
+}
+
+.btn-primary-n {
+    background: var(--gradient-n);
+    color: var(--color-back-0);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-sm);
+}
+
+.btn-primary-blg {
+    background: var(--gradient-blg);
+    color: var(--color-back-0);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-sm);
+}
+
+.btn-primary-w {
+    background: var(--gradient-card);
+    color: var(--color-primary-nn);
+    font-size: var(--text-sm);
+    font-weight: var(--weight-sm);
+}
+
+
+.btn-primary-w:hover {
+    border-radius: 999px;
+    border: 1px solid var(--color-border-soft);
+    opacity: .82;
+    font-size: var(--text-md);
+    color: var(--color-primary-nn);
+}
+.btn-secondary {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 48px;
+
+    padding: 0 18px;
+
+    border-radius: var(--radius-button);
+
+    background: #f2f4f7;
+    color: var(--color-text);
+
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+
+/* grids & cards */
+
+
+
+.dashboard-grid {
+display: grid;
+grid-template-columns: repeat(3, minmax(0, 1fr));
+gap: 20px;
+margin-top: 30px
+}
+
+
+.dashboard-grid5 {
+display: grid;
+grid-template-columns: repeat(5, minmax(0, 1fr));
+gap: 20px;
+}
+
+
+.card5 {
+
+position: relative;
+overflow: hidden;
+
+height: auto;
+min-height: 0;
+
+width: 100%;
+aspect-ratio: 1 / 1;
+background: var(--gradient-ww);
+/*background: linear-gradient(135deg, #d9c59d 0%, #ec9a1f 48%, #765f21 100%);*/
+border: 1 solid #e5e7eb;
+border-radius: 10px;
+padding: 10px 14px;
+transition: .18s ease;
+font-size: 13px;
+box-shadow: 3px   3px 10px rgba(16,24,40,.06);
+}
+
+
+.card-tag {
+    position: relative;
+    overflow: hidden;
+}
+
+.card-tag:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    clip-path: polygon(100% 0, 0 0, 100% 100%);
+
+}
+
+.card-tag.status-exceptional::before {
+    background: /* #22aac5*/  #14b8a6;
+}
+/*{{---пока не внедрен, нужен слой, позволяющий понять, хорошо или плохо высокое значение---}}*/
+
+.card-tag.status-done::before {
+    background: var(--color-primary-g);
+}
+.card-tag.status-needs-control::before {
+    background: var(--color-primary-r);
+}
+.card-tag.status-overdue::before {
+    background: var(--color-back-2);
+}
+.card-tag.status-not-done::before {
+    background: var(--color-back-2);
+}
+.card-tag.status-urgent::before {
+    background: var(--color-primary-o);
+}
+
+.card {
+background: #ffffff;
+border: 0px solid #e5e7eb;
+border-radius: 24px;
+padding: 10px 24px;
+transition: .18s ease;
+font-size: 13px;
+box-shadow: 3px 3px 10px rgba(16,24,40,.06);
+}
+
+
+/*----------------------------------------------------------------------*/

@@ -1,0 +1,1859 @@
+{
+  "synonyms": [
+    {
+      "marker": "zinc",
+      "synonyms": [
+        "ZINC",
+        "Цинк"
+      ]
+    },
+    {
+      "marker": "wbc",
+      "synonyms": [
+        "WBC",
+        "Лейкоциты"
+      ]
+    },
+    {
+      "marker": "vitamin-e",
+      "synonyms": [
+        "VITE",
+        "Витамин E",
+        "vitamin-e",
+        "vitamin e",
+        "vitamin_e"
+      ]
+    },
+    {
+      "marker": "vitamin-d",
+      "synonyms": [
+        "VD",
+        "Витамин D",
+        "vitamin-d",
+        "vitamin d",
+        "vitamin_d"
+      ]
+    },
+    {
+      "marker": "vitamin-b6",
+      "synonyms": [
+        "B6",
+        "Витамин B6",
+        "vitamin-b6",
+        "vitamin b6",
+        "vitamin_b6"
+      ]
+    },
+    {
+      "marker": "vitamin-b12",
+      "synonyms": [
+        "B12",
+        "Витамин B12",
+        "vitamin-b12",
+        "vitamin b12",
+        "vitamin_b12"
+      ]
+    },
+    {
+      "marker": "vitamin-b1",
+      "synonyms": [
+        "B1",
+        "Витамин B1",
+        "vitamin-b1",
+        "vitamin b1",
+        "vitamin_b1"
+      ]
+    },
+    {
+      "marker": "vitamin-a",
+      "synonyms": [
+        "VITA",
+        "Витамин A",
+        "vitamin-a",
+        "vitamin a",
+        "vitamin_a"
+      ]
+    },
+    {
+      "marker": "urine-wbc",
+      "synonyms": [
+        "U_WBC",
+        "Лейкоциты в моче",
+        "urine-wbc",
+        "urine wbc",
+        "urine_wbc"
+      ]
+    },
+    {
+      "marker": "urine-specific-gravity",
+      "synonyms": [
+        "U_SG",
+        "Удельный вес мочи",
+        "urine-specific-gravity",
+        "urine specific gravity",
+        "urine_specific_gravity"
+      ]
+    },
+    {
+      "marker": "urine-rbc",
+      "synonyms": [
+        "U_RBC",
+        "Эритроциты в моче",
+        "urine-rbc",
+        "urine rbc",
+        "urine_rbc"
+      ]
+    },
+    {
+      "marker": "urine-protein",
+      "synonyms": [
+        "U_PRO",
+        "Белок в моче",
+        "urine-protein",
+        "urine protein",
+        "urine_protein"
+      ]
+    },
+    {
+      "marker": "urine-ph",
+      "synonyms": [
+        "U_PH",
+        "pH мочи",
+        "urine-ph",
+        "urine ph",
+        "urine_ph"
+      ]
+    },
+    {
+      "marker": "urine-oxalate",
+      "synonyms": [
+        "U_OX",
+        "Оксалаты в моче",
+        "urine-oxalate",
+        "urine oxalate",
+        "urine_oxalate"
+      ]
+    },
+    {
+      "marker": "urine-nitrite",
+      "synonyms": [
+        "U_NIT",
+        "Нитриты в моче",
+        "urine-nitrite",
+        "urine nitrite",
+        "urine_nitrite"
+      ]
+    },
+    {
+      "marker": "urine-microalbumin",
+      "synonyms": [
+        "U_MICROALB",
+        "Микроальбумин в моче",
+        "urine-microalbumin",
+        "urine microalbumin",
+        "urine_microalbumin"
+      ]
+    },
+    {
+      "marker": "urine-ketones",
+      "synonyms": [
+        "U_KET",
+        "Кетоны в моче",
+        "urine-ketones",
+        "urine ketones",
+        "urine_ketones"
+      ]
+    },
+    {
+      "marker": "urine-glucose",
+      "synonyms": [
+        "U_GLU",
+        "Глюкоза в моче",
+        "urine-glucose",
+        "urine glucose",
+        "urine_glucose"
+      ]
+    },
+    {
+      "marker": "urine-epithelial-cells",
+      "synonyms": [
+        "U_EPITH",
+        "Эпителий в моче",
+        "urine-epithelial-cells",
+        "urine epithelial cells",
+        "urine_epithelial_cells"
+      ]
+    },
+    {
+      "marker": "urine-creatinine",
+      "synonyms": [
+        "U_CREAT",
+        "Креатинин в моче",
+        "urine-creatinine",
+        "urine creatinine",
+        "urine_creatinine"
+      ]
+    },
+    {
+      "marker": "urine-color",
+      "synonyms": [
+        "U_COLOR",
+        "Цвет мочи",
+        "urine-color",
+        "urine color",
+        "urine_color"
+      ]
+    },
+    {
+      "marker": "urine-citrate",
+      "synonyms": [
+        "U_CIT",
+        "Цитрат в моче",
+        "urine-citrate",
+        "urine citrate",
+        "urine_citrate"
+      ]
+    },
+    {
+      "marker": "urine-casts",
+      "synonyms": [
+        "U_CAST",
+        "Цилиндры в моче",
+        "urine-casts",
+        "urine casts",
+        "urine_casts"
+      ]
+    },
+    {
+      "marker": "urine-calcium",
+      "synonyms": [
+        "U_CA",
+        "Кальций в моче",
+        "urine-calcium",
+        "urine calcium",
+        "urine_calcium"
+      ]
+    },
+    {
+      "marker": "urine-blood",
+      "synonyms": [
+        "U_BLD",
+        "Кровь в моче",
+        "urine-blood",
+        "urine blood",
+        "urine_blood"
+      ]
+    },
+    {
+      "marker": "urine-bacteria",
+      "synonyms": [
+        "U_BACT",
+        "Бактерии в моче",
+        "urine-bacteria",
+        "urine bacteria",
+        "urine_bacteria"
+      ]
+    },
+    {
+      "marker": "urine-albumin-creatinine-ratio",
+      "synonyms": [
+        "U_ACR",
+        "Альбумин/креатинин в моче",
+        "urine-albumin-creatinine-ratio",
+        "urine albumin creatinine ratio",
+        "urine_albumin_creatinine_ratio"
+      ]
+    },
+    {
+      "marker": "uric-acid",
+      "synonyms": [
+        "UA",
+        "Мочевая кислота",
+        "uric-acid",
+        "uric acid",
+        "uric_acid"
+      ]
+    },
+    {
+      "marker": "urea",
+      "synonyms": [
+        "UREA",
+        "Мочевина"
+      ]
+    },
+    {
+      "marker": "uibc",
+      "synonyms": [
+        "UIBC",
+        "ЛЖСС"
+      ]
+    },
+    {
+      "marker": "tsh",
+      "synonyms": [
+        "TSH",
+        "ТТГ"
+      ]
+    },
+    {
+      "marker": "tryptase",
+      "synonyms": [
+        "TRYPT",
+        "Триптаза",
+        "tryptase"
+      ]
+    },
+    {
+      "marker": "troponin-t",
+      "synonyms": [
+        "TROP_T",
+        "Тропонин T",
+        "troponin-t",
+        "troponin t",
+        "troponin_t"
+      ]
+    },
+    {
+      "marker": "troponin-i",
+      "synonyms": [
+        "TROP_I",
+        "Тропонин I",
+        "troponin-i",
+        "troponin i",
+        "troponin_i"
+      ]
+    },
+    {
+      "marker": "triglycerides",
+      "synonyms": [
+        "TG",
+        "Триглицериды",
+        "triglycerides"
+      ]
+    },
+    {
+      "marker": "treponema-pallidum-antibodies",
+      "synonyms": [
+        "TPHA",
+        "Антитела к Treponema pallidum",
+        "treponema-pallidum-antibodies",
+        "treponema pallidum antibodies",
+        "treponema_pallidum_antibodies"
+      ]
+    },
+    {
+      "marker": "transferrin-saturation",
+      "synonyms": [
+        "TSAT",
+        "Насыщение трансферрина",
+        "transferrin-saturation",
+        "transferrin saturation",
+        "transferrin_saturation"
+      ]
+    },
+    {
+      "marker": "transferrin",
+      "synonyms": [
+        "TRANSFERRIN",
+        "Трансферрин"
+      ]
+    },
+    {
+      "marker": "trab",
+      "synonyms": [
+        "TRAB",
+        "Антитела к рецептору ТТГ"
+      ]
+    },
+    {
+      "marker": "toxoplasma-igm",
+      "synonyms": [
+        "TOXO_IGM",
+        "Токсоплазма IgM",
+        "toxoplasma-igm",
+        "toxoplasma igm",
+        "toxoplasma_igm"
+      ]
+    },
+    {
+      "marker": "toxoplasma-igg",
+      "synonyms": [
+        "TOXO_IGG",
+        "Токсоплазма IgG",
+        "toxoplasma-igg",
+        "toxoplasma igg",
+        "toxoplasma_igg"
+      ]
+    },
+    {
+      "marker": "total-t4",
+      "synonyms": [
+        "TT4",
+        "Общий Т4",
+        "total-t4",
+        "total t4",
+        "total_t4"
+      ]
+    },
+    {
+      "marker": "total-t3",
+      "synonyms": [
+        "TT3",
+        "Общий Т3",
+        "total-t3",
+        "total t3",
+        "total_t3"
+      ]
+    },
+    {
+      "marker": "total-protein",
+      "synonyms": [
+        "TP",
+        "Общий белок",
+        "total-protein",
+        "total protein",
+        "total_protein"
+      ]
+    },
+    {
+      "marker": "total-igm",
+      "synonyms": [
+        "IGM",
+        "IgM общий",
+        "total-igm",
+        "total igm",
+        "total_igm"
+      ]
+    },
+    {
+      "marker": "total-igg",
+      "synonyms": [
+        "IGG",
+        "IgG общий",
+        "total-igg",
+        "total igg",
+        "total_igg"
+      ]
+    },
+    {
+      "marker": "total-iga",
+      "synonyms": [
+        "IGA",
+        "IgA общий",
+        "total-iga",
+        "total iga",
+        "total_iga"
+      ]
+    },
+    {
+      "marker": "total-cholesterol",
+      "synonyms": [
+        "CHOL",
+        "Общий холестерин",
+        "total-cholesterol",
+        "total cholesterol",
+        "total_cholesterol"
+      ]
+    },
+    {
+      "marker": "tnf-alpha",
+      "synonyms": [
+        "TNFA",
+        "ФНО-альфа",
+        "tnf-alpha",
+        "tnf alpha",
+        "tnf_alpha"
+      ]
+    },
+    {
+      "marker": "tibc",
+      "synonyms": [
+        "TIBC",
+        "ОЖСС"
+      ]
+    },
+    {
+      "marker": "thyroglobulin",
+      "synonyms": [
+        "TGLOB",
+        "Тиреоглобулин",
+        "thyroglobulin"
+      ]
+    },
+    {
+      "marker": "thrombin-time",
+      "synonyms": [
+        "TT",
+        "Тромбиновое время",
+        "thrombin-time",
+        "thrombin time",
+        "thrombin_time"
+      ]
+    },
+    {
+      "marker": "testosterone-total",
+      "synonyms": [
+        "TESTOSTERONE_TOTAL",
+        "Тестостерон общий",
+        "testosterone-total",
+        "testosterone total"
+      ]
+    },
+    {
+      "marker": "testosterone-free",
+      "synonyms": [
+        "FTEST",
+        "Тестостерон свободный",
+        "testosterone-free",
+        "testosterone free",
+        "testosterone_free"
+      ]
+    },
+    {
+      "marker": "stool-ph",
+      "synonyms": [
+        "COPRO_PH",
+        "pH кала",
+        "stool-ph",
+        "stool ph",
+        "stool_ph"
+      ]
+    },
+    {
+      "marker": "stool-fat",
+      "synonyms": [
+        "COPRO_FAT",
+        "Жир в кале",
+        "stool-fat",
+        "stool fat",
+        "stool_fat"
+      ]
+    },
+    {
+      "marker": "sodium",
+      "synonyms": [
+        "nan",
+        "Натрий",
+        "sodium"
+      ]
+    },
+    {
+      "marker": "shbg",
+      "synonyms": [
+        "SHBG",
+        "ГСПГ"
+      ]
+    },
+    {
+      "marker": "serum-iron",
+      "synonyms": [
+        "IRON",
+        "Железо",
+        "serum-iron",
+        "serum iron",
+        "serum_iron"
+      ]
+    },
+    {
+      "marker": "selenium",
+      "synonyms": [
+        "SEL",
+        "Селен",
+        "selenium"
+      ]
+    },
+    {
+      "marker": "scc-antigen",
+      "synonyms": [
+        "SCC",
+        "SCC-антиген",
+        "scc-antigen",
+        "scc antigen",
+        "scc_antigen"
+      ]
+    },
+    {
+      "marker": "rpr",
+      "synonyms": [
+        "RPR"
+      ]
+    },
+    {
+      "marker": "rheumatoid-factor",
+      "synonyms": [
+        "RF",
+        "Ревматоидный фактор",
+        "rheumatoid-factor",
+        "rheumatoid factor",
+        "rheumatoid_factor"
+      ]
+    },
+    {
+      "marker": "reticulocytes",
+      "synonyms": [
+        "RET",
+        "Ретикулоциты",
+        "reticulocytes"
+      ]
+    },
+    {
+      "marker": "renin",
+      "synonyms": [
+        "REN",
+        "Ренин",
+        "renin"
+      ]
+    },
+    {
+      "marker": "rdw",
+      "synonyms": [
+        "RDW"
+      ]
+    },
+    {
+      "marker": "rbc",
+      "synonyms": [
+        "RBC",
+        "Эритроциты"
+      ]
+    },
+    {
+      "marker": "pth",
+      "synonyms": [
+        "PTH",
+        "Паратгормон"
+      ]
+    },
+    {
+      "marker": "pt",
+      "synonyms": [
+        "PT",
+        "Протромбиновое время"
+      ]
+    },
+    {
+      "marker": "psa-total",
+      "synonyms": [
+        "PSA",
+        "ПСА общий",
+        "psa-total",
+        "psa total",
+        "psa_total"
+      ]
+    },
+    {
+      "marker": "psa-free",
+      "synonyms": [
+        "FPSA",
+        "ПСА свободный",
+        "psa-free",
+        "psa free",
+        "psa_free"
+      ]
+    },
+    {
+      "marker": "protein-s",
+      "synonyms": [
+        "PROTS",
+        "Протеин S",
+        "protein-s",
+        "protein s",
+        "protein_s"
+      ]
+    },
+    {
+      "marker": "protein-c",
+      "synonyms": [
+        "PROTC",
+        "Протеин C",
+        "protein-c",
+        "protein c",
+        "protein_c"
+      ]
+    },
+    {
+      "marker": "prolactin",
+      "synonyms": [
+        "PRL",
+        "Пролактин",
+        "prolactin"
+      ]
+    },
+    {
+      "marker": "progesterone",
+      "synonyms": [
+        "PROG",
+        "Прогестерон",
+        "progesterone"
+      ]
+    },
+    {
+      "marker": "procalcitonin",
+      "synonyms": [
+        "PCTN",
+        "Прокальцитонин",
+        "procalcitonin"
+      ]
+    },
+    {
+      "marker": "potassium",
+      "synonyms": [
+        "K",
+        "Калий",
+        "potassium"
+      ]
+    },
+    {
+      "marker": "platelets",
+      "synonyms": [
+        "PLT",
+        "Тромбоциты",
+        "platelets"
+      ]
+    },
+    {
+      "marker": "plateletcrit",
+      "synonyms": [
+        "PCT",
+        "Тромбокрит",
+        "plateletcrit"
+      ]
+    },
+    {
+      "marker": "phosphorus",
+      "synonyms": [
+        "PHOS",
+        "Фосфор",
+        "phosphorus"
+      ]
+    },
+    {
+      "marker": "pepsinogen-2",
+      "synonyms": [
+        "PEPSI2",
+        "Пепсиноген II",
+        "pepsinogen-2",
+        "pepsinogen 2",
+        "pepsinogen_2"
+      ]
+    },
+    {
+      "marker": "pepsinogen-1",
+      "synonyms": [
+        "PEPSI1",
+        "Пепсиноген I",
+        "pepsinogen-1",
+        "pepsinogen 1",
+        "pepsinogen_1"
+      ]
+    },
+    {
+      "marker": "pdw",
+      "synonyms": [
+        "PDW"
+      ]
+    },
+    {
+      "marker": "pancreatic-amylase",
+      "synonyms": [
+        "PANCREAS_AMY",
+        "Панкреатическая амилаза",
+        "pancreatic-amylase",
+        "pancreatic amylase",
+        "pancreatic_amylase"
+      ]
+    },
+    {
+      "marker": "osmolality",
+      "synonyms": [
+        "OSM",
+        "Осмоляльность крови",
+        "osmolality"
+      ]
+    },
+    {
+      "marker": "nucleated-rbc",
+      "synonyms": [
+        "NRBC",
+        "Нормобласты",
+        "nucleated-rbc",
+        "nucleated rbc",
+        "nucleated_rbc"
+      ]
+    },
+    {
+      "marker": "nt-probnp",
+      "synonyms": [
+        "NTPRO",
+        "NT-proBNP",
+        "nt probnp",
+        "nt_probnp"
+      ]
+    },
+    {
+      "marker": "nse",
+      "synonyms": [
+        "NSE",
+        "Нейронспецифическая енолаза"
+      ]
+    },
+    {
+      "marker": "non-hdl-cholesterol",
+      "synonyms": [
+        "NONHDL",
+        "Не-ЛПВП холестерин",
+        "non-hdl-cholesterol",
+        "non hdl cholesterol",
+        "non_hdl_cholesterol"
+      ]
+    },
+    {
+      "marker": "neutrophils",
+      "synonyms": [
+        "NEUT",
+        "Нейтрофилы",
+        "neutrophils"
+      ]
+    },
+    {
+      "marker": "myoglobin",
+      "synonyms": [
+        "MYO",
+        "Миоглобин",
+        "myoglobin"
+      ]
+    },
+    {
+      "marker": "mpv",
+      "synonyms": [
+        "MPV"
+      ]
+    },
+    {
+      "marker": "monocytes",
+      "synonyms": [
+        "MONO",
+        "Моноциты",
+        "monocytes"
+      ]
+    },
+    {
+      "marker": "mcv",
+      "synonyms": [
+        "MCV"
+      ]
+    },
+    {
+      "marker": "mchc",
+      "synonyms": [
+        "MCHC"
+      ]
+    },
+    {
+      "marker": "mch",
+      "synonyms": [
+        "MCH"
+      ]
+    },
+    {
+      "marker": "magnesium",
+      "synonyms": [
+        "MG",
+        "Магний",
+        "magnesium"
+      ]
+    },
+    {
+      "marker": "lymphocytes",
+      "synonyms": [
+        "LYMPH",
+        "Лимфоциты",
+        "lymphocytes"
+      ]
+    },
+    {
+      "marker": "lupus-anticoagulant",
+      "synonyms": [
+        "LAC",
+        "Волчаночный антикоагулянт",
+        "lupus-anticoagulant",
+        "lupus anticoagulant",
+        "lupus_anticoagulant"
+      ]
+    },
+    {
+      "marker": "lp-pla2",
+      "synonyms": [
+        "LPPLA2",
+        "ЛП-ФЛА2",
+        "lp-pla2",
+        "lp pla2",
+        "lp_pla2"
+      ]
+    },
+    {
+      "marker": "lipoprotein-a",
+      "synonyms": [
+        "LPA",
+        "Липопротеин(a)",
+        "lipoprotein-a",
+        "lipoprotein a",
+        "lipoprotein_a"
+      ]
+    },
+    {
+      "marker": "lipase",
+      "synonyms": [
+        "LIP",
+        "Липаза",
+        "lipase"
+      ]
+    },
+    {
+      "marker": "lh",
+      "synonyms": [
+        "LH",
+        "ЛГ"
+      ]
+    },
+    {
+      "marker": "ldl",
+      "synonyms": [
+        "LDL",
+        "ЛПНП"
+      ]
+    },
+    {
+      "marker": "ldh",
+      "synonyms": [
+        "LDH",
+        "ЛДГ"
+      ]
+    },
+    {
+      "marker": "interleukin-6",
+      "synonyms": [
+        "IL6",
+        "Интерлейкин-6",
+        "interleukin-6",
+        "interleukin 6",
+        "interleukin_6"
+      ]
+    },
+    {
+      "marker": "insulin",
+      "synonyms": [
+        "INS",
+        "Инсулин",
+        "insulin"
+      ]
+    },
+    {
+      "marker": "inr",
+      "synonyms": [
+        "INR",
+        "МНО"
+      ]
+    },
+    {
+      "marker": "inhibin-b",
+      "synonyms": [
+        "INHIBINB",
+        "Ингибин B",
+        "inhibin-b",
+        "inhibin b",
+        "inhibin_b"
+      ]
+    },
+    {
+      "marker": "ige-total",
+      "synonyms": [
+        "IGE",
+        "IgE общий",
+        "ige-total",
+        "ige total",
+        "ige_total"
+      ]
+    },
+    {
+      "marker": "hs-crp",
+      "synonyms": [
+        "HSCRP",
+        "Высокочувствительный СРБ",
+        "hs-crp",
+        "hs crp",
+        "hs_crp"
+      ]
+    },
+    {
+      "marker": "homocysteine",
+      "synonyms": [
+        "HOMOCYS",
+        "Гомоцистеин",
+        "homocysteine"
+      ]
+    },
+    {
+      "marker": "homa-ir",
+      "synonyms": [
+        "HOMA",
+        "HOMA-IR",
+        "homa ir",
+        "homa_ir"
+      ]
+    },
+    {
+      "marker": "hiv-ag-ab",
+      "synonyms": [
+        "HIVAGAB",
+        "ВИЧ Ag/Ab",
+        "hiv-ag-ab",
+        "hiv ag ab",
+        "hiv_ag_ab"
+      ]
+    },
+    {
+      "marker": "high-sensitivity-troponin",
+      "synonyms": [
+        "D_HS_TROP",
+        "Высокочувствительный тропонин",
+        "high-sensitivity-troponin",
+        "high sensitivity troponin",
+        "high_sensitivity_troponin"
+      ]
+    },
+    {
+      "marker": "hemoglobin",
+      "synonyms": [
+        "HGB",
+        "Гемоглобин",
+        "hemoglobin"
+      ]
+    },
+    {
+      "marker": "hematocrit",
+      "synonyms": [
+        "HCT",
+        "Гематокрит",
+        "hematocrit"
+      ]
+    },
+    {
+      "marker": "helicobacter-urease-test",
+      "synonyms": [
+        "HP_UREA",
+        "Уреазный тест Helicobacter pylori",
+        "helicobacter-urease-test",
+        "helicobacter urease test",
+        "helicobacter_urease_test"
+      ]
+    },
+    {
+      "marker": "helicobacter-pylori-antigen",
+      "synonyms": [
+        "HP_AG",
+        "Антиген Helicobacter pylori в кале",
+        "helicobacter-pylori-antigen",
+        "helicobacter pylori antigen",
+        "helicobacter_pylori_antigen"
+      ]
+    },
+    {
+      "marker": "he4",
+      "synonyms": [
+        "HE4"
+      ]
+    },
+    {
+      "marker": "hdl",
+      "synonyms": [
+        "HDL",
+        "ЛПВП"
+      ]
+    },
+    {
+      "marker": "hcv-rna",
+      "synonyms": [
+        "HCVRNA",
+        "РНК HCV",
+        "hcv-rna",
+        "hcv rna",
+        "hcv_rna"
+      ]
+    },
+    {
+      "marker": "hcg",
+      "synonyms": [
+        "HCG",
+        "ХГЧ"
+      ]
+    },
+    {
+      "marker": "hbsag",
+      "synonyms": [
+        "HBsAg"
+      ]
+    },
+    {
+      "marker": "hba1c",
+      "synonyms": [
+        "HBA1C",
+        "Гликированный гемоглобин"
+      ]
+    },
+    {
+      "marker": "glucose",
+      "synonyms": [
+        "GLU",
+        "Глюкоза",
+        "glucose"
+      ]
+    },
+    {
+      "marker": "globulin",
+      "synonyms": [
+        "GLOB",
+        "Глобулины",
+        "globulin"
+      ]
+    },
+    {
+      "marker": "ggt",
+      "synonyms": [
+        "GGT",
+        "ГГТ"
+      ]
+    },
+    {
+      "marker": "gastrin-17",
+      "synonyms": [
+        "GASTRIN",
+        "Гастрин-17",
+        "gastrin-17",
+        "gastrin 17",
+        "gastrin_17"
+      ]
+    },
+    {
+      "marker": "fsh",
+      "synonyms": [
+        "FSH",
+        "ФСГ"
+      ]
+    },
+    {
+      "marker": "free-t4",
+      "synonyms": [
+        "FT4",
+        "Свободный Т4",
+        "free-t4",
+        "free t4",
+        "free_t4"
+      ]
+    },
+    {
+      "marker": "free-t3",
+      "synonyms": [
+        "FT3",
+        "Свободный Т3",
+        "free-t3",
+        "free t3",
+        "free_t3"
+      ]
+    },
+    {
+      "marker": "folate",
+      "synonyms": [
+        "FOL",
+        "Фолиевая кислота",
+        "folate"
+      ]
+    },
+    {
+      "marker": "fibrinogen",
+      "synonyms": [
+        "FIB",
+        "Фибриноген",
+        "fibrinogen"
+      ]
+    },
+    {
+      "marker": "ferritin",
+      "synonyms": [
+        "FERR",
+        "Ферритин",
+        "ferritin"
+      ]
+    },
+    {
+      "marker": "fecal-occult-blood",
+      "synonyms": [
+        "FOBT",
+        "Скрытая кровь в кале",
+        "fecal-occult-blood",
+        "fecal occult blood",
+        "fecal_occult_blood"
+      ]
+    },
+    {
+      "marker": "fecal-elastase",
+      "synonyms": [
+        "FELAST",
+        "Панкреатическая эластаза",
+        "fecal-elastase",
+        "fecal elastase",
+        "fecal_elastase"
+      ]
+    },
+    {
+      "marker": "fecal-calprotectin",
+      "synonyms": [
+        "FCAL",
+        "Кальпротектин в кале",
+        "fecal-calprotectin",
+        "fecal calprotectin",
+        "fecal_calprotectin"
+      ]
+    },
+    {
+      "marker": "estradiol",
+      "synonyms": [
+        "E2",
+        "Эстрадиол",
+        "estradiol"
+      ]
+    },
+    {
+      "marker": "esr",
+      "synonyms": [
+        "ESR",
+        "СОЭ"
+      ]
+    },
+    {
+      "marker": "eosinophils",
+      "synonyms": [
+        "EOS",
+        "Эозинофилы",
+        "eosinophils"
+      ]
+    },
+    {
+      "marker": "ena-screen",
+      "synonyms": [
+        "ENA",
+        "ENA-скрининг",
+        "ena-screen",
+        "ena screen",
+        "ena_screen"
+      ]
+    },
+    {
+      "marker": "egfr",
+      "synonyms": [
+        "EGFR",
+        "СКФ"
+      ]
+    },
+    {
+      "marker": "ebv-vca-igm",
+      "synonyms": [
+        "EBV_VCA_IGM",
+        "EBV VCA IgM",
+        "ebv-vca-igm"
+      ]
+    },
+    {
+      "marker": "ebv-vca-igg",
+      "synonyms": [
+        "EBV_VCA_IGG",
+        "EBV VCA IgG",
+        "ebv-vca-igg"
+      ]
+    },
+    {
+      "marker": "dhea-s",
+      "synonyms": [
+        "DHEAS",
+        "ДГЭА-С",
+        "dhea-s",
+        "dhea s",
+        "dhea_s"
+      ]
+    },
+    {
+      "marker": "d-dimer",
+      "synonyms": [
+        "DD",
+        "D-димер",
+        "d-dimer",
+        "d dimer",
+        "d_dimer"
+      ]
+    },
+    {
+      "marker": "cystatin-c",
+      "synonyms": [
+        "CYS",
+        "Цистатин C",
+        "cystatin-c",
+        "cystatin c",
+        "cystatin_c"
+      ]
+    },
+    {
+      "marker": "cyfra-21-1",
+      "synonyms": [
+        "CYFRA21_1",
+        "CYFRA 21-1",
+        "cyfra-21-1",
+        "cyfra 21 1",
+        "cyfra_21_1"
+      ]
+    },
+    {
+      "marker": "crp",
+      "synonyms": [
+        "CRP",
+        "С-реактивный белок"
+      ]
+    },
+    {
+      "marker": "creatinine",
+      "synonyms": [
+        "CREA",
+        "Креатинин",
+        "creatinine"
+      ]
+    },
+    {
+      "marker": "c-peptide",
+      "synonyms": [
+        "CPEP",
+        "C-пептид",
+        "c-peptide",
+        "c peptide",
+        "c_peptide"
+      ]
+    },
+    {
+      "marker": "cortisol",
+      "synonyms": [
+        "CORT",
+        "Кортизол",
+        "cortisol"
+      ]
+    },
+    {
+      "marker": "copper",
+      "synonyms": [
+        "CU",
+        "Медь",
+        "copper"
+      ]
+    },
+    {
+      "marker": "cmv-igm",
+      "synonyms": [
+        "CMV_IGM",
+        "ЦМВ IgM",
+        "cmv-igm",
+        "cmv igm"
+      ]
+    },
+    {
+      "marker": "cmv-igg",
+      "synonyms": [
+        "CMV_IGG",
+        "ЦМВ IgG",
+        "cmv-igg",
+        "cmv igg"
+      ]
+    },
+    {
+      "marker": "ck-mb",
+      "synonyms": [
+        "CKMB",
+        "КК-МВ",
+        "ck-mb",
+        "ck mb",
+        "ck_mb"
+      ]
+    },
+    {
+      "marker": "ck",
+      "synonyms": [
+        "CK",
+        "Креатинкиназа"
+      ]
+    },
+    {
+      "marker": "chromogranin-a",
+      "synonyms": [
+        "CHROMOGRANIN_A",
+        "Хромогранин A",
+        "chromogranin-a",
+        "chromogranin a"
+      ]
+    },
+    {
+      "marker": "chloride",
+      "synonyms": [
+        "CL",
+        "Хлор",
+        "chloride"
+      ]
+    },
+    {
+      "marker": "ceruloplasmin",
+      "synonyms": [
+        "CER",
+        "Церулоплазмин",
+        "ceruloplasmin"
+      ]
+    },
+    {
+      "marker": "cea",
+      "synonyms": [
+        "CEA",
+        "РЭА"
+      ]
+    },
+    {
+      "marker": "calcium-ionized",
+      "synonyms": [
+        "ICA",
+        "Кальций ионизированный",
+        "calcium-ionized",
+        "calcium ionized",
+        "calcium_ionized"
+      ]
+    },
+    {
+      "marker": "calcium",
+      "synonyms": [
+        "CA",
+        "Кальций общий",
+        "calcium"
+      ]
+    },
+    {
+      "marker": "calcitonin",
+      "synonyms": [
+        "CALCITONIN",
+        "Кальцитонин"
+      ]
+    },
+    {
+      "marker": "ca-19-9",
+      "synonyms": [
+        "CA199",
+        "CA 19-9",
+        "ca-19-9",
+        "ca 19 9",
+        "ca_19_9"
+      ]
+    },
+    {
+      "marker": "ca-15-3",
+      "synonyms": [
+        "CA153",
+        "CA 15-3",
+        "ca-15-3",
+        "ca 15 3",
+        "ca_15_3"
+      ]
+    },
+    {
+      "marker": "ca-125",
+      "synonyms": [
+        "CA125",
+        "CA-125",
+        "ca 125",
+        "ca_125"
+      ]
+    },
+    {
+      "marker": "c4-complement",
+      "synonyms": [
+        "C4",
+        "Комплемент C4",
+        "c4-complement",
+        "c4 complement",
+        "c4_complement"
+      ]
+    },
+    {
+      "marker": "c3-complement",
+      "synonyms": [
+        "C3",
+        "Комплемент C3",
+        "c3-complement",
+        "c3 complement",
+        "c3_complement"
+      ]
+    },
+    {
+      "marker": "bun",
+      "synonyms": [
+        "BUN",
+        "Азот мочевины крови"
+      ]
+    },
+    {
+      "marker": "bnp",
+      "synonyms": [
+        "BNP"
+      ]
+    },
+    {
+      "marker": "bilirubin-total",
+      "synonyms": [
+        "TBIL",
+        "Билирубин общий",
+        "bilirubin-total",
+        "bilirubin total",
+        "bilirubin_total"
+      ]
+    },
+    {
+      "marker": "bilirubin-indirect",
+      "synonyms": [
+        "IBIL",
+        "Билирубин непрямой",
+        "bilirubin-indirect",
+        "bilirubin indirect",
+        "bilirubin_indirect"
+      ]
+    },
+    {
+      "marker": "bilirubin-direct",
+      "synonyms": [
+        "DBIL",
+        "Билирубин прямой",
+        "bilirubin-direct",
+        "bilirubin direct",
+        "bilirubin_direct"
+      ]
+    },
+    {
+      "marker": "bicarbonate",
+      "synonyms": [
+        "CO2",
+        "Бикарбонат",
+        "bicarbonate"
+      ]
+    },
+    {
+      "marker": "beta-hcg",
+      "synonyms": [
+        "BETA_HCG",
+        "Бета-ХГЧ",
+        "beta-hcg",
+        "beta hcg"
+      ]
+    },
+    {
+      "marker": "beta-2-glycoprotein-igm",
+      "synonyms": [
+        "B2GP_IGM",
+        "Бета-2-гликопротеин IgM",
+        "beta-2-glycoprotein-igm",
+        "beta 2 glycoprotein igm",
+        "beta_2_glycoprotein_igm"
+      ]
+    },
+    {
+      "marker": "beta-2-glycoprotein-igg",
+      "synonyms": [
+        "B2GP_IGG",
+        "Бета-2-гликопротеин IgG",
+        "beta-2-glycoprotein-igg",
+        "beta 2 glycoprotein igg",
+        "beta_2_glycoprotein_igg"
+      ]
+    },
+    {
+      "marker": "basophils",
+      "synonyms": [
+        "BASO",
+        "Базофилы",
+        "basophils"
+      ]
+    },
+    {
+      "marker": "ast",
+      "synonyms": [
+        "AST",
+        "АСТ"
+      ]
+    },
+    {
+      "marker": "aptt",
+      "synonyms": [
+        "APTT",
+        "АЧТВ"
+      ]
+    },
+    {
+      "marker": "apolipoprotein-b",
+      "synonyms": [
+        "APOB",
+        "Аполипопротеин B",
+        "apolipoprotein-b",
+        "apolipoprotein b",
+        "apolipoprotein_b"
+      ]
+    },
+    {
+      "marker": "apolipoprotein-a1",
+      "synonyms": [
+        "APOA1",
+        "Аполипопротеин A1",
+        "apolipoprotein-a1",
+        "apolipoprotein a1",
+        "apolipoprotein_a1"
+      ]
+    },
+    {
+      "marker": "anti-tpo",
+      "synonyms": [
+        "ATPO",
+        "Антитела к ТПО",
+        "anti-tpo",
+        "anti tpo",
+        "anti_tpo"
+      ]
+    },
+    {
+      "marker": "anti-tissue-transglutaminase-iga",
+      "synonyms": [
+        "TGA_IGA",
+        "Антитела к тканевой трансглутаминазе IgA",
+        "anti-tissue-transglutaminase-iga",
+        "anti tissue transglutaminase iga",
+        "anti_tissue_transglutaminase_iga"
+      ]
+    },
+    {
+      "marker": "anti-thyroglobulin",
+      "synonyms": [
+        "ATTG",
+        "Антитела к тиреоглобулину",
+        "anti-thyroglobulin",
+        "anti thyroglobulin",
+        "anti_thyroglobulin"
+      ]
+    },
+    {
+      "marker": "antithrombin-iii",
+      "synonyms": [
+        "AT3",
+        "Антитромбин III",
+        "antithrombin-iii",
+        "antithrombin iii",
+        "antithrombin_iii"
+      ]
+    },
+    {
+      "marker": "anti-pr3",
+      "synonyms": [
+        "PR3",
+        "Антитела к PR3",
+        "anti-pr3",
+        "anti pr3",
+        "anti_pr3"
+      ]
+    },
+    {
+      "marker": "anti-mpo",
+      "synonyms": [
+        "MPO",
+        "Антитела к MPO",
+        "anti-mpo",
+        "anti mpo",
+        "anti_mpo"
+      ]
+    },
+    {
+      "marker": "anti-hcv",
+      "synonyms": [
+        "HCVAB",
+        "Anti-HCV",
+        "anti hcv",
+        "anti_hcv"
+      ]
+    },
+    {
+      "marker": "anti-hbs",
+      "synonyms": [
+        "AHBS",
+        "Anti-HBs",
+        "anti hbs",
+        "anti_hbs"
+      ]
+    },
+    {
+      "marker": "anti-hbc-total",
+      "synonyms": [
+        "AHBC",
+        "Anti-HBc total",
+        "anti-hbc-total",
+        "anti hbc total",
+        "anti_hbc_total"
+      ]
+    },
+    {
+      "marker": "anti-dsdna",
+      "synonyms": [
+        "ADNA",
+        "Антитела к двуспиральной ДНК",
+        "anti-dsdna",
+        "anti dsdna",
+        "anti_dsdna"
+      ]
+    },
+    {
+      "marker": "anti-deamidated-gliadin-igg",
+      "synonyms": [
+        "DGP_IGG",
+        "Антитела к деамидированному глиадину IgG",
+        "anti-deamidated-gliadin-igg",
+        "anti deamidated gliadin igg",
+        "anti_deamidated_gliadin_igg"
+      ]
+    },
+    {
+      "marker": "anti-ccp",
+      "synonyms": [
+        "ACCP",
+        "Антитела к CCP",
+        "anti-ccp",
+        "anti ccp",
+        "anti_ccp"
+      ]
+    },
+    {
+      "marker": "anticardiolipin-igm",
+      "synonyms": [
+        "ACL_IGM",
+        "Антикардиолипин IgM",
+        "anticardiolipin-igm",
+        "anticardiolipin igm",
+        "anticardiolipin_igm"
+      ]
+    },
+    {
+      "marker": "anticardiolipin-igg",
+      "synonyms": [
+        "ACL_IGG",
+        "Антикардиолипин IgG",
+        "anticardiolipin-igg",
+        "anticardiolipin igg",
+        "anticardiolipin_igg"
+      ]
+    },
+    {
+      "marker": "anion-gap",
+      "synonyms": [
+        "ANION",
+        "Анионная разница",
+        "anion-gap",
+        "anion gap",
+        "anion_gap"
+      ]
+    },
+    {
+      "marker": "anca",
+      "synonyms": [
+        "ANCA"
+      ]
+    },
+    {
+      "marker": "ana",
+      "synonyms": [
+        "ANA",
+        "Антинуклеарные антитела"
+      ]
+    },
+    {
+      "marker": "amylase",
+      "synonyms": [
+        "AMY",
+        "Амилаза",
+        "amylase"
+      ]
+    },
+    {
+      "marker": "amh",
+      "synonyms": [
+        "AMH",
+        "Антимюллеров гормон"
+      ]
+    },
+    {
+      "marker": "alt",
+      "synonyms": [
+        "ALT",
+        "АЛТ"
+      ]
+    },
+    {
+      "marker": "alp",
+      "synonyms": [
+        "ALP",
+        "Щелочная фосфатаза"
+      ]
+    },
+    {
+      "marker": "aldosterone",
+      "synonyms": [
+        "ALD",
+        "Альдостерон",
+        "aldosterone"
+      ]
+    },
+    {
+      "marker": "albumin-globulin-ratio",
+      "synonyms": [
+        "AGR",
+        "Альбумин-глобулиновый коэффициент",
+        "albumin-globulin-ratio",
+        "albumin globulin ratio",
+        "albumin_globulin_ratio"
+      ]
+    },
+    {
+      "marker": "albumin",
+      "synonyms": [
+        "ALB",
+        "Альбумин",
+        "albumin"
+      ]
+    },
+    {
+      "marker": "afp-pregnancy",
+      "synonyms": [
+        "AFP_PREG",
+        "АФП при беременности",
+        "afp-pregnancy",
+        "afp pregnancy",
+        "afp_pregnancy"
+      ]
+    },
+    {
+      "marker": "afp",
+      "synonyms": [
+        "AFP",
+        "Альфа-фетопротеин"
+      ]
+    },
+    {
+      "marker": "acth",
+      "synonyms": [
+        "ACTH",
+        "АКТГ"
+      ]
+    }
+  ]
+}

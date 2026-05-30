@@ -1,0 +1,280 @@
+
+/* ------------------------------------------------- SEO Блок и таб продукт / о продукте */
+
+.plan-detail-tabs {
+    display: inline-flex;
+    gap: 4px;
+    padding: 4px;
+    margin: 6px 0 32px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+}
+
+.plan-detail-tab {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 18px;
+    border-radius: 999px;
+    color: var(--text-secondary);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.plan-detail-tab.is-active {
+    background: var(--text-main);
+    color: #fff;
+}
+
+
+/* Plans SEO content layer */
+
+.seo-content {
+    margin-top: 56px;
+    padding-top: 56px;
+    border-top: 1px solid var(--border-soft);
+}
+
+.seo-section {
+    margin-bottom: 56px;
+}
+
+.seo-section:last-child {
+    margin-bottom: 0;
+}
+
+.seo-section-header {
+    max-width: 720px;
+    margin-bottom: 22px;
+}
+
+.seo-section-header h2 {
+    margin: 6px 0 0;
+    font-size: 28px;
+    line-height: 1.2;
+    color: var(--text-main);
+}
+
+.seo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.seo-card {
+    display: flex;
+    flex-direction: column;    
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 24px;
+    padding: 22px;
+}
+
+.seo-card-body {
+    min-height: 150px;
+}
+
+.seo-card-title {
+    margin: 0 0 10px;
+    font-size: 18px;
+    line-height: 1.3;
+    color: var(--text-main);
+}
+
+.seo-card-text,
+.seo-text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--text-secondary);
+}
+
+.seo-list {
+    padding-left: 22px;
+    color: var(--text-secondary);
+    font-size: 16px;
+    line-height: 1.85;
+}
+
+@media (max-width: 900px) {
+    .seo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .seo-content {
+        margin-top: 40px;
+        padding-top: 40px;
+    }
+
+    .seo-section {
+        margin-bottom: 40px;
+    }
+
+    .seo-section-header h2 {
+        font-size: 24px;
+    }
+}
+
+/* __________________ */
+
+@media (max-width: 760px) {
+    .plan-variant-switcher {
+        grid-template-columns: 1fr;
+    }
+}
+
+.seo-cta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    padding: 28px;
+    background: #fff;
+    border: 1px solid var(--border);
+    border-radius: 28px;
+}
+
+.seo-cta h2 {
+    margin: 6px 0 12px;
+    font-size: 28px;
+    line-height: 1.2;
+    color: var(--text-main);
+}
+
+@media (max-width: 900px) {
+    .seo-cta {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
+
+
+
+.seo-composition-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.seo-composition-card {
+    background: rgba(255, 255, 255, .62);
+    border: 1px solid var(--border-soft);
+    border-radius: 20px;
+    padding: 18px 20px;
+}
+
+.seo-composition-card h4 {
+    margin: 0 0 8px;
+    font-size: 15px;
+    color: var(--text-main);
+}
+
+.seo-composition-card p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--text-secondary);
+}
+
+@media (max-width: 900px) {
+    .seo-composition-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.seo-mini-list {
+    margin-top: 18px;
+    padding-left: 0;
+    list-style: none;
+
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.seo-mini-list li {
+    position: relative;
+    padding-left: 16px;
+}
+
+.seo-mini-list li::before {
+    content: "–";
+    position: absolute;
+    left: 0;
+    top: 0;
+
+
+    color: var(--color-primary);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1;
+}
+
+.seo-mini-list.is-additions {
+    list-style: none;
+    padding-left: 0;
+    line-height: 1.6;
+
+        position: relative;
+    padding-left: 16px;
+    padding-top: 0px;
+}
+
+.seo-mini-list.is-additions li {
+    position: relative;
+    padding-left: 16px;
+
+
+}
+
+.seo-mini-list.is-additions li::before {
+    content: "+";
+    position: absolute;
+    left: 0;
+    padding-top: 0;
+    color: var(--color-primary-b);
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.20;
+
+}
+
+.related-plans {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.related-plan-card {
+    display: block;
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-radius: 22px;
+    background: #fff;
+    text-decoration: none;
+}
+
+.related-plan-card span {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--text-main);
+    font-weight: 600;
+}
+
+.related-plan-card p {
+    margin: 0;
+    color: var(--text-secondary);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+    .related-plans {
+        grid-template-columns: 1fr;
+    }
+}
+/* */

@@ -1,0 +1,2102 @@
+{
+  "panels": [
+    {
+      "slug": "basic-yearly",
+      "name": "Базовый ежегодный чек-ап",
+      "cover_image": "/assets/plans/basic-yearly.png",
+      "category": "basic",
+      "panel_type": "checkup",
+      "thematic_type": null,
+      "gender": null,
+      "age_min": 18,
+      "age_max": null,
+      "seo_title": "Базовый ежегодный чек-ап анализов",
+      "seo_description": "Базовый набор анализов для ежегодной профилактической проверки здоровья.",
+      "short_description": "Основные анализы для ежегодной проверки крови, обмена веществ, печени, почек и сердечно-сосудистых рисков.",
+      "description": "Базовый ежегодный чек-ап помогает оценить общее состояние организма, признаки анемии, воспаления, нарушения углеводного и липидного обмена, функцию печени и почек. Подходит как стартовая профилактическая проверка для взрослых.",
+      "sort_order": 10,
+      "is_active": true,
+      "sections": [
+        {
+          "slug": "cbc",
+          "name": "Общий анализ крови",
+          "description": "Базовая оценка клеток крови, признаков анемии, воспаления и тромбоцитов.",
+          "priority": 10,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            "hemoglobin",
+            "rbc",
+            "hematocrit",
+            "wbc",
+            "neutrophils",
+            "lymphocytes",
+            "monocytes",
+            "eosinophils",
+            "basophils",
+            "platelets",
+            "mcv",
+            "mch",
+            "mchc",
+            "rdw",
+            "mpv",
+            "esr"
+          ]
+        },
+        {
+          "slug": "biochemistry",
+          "name": "Базовая биохимия крови",
+          "description": "Оценка функции печени, почек, белкового обмена и общего метаболического состояния.",
+          "priority": 20,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            "alt",
+            "ast",
+            "ggt",
+            "bilirubin-total",
+            "bilirubin-direct",
+            "total-protein",
+            "albumin",
+            "creatinine",
+            "egfr",
+            "urea",
+            "uric-acid"
+          ]
+        },
+        {
+          "slug": "glucose-metabolism",
+          "name": "Углеводный обмен",
+          "description": "Проверка глюкозы, среднего сахара и признаков инсулинорезистентности.",
+          "priority": 30,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            "glucose",
+            "hba1c",
+            "insulin",
+            "homa-ir",
+            "c-peptide"
+          ]
+        },
+        {
+          "slug": "lipids",
+          "name": "Липидный профиль",
+          "description": "Оценка холестерина и липопротеинов для понимания сердечно-сосудистого риска.",
+          "priority": 40,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            "total-cholesterol",
+            "ldl",
+            "hdl",
+            "triglycerides",
+            "lipoprotein-a"
+          ]
+        },
+        {
+          "slug": "urine",
+          "name": "Общий анализ мочи",
+          "description": "Базовая оценка мочевыделительной системы, белка, воспаления и обменных признаков.",
+          "priority": 50,
+          "frequency_months": 12,
+          "is_required": false,
+          "markers": [
+            "urine-protein",
+            "urine-glucose",
+            "urine-ketones",
+            "urine-rbc",
+            "urine-wbc",
+            "urine-nitrite",
+            "urine-specific-gravity",
+            "urine-ph"
+          ]
+        }
+      ],
+      "markers": []
+    },
+
+          {
+          "slug": "women-18-29",
+          "name": "Чекап для женщин 18–29 лет",
+          "cover_image": "/assets/plans/women-18-29.png",
+          "category": "women",
+          "panel_type": "checkup",
+          "thematic_type": null,
+          "gender": "female",
+          "age_min": 18,
+          "age_max": 29,
+          "seo_title": "Чекап для женщин 18–29 лет",
+          "seo_description": "Ежегодный профилактический набор анализов для женщин 18–29 лет.",
+          "short_description": "Анализы для оценки крови, железа, витаминов, щитовидной железы и обмена веществ у женщин 18–29 лет.",
+          "description": "Чекап для женщин 18–29 лет помогает выявить дефициты, анемию, нарушения функции щитовидной железы и ранние метаболические изменения.",
+          "sort_order": 15,
+          "is_active": true,
+          "sections": [
+        {
+          "slug": "cbc",
+          "name": "Общий анализ крови",
+          "description": "Оценка клеток крови, признаков анемии и воспаления.",
+          "priority": 10,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "hemoglobin",
+              "role": "core"
+            },
+            {
+              "marker": "wbc",
+              "role": "core"
+            },
+            {
+              "marker": "platelets",
+              "role": "core"
+            },
+            {
+              "marker": "rbc",
+              "role": "recommended"
+            },
+            {
+              "marker": "hematocrit",
+              "role": "recommended"
+            },
+            {
+              "marker": "mcv",
+              "role": "recommended"
+            },
+            {
+              "marker": "mch",
+              "role": "recommended"
+            },
+            {
+              "marker": "mchc",
+              "role": "extended"
+            },
+            {
+              "marker": "rdw",
+              "role": "recommended"
+            },
+            {
+              "marker": "esr",
+              "role": "extended"
+            }
+          ]
+        },
+        {
+          "slug": "iron-deficiencies",
+          "name": "Железо и дефициты",
+          "description": "Оценка железа и частых дефицитов.",
+          "priority": 20,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "ferritin",
+              "role": "core"
+            },
+            {
+              "marker": "serum-iron",
+              "role": "recommended"
+            },
+            {
+              "marker": "vitamin-d",
+              "role": "recommended"
+            },
+            {
+              "marker": "vitamin-b12",
+              "role": "recommended"
+            },
+            {
+              "marker": "folate",
+              "role": "recommended"
+            }
+          ]
+        },
+        {
+          "slug": "thyroid",
+          "name": "Щитовидная железа",
+          "description": "Базовая оценка функции щитовидной железы.",
+          "priority": 30,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "tsh",
+              "role": "core"
+            },
+            {
+              "marker": "free-t4",
+              "role": "recommended"
+            },
+            {
+              "marker": "free-t3",
+              "role": "extended"
+            },
+            {
+              "marker": "anti-tpo",
+              "role": "extended"
+            }
+          ]
+        },
+        {
+          "slug": "glucose-metabolism",
+          "name": "Углеводный обмен",
+          "description": "Оценка сахара крови и ранних метаболических рисков.",
+          "priority": 40,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "glucose",
+              "role": "core"
+            },
+            {
+              "marker": "hba1c",
+              "role": "recommended"
+            },
+            {
+              "marker": "insulin",
+              "role": "extended"
+            },
+            {
+              "marker": "homa-ir",
+              "role": "extended"
+            }
+          ]
+        }
+      ],
+          "markers": []
+        },
+        {
+          "slug": "women-45-59",
+          "name": "Чекап для женщин 45–59 лет",
+          "cover_image": "/assets/plans/women-45-59.png",
+          "category": "women",
+          "panel_type": "checkup",
+          "thematic_type": null,
+          "gender": "female",
+          "age_min": 45,
+          "age_max": 59,
+          "seo_title": "Чекап для женщин 45–59 лет",
+          "seo_description": "Ежегодный профилактический набор анализов для женщин 45–59 лет.",
+          "short_description": "Расширенный ежегодный чекап для оценки обмена веществ, сердца, щитовидной железы и возрастных рисков.",
+          "description": "Чекап для женщин 45–59 лет помогает оценить сердечно-сосудистые риски, обмен веществ, функцию щитовидной железы и частые возрастные дефициты.",
+          "sort_order": 25,
+          "is_active": true,
+          "sections": [
+              {
+          "slug": "cbc",
+          "name": "Общий анализ крови",
+          "description": "Оценка клеток крови, признаков анемии и воспаления.",
+          "priority": 10,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "hemoglobin",
+              "role": "core"
+            },
+            {
+              "marker": "wbc",
+              "role": "core"
+            },
+            {
+              "marker": "platelets",
+              "role": "core"
+            },
+            {
+              "marker": "rbc",
+              "role": "recommended"
+            },
+            {
+              "marker": "hematocrit",
+              "role": "recommended"
+            },
+            {
+              "marker": "mcv",
+              "role": "recommended"
+            },
+            {
+              "marker": "mch",
+              "role": "recommended"
+            },
+            {
+              "marker": "mchc",
+              "role": "extended"
+            },
+            {
+              "marker": "rdw",
+              "role": "recommended"
+            },
+            {
+              "marker": "esr",
+              "role": "extended"
+            }
+          ]
+        },
+        {
+          "slug": "heart-risk",
+          "name": "Сердечно-сосудистый риск",
+          "description": "Оценка липидов и факторов сердечно-сосудистого риска.",
+          "priority": 20,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "ldl",
+              "role": "core"
+            },
+            {
+              "marker": "hdl",
+              "role": "core"
+            },
+            {
+              "marker": "triglycerides",
+              "role": "core"
+            },
+            {
+              "marker": "total-cholesterol",
+              "role": "recommended"
+            },
+            {
+              "marker": "lipoprotein-a",
+              "role": "extended"
+            }
+          ]
+        },
+        {
+          "slug": "glucose-metabolism",
+          "name": "Углеводный обмен",
+          "description": "Оценка сахара крови и метаболических рисков.",
+          "priority": 30,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "glucose",
+              "role": "core"
+            },
+            {
+              "marker": "hba1c",
+              "role": "core"
+            },
+            {
+              "marker": "insulin",
+              "role": "extended"
+            },
+            {
+              "marker": "homa-ir",
+              "role": "extended"
+            }
+          ]
+        },
+        {
+          "slug": "thyroid-deficiencies",
+          "name": "Щитовидная железа и дефициты",
+          "description": "Оценка щитовидной железы, железа и витаминов.",
+          "priority": 40,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "tsh",
+              "role": "core"
+            },
+            {
+              "marker": "free-t4",
+              "role": "recommended"
+            },
+            {
+              "marker": "anti-tpo",
+              "role": "extended"
+            },
+            {
+              "marker": "ferritin",
+              "role": "recommended"
+            },
+            {
+              "marker": "vitamin-d",
+              "role": "recommended"
+            },
+            {
+              "marker": "vitamin-b12",
+              "role": "recommended"
+            }
+          ]
+        },
+        {
+          "slug": "liver-kidneys",
+          "name": "Печень и почки",
+          "description": "Базовая оценка функции печени и почек.",
+          "priority": 50,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "alt",
+              "role": "core"
+            },
+            {
+              "marker": "ast",
+              "role": "core"
+            },
+            {
+              "marker": "creatinine",
+              "role": "core"
+            },
+            {
+              "marker": "egfr",
+              "role": "core"
+            },
+            {
+              "marker": "ggt",
+              "role": "recommended"
+            },
+            {
+              "marker": "urea",
+              "role": "recommended"
+            }
+          ]
+        }
+          ],
+          "markers": []
+        },
+        {
+          "slug": "women-60-plus",
+          "name": "Чекап для женщин 60+",
+          "cover_image": "/assets/plans/women-60-plus.png",
+          "category": "women",
+          "panel_type": "checkup",
+          "thematic_type": null,
+          "gender": "female",
+          "age_min": 60,
+          "age_max": null,
+          "seo_title": "Чекап для женщин 60+",
+          "seo_description": "Ежегодный профилактический набор анализов для женщин старше 60 лет.",
+          "short_description": "Комплексный ежегодный чекап для оценки возрастных, сердечно-сосудистых и метаболических рисков.",
+          "description": "Чекап для женщин 60+ помогает оценить возрастные изменения, сердечно-сосудистые риски, функцию почек, печени, щитовидной железы и частые дефициты.",
+          "sort_order": 30,
+          "is_active": true,
+          "sections": [
+                  {
+              "slug": "cbc",
+              "name": "Общий анализ крови",
+              "description": "Оценка клеток крови, анемии и воспаления.",
+              "priority": 10,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                {
+                  "marker": "hemoglobin",
+                  "role": "core"
+                },
+                {
+                  "marker": "wbc",
+                  "role": "core"
+                },
+                {
+                  "marker": "platelets",
+                  "role": "core"
+                },
+                {
+                  "marker": "rbc",
+                  "role": "recommended"
+                },
+                {
+                  "marker": "hematocrit",
+                  "role": "recommended"
+                },
+                {
+                  "marker": "mcv",
+                  "role": "recommended"
+                },
+                {
+                  "marker": "mch",
+                  "role": "recommended"
+                },
+                {
+                  "marker": "rdw",
+                  "role": "recommended"
+                },
+                {
+                  "marker": "esr",
+                  "role": "extended"
+                }
+              ]
+            },
+            {
+              "slug": "heart-metabolic",
+              "name": "Сердце и обмен веществ",
+              "description": "Оценка сердечно-сосудистых и метаболических рисков.",
+              "priority": 20,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                {
+                  "marker": "ldl",
+                  "role": "core"
+                },
+                {
+                  "marker": "hdl",
+                  "role": "core"
+                },
+                {
+                  "marker": "triglycerides",
+                  "role": "core"
+                },
+                {
+                  "marker": "total-cholesterol",
+                  "role": "recommended"
+                },
+                {
+                  "marker": "lipoprotein-a",
+                  "role": "extended"
+                },
+                {
+                  "marker": "glucose",
+                  "role": "core"
+                },
+                {
+                  "marker": "hba1c",
+                  "role": "core"
+                },
+                {
+                  "marker": "insulin",
+                  "role": "extended"
+                },
+                {
+                  "marker": "homa-ir",
+                  "role": "extended"
+                }
+              ]
+            },
+            {
+              "slug": "liver-kidneys",
+              "name": "Печень и почки",
+              "description": "Оценка функции печени и почек.",
+              "priority": 30,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                {
+                  "marker": "alt",
+                  "role": "core"
+                },
+                {
+                  "marker": "ast",
+                  "role": "core"
+                },
+                {
+                  "marker": "creatinine",
+                  "role": "core"
+                },
+                {
+                  "marker": "egfr",
+                  "role": "core"
+                },
+                {
+                  "marker": "ggt",
+                  "role": "recommended"
+                },
+                {
+                  "marker": "urea",
+                  "role": "recommended"
+                }
+              ]
+            },
+            {
+              "slug": "thyroid-deficiencies",
+              "name": "Щитовидная железа и дефициты",
+              "description": "Оценка щитовидной железы и частых возрастных дефицитов.",
+              "priority": 40,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                {
+                  "marker": "tsh",
+                  "role": "core"
+                },
+                {
+                  "marker": "free-t4",
+                  "role": "recommended"
+                },
+                {
+                  "marker": "vitamin-d",
+                  "role": "recommended"
+                },
+                {
+                  "marker": "vitamin-b12",
+                  "role": "recommended"
+                },
+                {
+                  "marker": "ferritin",
+                  "role": "recommended"
+                }
+              ]
+            }
+          ],
+          "markers": []
+        },
+      {
+      "slug": "women-30-44",
+      "name": "Чекап для женщин 30–44 лет",
+      "cover_image": "/assets/plans/women-30-44.png",
+      "category": "women",
+      "panel_type": "checkup",
+      "thematic_type": null,
+      "gender": "female",
+      "age_min": 30,
+      "age_max": 44,
+      "seo_title": "Чекап для женщин 30–44 лет",
+      "seo_description": "Ежегодный профилактический набор анализов для женщин 30–44 лет.",
+      "short_description": "Анализы для оценки крови, железа, щитовидной железы, витаминов, обмена веществ и сердечно-сосудистых рисков.",
+      "description": "Чекап для женщин 30–44 лет помогает оценить частые зоны риска: дефицит железа, анемию, функцию щитовидной железы, витаминные дефициты, липидный профиль и углеводный обмен.",
+      "sort_order": 20,
+      "is_active": true,
+      "sections": [
+      {
+        "slug": "cbc",
+        "name": "Общий анализ крови",
+        "description": "Базовая оценка клеток крови, признаков анемии, воспаления и тромбоцитов.",
+        "priority": 10,
+        "frequency_months": 12,
+        "is_required": true,
+        "markers": [
+          { "marker": "hemoglobin", "role": "core" },
+          { "marker": "rbc", "role": "recommended" },
+          { "marker": "hematocrit", "role": "recommended" },
+          { "marker": "wbc", "role": "core" },
+          { "marker": "platelets", "role": "core" },
+          { "marker": "mcv", "role": "recommended" },
+          { "marker": "mch", "role": "recommended" },
+          { "marker": "mchc", "role": "extended" },
+          { "marker": "rdw", "role": "recommended" },
+          { "marker": "esr", "role": "extended" }
+        ]
+      },
+      {
+        "slug": "iron-deficiencies",
+        "name": "Железо и дефициты",
+        "description": "Оценка запасов железа и частых дефицитов у женщин.",
+        "priority": 20,
+        "frequency_months": 12,
+        "is_required": true,
+        "markers": [
+          { "marker": "ferritin", "role": "core" },
+          { "marker": "serum-iron", "role": "recommended" },
+          { "marker": "vitamin-b12", "role": "recommended" },
+          { "marker": "folate", "role": "recommended" },
+          { "marker": "vitamin-d", "role": "recommended" }
+        ]
+      },
+      {
+        "slug": "thyroid",
+        "name": "Щитовидная железа",
+        "description": "Оценка функции щитовидной железы.",
+        "priority": 30,
+        "frequency_months": 12,
+        "is_required": true,
+        "markers": [
+          { "marker": "tsh", "role": "core" },
+          { "marker": "free-t4", "role": "recommended" },
+          { "marker": "free-t3", "role": "extended" },
+          { "marker": "anti-tpo", "role": "extended" }
+        ]
+      },
+      {
+        "slug": "glucose-metabolism",
+        "name": "Углеводный обмен",
+        "description": "Проверка глюкозы, среднего сахара и признаков инсулинорезистентности.",
+        "priority": 40,
+        "frequency_months": 12,
+        "is_required": true,
+        "markers": [
+          { "marker": "glucose", "role": "core" },
+          { "marker": "hba1c", "role": "core" },
+          { "marker": "insulin", "role": "extended" },
+          { "marker": "homa-ir", "role": "extended" }
+        ]
+      },
+      {
+        "slug": "heart-risk",
+        "name": "Сердечно-сосудистый риск",
+        "description": "Оценка холестерина и липопротеинов.",
+        "priority": 50,
+        "frequency_months": 12,
+        "is_required": true,
+        "markers": [
+          { "marker": "total-cholesterol", "role": "recommended" },
+          { "marker": "ldl", "role": "core" },
+          { "marker": "hdl", "role": "core" },
+          { "marker": "triglycerides", "role": "core" },
+          { "marker": "lipoprotein-a", "role": "extended" }
+        ]
+      },
+      {
+        "slug": "liver-kidneys",
+        "name": "Печень и почки",
+        "description": "Базовая оценка функции печени и почек.",
+        "priority": 60,
+        "frequency_months": 12,
+        "is_required": true,
+        "markers": [
+          { "marker": "alt", "role": "core" },
+          { "marker": "ast", "role": "core" },
+          { "marker": "ggt", "role": "recommended" },
+          { "marker": "bilirubin-total", "role": "recommended" },
+          { "marker": "creatinine", "role": "core" },
+          { "marker": "egfr", "role": "core" },
+          { "marker": "urea", "role": "recommended" }
+        ]
+      }
+    ],
+      "markers": []
+    },
+
+    {
+      "slug": "men-18-29",
+      "name": "Чекап для мужчин 18–29 лет",
+      "cover_image": "/assets/plans/men-18-29.png",      
+      "category": "men",
+      "panel_type": "checkup",
+      "thematic_type": null,
+      "gender": "male",
+      "age_min": 18,
+      "age_max": 29,
+      "seo_title": "Чекап для мужчин 18–29 лет",
+      "seo_description": "Ежегодный профилактический набор анализов для мужчин 18–29 лет.",
+      "short_description": "Базовые анализы крови, обмена веществ, печени и дефицитов для мужчин 18–29 лет.",
+      "description": "Чекап помогает оценить общее состояние организма, обмен веществ, дефициты и ранние метаболические изменения.",
+      "sort_order": 35,
+      "is_active": true,
+      "sections": [
+          {
+          "slug": "cbc",
+          "name": "Общий анализ крови",
+          "description": "Оценка клеток крови и признаков воспаления.",
+          "priority": 10,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "hemoglobin",
+              "role": "core"
+            },
+            {
+              "marker": "wbc",
+              "role": "core"
+            },
+            {
+              "marker": "platelets",
+              "role": "core"
+            },
+            {
+              "marker": "rbc",
+              "role": "recommended"
+            },
+            {
+              "marker": "hematocrit",
+              "role": "recommended"
+            },
+            {
+              "marker": "mcv",
+              "role": "recommended"
+            },
+            {
+              "marker": "mch",
+              "role": "recommended"
+            },
+            {
+              "marker": "rdw",
+              "role": "recommended"
+            },
+            {
+              "marker": "esr",
+              "role": "extended"
+            }
+          ]
+        },
+        {
+          "slug": "metabolism",
+          "name": "Обмен веществ",
+          "description": "Оценка сахара крови и метаболических рисков.",
+          "priority": 20,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "glucose",
+              "role": "core"
+            },
+            {
+              "marker": "hba1c",
+              "role": "recommended"
+            },
+            {
+              "marker": "insulin",
+              "role": "extended"
+            }
+          ]
+        },
+        {
+          "slug": "liver-kidneys",
+          "name": "Печень и почки",
+          "description": "Базовая оценка функции печени и почек.",
+          "priority": 30,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "alt",
+              "role": "core"
+            },
+            {
+              "marker": "ast",
+              "role": "core"
+            },
+            {
+              "marker": "creatinine",
+              "role": "core"
+            },
+            {
+              "marker": "egfr",
+              "role": "core"
+            },
+            {
+              "marker": "ggt",
+              "role": "recommended"
+            },
+            {
+              "marker": "urea",
+              "role": "recommended"
+            }
+          ]
+        },
+        {
+          "slug": "deficiencies",
+          "name": "Дефициты",
+          "description": "Оценка частых дефицитов.",
+          "priority": 40,
+          "frequency_months": 12,
+          "is_required": false,
+          "markers": [
+            {
+              "marker": "vitamin-d",
+              "role": "recommended"
+            },
+            {
+              "marker": "vitamin-b12",
+              "role": "extended"
+            },
+            {
+              "marker": "ferritin",
+              "role": "extended"
+            }
+          ]
+        }
+      ],
+      "markers": []
+    },
+    {
+      "slug": "men-30-44",
+      "name": "Чекап для мужчин 30–44 лет",
+      "cover_image": "/assets/plans/men-30-44.png",   
+      "category": "men",
+      "panel_type": "checkup",
+      "thematic_type": null,
+      "gender": "male",
+      "age_min": 30,
+      "age_max": 44,
+      "seo_title": "Чекап для мужчин 30–44 лет",
+      "seo_description": "Ежегодный профилактический набор анализов для мужчин 30–44 лет.",
+      "short_description": "Анализы для оценки сердца, обмена веществ, печени и дефицитов у мужчин 30–44 лет.",
+      "description": "Чекап помогает оценить сердечно-сосудистые риски, углеводный обмен, функцию печени и частые дефициты.",
+      "sort_order": 40,
+      "is_active": true,
+      "sections": [
+          {
+          "slug": "cbc",
+          "name": "Общий анализ крови",
+          "description": "Оценка клеток крови и признаков воспаления.",
+          "priority": 10,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "hemoglobin",
+              "role": "core"
+            },
+            {
+              "marker": "wbc",
+              "role": "core"
+            },
+            {
+              "marker": "platelets",
+              "role": "core"
+            },
+            {
+              "marker": "rbc",
+              "role": "recommended"
+            },
+            {
+              "marker": "hematocrit",
+              "role": "recommended"
+            },
+            {
+              "marker": "mcv",
+              "role": "recommended"
+            },
+            {
+              "marker": "mch",
+              "role": "recommended"
+            },
+            {
+              "marker": "rdw",
+              "role": "recommended"
+            },
+            {
+              "marker": "esr",
+              "role": "extended"
+            }
+          ]
+        },
+        {
+          "slug": "heart-risk",
+          "name": "Сердечно-сосудистый риск",
+          "description": "Оценка липидов и факторов риска.",
+          "priority": 20,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "ldl",
+              "role": "core"
+            },
+            {
+              "marker": "hdl",
+              "role": "core"
+            },
+            {
+              "marker": "triglycerides",
+              "role": "core"
+            },
+            {
+              "marker": "total-cholesterol",
+              "role": "recommended"
+            },
+            {
+              "marker": "lipoprotein-a",
+              "role": "extended"
+            }
+          ]
+        },
+        {
+          "slug": "metabolism",
+          "name": "Обмен веществ",
+          "description": "Оценка сахара крови и метаболических рисков.",
+          "priority": 30,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "glucose",
+              "role": "core"
+            },
+            {
+              "marker": "hba1c",
+              "role": "core"
+            },
+            {
+              "marker": "insulin",
+              "role": "extended"
+            },
+            {
+              "marker": "homa-ir",
+              "role": "extended"
+            }
+          ]
+        },
+        {
+          "slug": "liver-kidneys",
+          "name": "Печень и почки",
+          "description": "Базовая оценка функции печени и почек.",
+          "priority": 40,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "alt",
+              "role": "core"
+            },
+            {
+              "marker": "ast",
+              "role": "core"
+            },
+            {
+              "marker": "creatinine",
+              "role": "core"
+            },
+            {
+              "marker": "egfr",
+              "role": "core"
+            },
+            {
+              "marker": "ggt",
+              "role": "recommended"
+            },
+            {
+              "marker": "urea",
+              "role": "recommended"
+            }
+          ]
+        }
+      ],
+      "markers": []
+    },
+    {
+      "slug": "men-45-59",
+      "name": "Чекап для мужчин 45–59 лет",
+      "cover_image": "/assets/plans/men-45-59.png",   
+      "category": "men",
+      "panel_type": "checkup",
+      "thematic_type": null,
+      "gender": "male",
+      "age_min": 45,
+      "age_max": 59,
+      "seo_title": "Чекап для мужчин 45–59 лет",
+      "seo_description": "Ежегодный профилактический набор анализов для мужчин 45–59 лет.",
+      "short_description": "Расширенный ежегодный чекап для оценки сердца, обмена веществ и возрастных мужских рисков.",
+      "description": "Чекап помогает оценить сердечно-сосудистые риски, обмен веществ, функцию печени и возрастные изменения.",
+      "sort_order": 45,
+      "is_active": true,
+      "sections": [
+        {
+        "slug": "cbc",
+        "name": "Общий анализ крови",
+        "description": "Оценка клеток крови и признаков воспаления.",
+        "priority": 10,
+        "frequency_months": 12,
+        "is_required": true,
+        "markers": [
+          {
+            "marker": "hemoglobin",
+            "role": "core"
+          },
+          {
+            "marker": "wbc",
+            "role": "core"
+          },
+          {
+            "marker": "platelets",
+            "role": "core"
+          },
+          {
+            "marker": "rbc",
+            "role": "recommended"
+          },
+          {
+            "marker": "hematocrit",
+            "role": "recommended"
+          },
+          {
+            "marker": "mcv",
+            "role": "recommended"
+          },
+          {
+            "marker": "mch",
+            "role": "recommended"
+          },
+          {
+            "marker": "rdw",
+            "role": "recommended"
+          },
+          {
+            "marker": "esr",
+            "role": "extended"
+          }
+        ]
+      },
+      {
+        "slug": "heart-metabolic",
+        "name": "Сердце и обмен веществ",
+        "description": "Оценка сердечно-сосудистых и метаболических рисков.",
+        "priority": 20,
+        "frequency_months": 12,
+        "is_required": true,
+        "markers": [
+          {
+            "marker": "ldl",
+            "role": "core"
+          },
+          {
+            "marker": "hdl",
+            "role": "core"
+          },
+          {
+            "marker": "triglycerides",
+            "role": "core"
+          },
+          {
+            "marker": "total-cholesterol",
+            "role": "recommended"
+          },
+          {
+            "marker": "lipoprotein-a",
+            "role": "extended"
+          },
+          {
+            "marker": "glucose",
+            "role": "core"
+          },
+          {
+            "marker": "hba1c",
+            "role": "core"
+          },
+          {
+            "marker": "insulin",
+            "role": "extended"
+          },
+          {
+            "marker": "homa-ir",
+            "role": "extended"
+          }
+        ]
+      },
+      {
+        "slug": "prostate",
+        "name": "Простата",
+        "description": "Возрастная оценка PSA по показаниям.",
+        "priority": 30,
+        "frequency_months": 12,
+        "is_required": false,
+        "markers": [
+          {
+            "marker": "psa-total",
+            "role": "recommended"
+          },
+          {
+            "marker": "psa-free",
+            "role": "extended"
+          }
+        ]
+      },
+      {
+        "slug": "liver-kidneys",
+        "name": "Печень и почки",
+        "description": "Оценка функции печени и почек.",
+        "priority": 40,
+        "frequency_months": 12,
+        "is_required": true,
+        "markers": [
+          {
+            "marker": "alt",
+            "role": "core"
+          },
+          {
+            "marker": "ast",
+            "role": "core"
+          },
+          {
+            "marker": "creatinine",
+            "role": "core"
+          },
+          {
+            "marker": "egfr",
+            "role": "core"
+          },
+          {
+            "marker": "ggt",
+            "role": "recommended"
+          },
+          {
+            "marker": "urea",
+            "role": "recommended"
+          }
+        ]
+      }        
+      ],
+      "markers": []
+    },
+    {
+      "slug": "men-60-plus",
+      "name": "Чекап для мужчин 60+",
+      "cover_image": "/assets/plans/men-60-plus.png",   
+      "category": "men",
+      "panel_type": "checkup",
+      "thematic_type": null,
+      "gender": "male",
+      "age_min": 60,
+      "age_max": null,
+      "seo_title": "Чекап для мужчин 60+",
+      "seo_description": "Ежегодный профилактический набор анализов для мужчин старше 60 лет.",
+      "short_description": "Комплексный ежегодный чекап для оценки возрастных, сердечно-сосудистых и метаболических рисков.",
+      "description": "Чекап помогает оценить сердечно-сосудистые риски, функцию почек и печени, углеводный обмен и возрастные изменения.",
+      "sort_order": 50,
+      "is_active": true,
+      "sections": [
+        {
+          "slug": "cbc",
+          "name": "Общий анализ крови",
+          "description": "Оценка клеток крови и признаков воспаления.",
+          "priority": 10,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "hemoglobin",
+              "role": "core"
+            },
+            {
+              "marker": "wbc",
+              "role": "core"
+            },
+            {
+              "marker": "platelets",
+              "role": "core"
+            },
+            {
+              "marker": "rbc",
+              "role": "recommended"
+            },
+            {
+              "marker": "hematocrit",
+              "role": "recommended"
+            },
+            {
+              "marker": "mcv",
+              "role": "recommended"
+            },
+            {
+              "marker": "mch",
+              "role": "recommended"
+            },
+            {
+              "marker": "rdw",
+              "role": "recommended"
+            },
+            {
+              "marker": "esr",
+              "role": "extended"
+            }
+          ]
+        },
+        {
+          "slug": "heart-metabolic",
+          "name": "Сердце и обмен веществ",
+          "description": "Оценка сердечно-сосудистых и метаболических рисков.",
+          "priority": 20,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "ldl",
+              "role": "core"
+            },
+            {
+              "marker": "hdl",
+              "role": "core"
+            },
+            {
+              "marker": "triglycerides",
+              "role": "core"
+            },
+            {
+              "marker": "total-cholesterol",
+              "role": "recommended"
+            },
+            {
+              "marker": "lipoprotein-a",
+              "role": "extended"
+            },
+            {
+              "marker": "glucose",
+              "role": "core"
+            },
+            {
+              "marker": "hba1c",
+              "role": "core"
+            },
+            {
+              "marker": "insulin",
+              "role": "extended"
+            },
+            {
+              "marker": "homa-ir",
+              "role": "extended"
+            }
+          ]
+        },
+        {
+          "slug": "prostate",
+          "name": "Простата",
+          "description": "Возрастная оценка PSA по показаниям.",
+          "priority": 30,
+          "frequency_months": 12,
+          "is_required": false,
+          "markers": [
+            {
+              "marker": "psa-total",
+              "role": "recommended"
+            },
+            {
+              "marker": "psa-free",
+              "role": "extended"
+            }
+          ]
+        },
+        {
+          "slug": "liver-kidneys",
+          "name": "Печень и почки",
+          "description": "Оценка функции печени и почек.",
+          "priority": 40,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            {
+              "marker": "alt",
+              "role": "core"
+            },
+            {
+              "marker": "ast",
+              "role": "core"
+            },
+            {
+              "marker": "creatinine",
+              "role": "core"
+            },
+            {
+              "marker": "egfr",
+              "role": "core"
+            },
+            {
+              "marker": "ggt",
+              "role": "recommended"
+            },
+            {
+              "marker": "urea",
+              "role": "recommended"
+            }
+          ]
+        }
+      ],
+      "markers": []
+    },
+    {
+      "slug": "heart-risk",
+      "name": "Сердечно-сосудистый риск",
+      "cover_image": "/assets/plans/heart-risk.png",   
+      "category": "heart",
+      "panel_type": "thematic",
+      "thematic_type": "risk",
+      "gender": null,
+      "age_min": 30,
+      "age_max": null,
+      "seo_title": "Анализы для оценки сердечно-сосудистого риска",
+      "seo_description": "Набор анализов для оценки липидов, воспаления, глюкозы и факторов сердечно-сосудистого риска.",
+      "short_description": "Липиды, ApoB, Lp(a), hs-CRP, глюкоза и почечные маркеры для оценки риска сердца и сосудов.",
+      "description": "Панель помогает оценить ключевые лабораторные факторы сердечно-сосудистого риска: липидный профиль, аполипопротеины, воспаление, углеводный обмен и функцию почек.",
+      "sort_order": 40,
+      "is_active": true,
+      "sections": [
+        {
+          "slug": "lipids",
+          "name": "Липидный профиль",
+          "description": "Оценка холестерина и липопротеинов для понимания сердечно-сосудистого риска.",
+          "priority": 10,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            "total-cholesterol",
+            "ldl",
+            "hdl",
+            "triglycerides",
+            "lipoprotein-a"
+          ]
+        },
+        {
+          "slug": "glucose-metabolism",
+          "name": "Углеводный обмен",
+          "description": "Проверка глюкозы, среднего сахара и признаков инсулинорезистентности.",
+          "priority": 20,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            "glucose",
+            "hba1c",
+            "insulin",
+            "homa-ir",
+            "c-peptide"
+          ]
+        },
+        {
+          "slug": "inflammation",
+          "name": "Воспаление",
+          "description": "Неспецифическая оценка воспалительной активности.",
+          "priority": 30,
+          "frequency_months": 12,
+          "is_required": false,
+          "markers": [
+            "crp",
+            "hs-crp",
+            "esr",
+            "fibrinogen"
+          ]
+        },
+        {
+          "slug": "kidney-extended",
+          "name": "Почки",
+          "description": "Оценка функции почек и ранних признаков почечного риска.",
+          "priority": 40,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            "creatinine",
+            "egfr",
+            "urea",
+            "uric-acid"
+          ]
+        }
+      ],
+      "markers": []
+    },
+    {
+      "slug": "thyroid",
+      "name": "Щитовидная железа",
+      "cover_image": "/assets/plans/thyroid.png",   
+      "category": "thyroid",
+      "panel_type": "thematic",
+      "thematic_type": "system",
+      "gender": null,
+      "age_min": 18,
+      "age_max": null,
+      "seo_title": "Анализы для проверки щитовидной железы",
+      "seo_description": "Базовая панель анализов для оценки функции щитовидной железы.",
+      "short_description": "ТТГ, свободные Т4/Т3 и антитела для проверки функции щитовидной железы.",
+      "description": "Панель подходит для первичной оценки функции щитовидной железы, контроля ранее выявленных изменений и проверки аутоиммунных маркеров.",
+      "sort_order": 50,
+      "is_active": true,
+      "sections": [
+        {
+          "slug": "thyroid",
+          "name": "Щитовидная железа",
+          "description": "Оценка функции щитовидной железы и аутоиммунных маркеров.",
+          "priority": 10,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            "tsh",
+            "free-t4",
+            "free-t3",
+            "anti-tpo",
+            "trab"
+          ]
+        }
+      ],
+      "markers": []
+    },
+    {
+      "slug": "iron-anemia",
+      "name": "Железо и анемия",
+      "cover_image": "/assets/plans/iron-anemia.png",   
+      "category": "deficiency",
+      "panel_type": "thematic",
+      "thematic_type": "deficiency",
+      "gender": null,
+      "age_min": 18,
+      "age_max": null,
+      "seo_title": "Анализы на железо и анемию",
+      "seo_description": "Набор анализов для оценки анемии, запасов железа, B12 и фолата.",
+      "short_description": "Гемоглобин, ферритин, железо, трансферрин, B12 и фолат для оценки анемии и дефицитов.",
+      "description": "Панель помогает понять, есть ли признаки анемии, дефицита железа, B12 или фолиевой кислоты. Особенно полезна при слабости, утомляемости, выпадении волос, обильных менструациях или пограничном гемоглобине.",
+      "sort_order": 60,
+      "is_active": true,
+      "sections": [
+        {
+          "slug": "cbc",
+          "name": "Общий анализ крови",
+          "description": "Базовая оценка клеток крови, признаков анемии, воспаления и тромбоцитов.",
+          "priority": 10,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            "hemoglobin",
+            "rbc",
+            "hematocrit",
+            "wbc",
+            "neutrophils",
+            "lymphocytes",
+            "monocytes",
+            "eosinophils",
+            "basophils",
+            "platelets",
+            "mcv",
+            "mch",
+            "mchc",
+            "rdw",
+            "mpv",
+            "esr"
+          ]
+        },
+        {
+          "slug": "iron-anemia",
+          "name": "Железо и анемия",
+          "description": "Оценка запасов железа и частых причин анемии или скрытого дефицита.",
+          "priority": 20,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            "ferritin",
+            "serum-iron",
+            "transferrin",
+            "tibc",
+            "transferrin-saturation",
+            "vitamin-b12",
+            "folate",
+            "reticulocytes"
+          ]
+        }
+      ],
+      "markers": []
+    },
+    {
+      "slug": "metabolic",
+      "name": "Метаболическое здоровье",
+      "cover_image": "/assets/plans/metabolic.png",   
+      "category": "diabetes",
+      "panel_type": "thematic",
+      "thematic_type": "condition",
+      "gender": null,
+      "age_min": 18,
+      "age_max": null,
+      "seo_title": "Анализы для проверки метаболического здоровья",
+      "seo_description": "Панель для оценки углеводного обмена, липидов, печени и факторов метаболического риска.",
+      "short_description": "Глюкоза, HbA1c, инсулин, липиды и печёночные показатели для оценки метаболического риска.",
+      "description": "Панель помогает оценить углеводный обмен, признаки инсулинорезистентности, липидный профиль и печёночные показатели, которые часто связаны с метаболическим здоровьем.",
+      "sort_order": 70,
+      "is_active": true,
+      "sections": [
+        {
+          "slug": "glucose-metabolism",
+          "name": "Углеводный обмен",
+          "description": "Проверка глюкозы, среднего сахара и признаков инсулинорезистентности.",
+          "priority": 10,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            "glucose",
+            "hba1c",
+            "insulin",
+            "homa-ir",
+            "c-peptide"
+          ]
+        },
+        {
+          "slug": "lipids",
+          "name": "Липидный профиль",
+          "description": "Оценка холестерина и липопротеинов для понимания сердечно-сосудистого риска.",
+          "priority": 20,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            "total-cholesterol",
+            "ldl",
+            "hdl",
+            "triglycerides",
+            "lipoprotein-a"
+          ]
+        },
+        {
+          "slug": "biochemistry",
+          "name": "Базовая биохимия крови",
+          "description": "Оценка функции печени, почек, белкового обмена и общего метаболического состояния.",
+          "priority": 30,
+          "frequency_months": 12,
+          "is_required": true,
+          "markers": [
+            "alt",
+            "ast",
+            "ggt",
+            "bilirubin-total",
+            "bilirubin-direct",
+            "total-protein",
+            "albumin",
+            "creatinine",
+            "egfr",
+            "urea",
+            "uric-acid"
+          ]
+        }
+      ],
+      "markers": []
+    },
+    {
+          "slug": "check-liver",
+          "name": "Проверка печени",
+          "cover_image": "/assets/plans/check-liver.png",   
+          "category": "liver",
+          "panel_type": "thematic",
+          "thematic_type": "system",
+          "gender": null,
+          "age_min": 18,
+          "age_max": null,
+          "seo_title": "Анализы для проверки печени",
+          "seo_description": "Панель анализов для оценки функции печени и печёночных ферментов.",
+          "short_description": "ALT, AST, GGT, билирубин и белковые показатели для оценки состояния печени.",
+          "description": "Панель помогает оценить функцию печени, признаки воспаления, стеатоза и нарушения желчного обмена.",
+          "sort_order": 80,
+          "is_active": true,
+          "sections": [
+            {
+              "slug": "liver-enzymes",
+              "name": "Печёночные ферменты",
+              "description": "Оценка ферментов печени и желчного обмена.",
+              "priority": 10,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                "alt",
+                "ast",
+                "ggt",
+                "alp",
+                "bilirubin-total",
+                "bilirubin-direct"
+              ]
+            },
+            {
+              "slug": "protein-function",
+              "name": "Белковая функция печени",
+              "description": "Оценка синтетической функции печени.",
+              "priority": 20,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                "albumin",
+                "total-protein"
+              ]
+            }
+          ],
+          "markers": []
+        },
+        {
+          "slug": "check-kidneys",
+          "name": "Проверка почек",
+          "cover_image": "/assets/plans/check-kidneys.png",   
+          "category": "kidneys",
+          "panel_type": "thematic",
+          "thematic_type": "system",
+          "gender": null,
+          "age_min": 18,
+          "age_max": null,
+          "seo_title": "Анализы для проверки почек",
+          "seo_description": "Панель анализов для оценки функции почек и почечных рисков.",
+          "short_description": "Креатинин, eGFR, мочевина и мочевые показатели для оценки функции почек.",
+          "description": "Панель помогает оценить функцию почек, фильтрацию и ранние признаки почечных нарушений.",
+          "sort_order": 90,
+          "is_active": true,
+          "sections": [
+            {
+              "slug": "kidney-function",
+              "name": "Функция почек",
+              "description": "Базовая оценка фильтрации и почечной функции.",
+              "priority": 10,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                "creatinine",
+                "egfr",
+                "urea",
+                "uric-acid"
+              ]
+            },
+            {
+              "slug": "urine",
+              "name": "Общий анализ мочи",
+              "description": "Оценка белка, воспаления и обменных признаков.",
+              "priority": 20,
+              "frequency_months": 12,
+              "is_required": false,
+              "markers": [
+                "urine-protein",
+                "urine-rbc",
+                "urine-wbc",
+                "urine-specific-gravity",
+                "urine-ph"
+              ]
+            }
+          ],
+          "markers": []
+        },
+        {
+          "slug": "fatigue",
+          "name": "Анализы при усталости",
+          "cover_image": "/assets/plans/fatigue.png",   
+          "category": "fatigue",
+          "panel_type": "thematic",
+          "thematic_type": "symptom",
+          "gender": null,
+          "age_min": 18,
+          "age_max": null,
+          "seo_title": "Какие анализы сдать при усталости",
+          "seo_description": "Панель анализов при хронической усталости, слабости и снижении энергии.",
+          "short_description": "Железо, щитовидная железа, витамины и сахар крови при усталости.",
+          "description": "Панель помогает выявить частые причины усталости: дефицит железа, нарушения щитовидной железы, дефициты витаминов и изменения углеводного обмена.",
+          "sort_order": 100,
+          "is_active": true,
+          "sections": [
+            {
+              "slug": "iron-deficiencies",
+              "name": "Железо и дефициты",
+              "description": "Частые дефициты, связанные со слабостью и утомляемостью.",
+              "priority": 10,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                "hemoglobin",
+                "ferritin",
+                "vitamin-b12",
+                "folate",
+                "vitamin-d"
+              ]
+            },
+            {
+              "slug": "thyroid",
+              "name": "Щитовидная железа",
+              "description": "Оценка функции щитовидной железы.",
+              "priority": 20,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                "tsh",
+                "free-t4"
+              ]
+            },
+            {
+              "slug": "metabolism",
+              "name": "Обмен веществ",
+              "description": "Оценка сахара крови и обмена веществ.",
+              "priority": 30,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                "glucose",
+                "hba1c"
+              ]
+            }
+          ],
+          "markers": []
+        },
+        {
+          "slug": "hair-loss",
+          "name": "Анализы при выпадении волос",
+          "cover_image": "/assets/plans/hair-loss.png", 
+          "category": "hair",
+          "panel_type": "thematic",
+          "thematic_type": "symptom",
+          "gender": null,
+          "age_min": 18,
+          "age_max": null,
+          "seo_title": "Какие анализы сдать при выпадении волос",
+          "seo_description": "Панель анализов при выпадении волос и подозрении на дефициты.",
+          "short_description": "Железо, витамины и щитовидная железа при выпадении волос.",
+          "description": "Панель помогает выявить частые лабораторные причины выпадения волос: дефицит железа, витаминов и нарушения функции щитовидной железы.",
+          "sort_order": 110,
+          "is_active": true,
+          "sections": [
+            {
+              "slug": "iron-deficiencies",
+              "name": "Железо и дефициты",
+              "description": "Оценка железа и частых дефицитов.",
+              "priority": 10,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                "ferritin",
+                "serum-iron",
+                "vitamin-b12",
+                "folate",
+                "vitamin-d",
+                "zinc"
+              ]
+            },
+            {
+              "slug": "thyroid",
+              "name": "Щитовидная железа",
+              "description": "Оценка функции щитовидной железы.",
+              "priority": 20,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                "tsh",
+                "free-t4"
+              ]
+            },
+            {
+              "slug": "cbc",
+              "name": "Общий анализ крови",
+              "description": "Проверка анемии и воспаления.",
+              "priority": 30,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                "hemoglobin",
+                "rbc",
+                "hematocrit",
+                "mcv",
+                "rdw"
+              ]
+            }
+          ],
+          "markers": []
+        },
+        {
+          "slug": "diabetes-risk",
+          "name": "Риск диабета и инсулинорезистентность",
+          "cover_image": "/assets/plans/diabetes-risk.png", 
+          "category": "diabetes",
+          "panel_type": "thematic",
+          "thematic_type": "risk",
+          "gender": null,
+          "age_min": 18,
+          "age_max": null,
+          "seo_title": "Анализы на диабет и инсулинорезистентность",
+          "seo_description": "Панель для оценки углеводного обмена и риска диабета.",
+          "short_description": "Глюкоза, HbA1c, инсулин и HOMA-IR для оценки риска диабета.",
+          "description": "Панель помогает оценить риск диабета, инсулинорезистентности и ранних метаболических нарушений.",
+          "sort_order": 120,
+          "is_active": true,
+          "sections": [
+            {
+              "slug": "glucose-metabolism",
+              "name": "Углеводный обмен",
+              "description": "Оценка сахара крови и инсулинорезистентности.",
+              "priority": 10,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                "glucose",
+                "hba1c",
+                "insulin",
+                "homa-ir",
+                "c-peptide"
+              ]
+            }
+          ],
+          "markers": []
+        },
+        {
+          "slug": "deficiency-check",
+          "name": "Проверка дефицитов",
+          "cover_image": "/assets/plans/deficiency-check.png", 
+          "category": "deficiency",
+          "panel_type": "thematic",
+          "thematic_type": "deficiency",
+          "gender": null,
+          "age_min": 18,
+          "age_max": null,
+          "seo_title": "Анализы на дефициты витаминов и микроэлементов",
+          "seo_description": "Панель для оценки железа, витаминов и частых дефицитов.",
+          "short_description": "Ферритин, витамин D, B12, фолат и микроэлементы.",
+          "description": "Панель помогает выявить частые дефициты, влияющие на энергию, волосы, настроение и общее самочувствие.",
+          "sort_order": 130,
+          "is_active": true,
+          "sections": [
+            {
+              "slug": "deficiencies",
+              "name": "Витамины и микроэлементы",
+              "description": "Оценка железа и витаминных дефицитов.",
+              "priority": 10,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                "ferritin",
+                "vitamin-d",
+                "vitamin-b12",
+                "folate",
+                "zinc",
+                "magnesium"
+              ]
+            }
+          ],
+          "markers": []
+        },
+        {
+          "slug": "inflammation-check",
+          "name": "Воспаление и иммунный ответ",
+          "cover_image": "/assets/plans/inflammation-check.png", 
+          "category": "inflammation",
+          "panel_type": "thematic",
+          "thematic_type": "risk",
+          "gender": null,
+          "age_min": 18,
+          "age_max": null,
+          "seo_title": "Анализы на воспаление",
+          "seo_description": "Панель для оценки воспалительной активности.",
+          "short_description": "CRP, СОЭ и фибриноген для оценки воспаления.",
+          "description": "Панель помогает оценить признаки системного воспаления и воспалительной активности.",
+          "sort_order": 140,
+          "is_active": true,
+          "sections": [
+            {
+              "slug": "inflammation",
+              "name": "Воспаление",
+              "description": "Неспецифические маркеры воспаления.",
+              "priority": 10,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                "crp",
+                "hs-crp",
+                "esr",
+                "fibrinogen"
+              ]
+            }
+          ],
+          "markers": []
+        },
+        {
+          "slug": "sleepiness-check",
+          "name": "Анализы при сонливости",
+          "cover_image": "/assets/plans/sleepiness-check.png", 
+          "category": "sleep",
+          "panel_type": "thematic",
+          "thematic_type": "symptom",
+          "gender": null,
+          "age_min": 18,
+          "age_max": null,
+          "seo_title": "Какие анализы сдать при сонливости",
+          "seo_description": "Панель анализов при постоянной сонливости и снижении энергии.",
+          "short_description": "Щитовидная железа, железо, сахар и витамины при сонливости.",
+          "description": "Панель помогает выявить частые причины сонливости: дефициты, нарушения щитовидной железы и углеводного обмена.",
+          "sort_order": 150,
+          "is_active": true,
+          "sections": [
+            {
+              "slug": "energy",
+              "name": "Энергия и обмен веществ",
+              "description": "Частые причины сонливости и усталости.",
+              "priority": 10,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                "hemoglobin",
+                "ferritin",
+                "tsh",
+                "free-t4",
+                "glucose",
+                "vitamin-d"
+              ]
+            }
+          ],
+          "markers": []
+        },
+        {
+          "slug": "weight-gain-check",
+          "name": "Анализы при наборе веса",
+          "cover_image": "/assets/plans/weight-gain-check.png", 
+          "category": "weight",
+          "panel_type": "thematic",
+          "thematic_type": "symptom",
+          "gender": null,
+          "age_min": 18,
+          "age_max": null,
+          "seo_title": "Какие анализы сдать при наборе веса",
+          "seo_description": "Панель анализов при наборе веса и подозрении на метаболические нарушения.",
+          "short_description": "Щитовидная железа, сахар и липиды при наборе веса.",
+          "description": "Панель помогает оценить обмен веществ, углеводный обмен и функцию щитовидной железы.",
+          "sort_order": 160,
+          "is_active": true,
+          "sections": [
+            {
+              "slug": "metabolic",
+              "name": "Метаболическое здоровье",
+              "description": "Оценка обмена веществ и факторов набора веса.",
+              "priority": 10,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                "tsh",
+                "free-t4",
+                "glucose",
+                "hba1c",
+                "insulin",
+                "triglycerides"
+              ]
+            }
+          ],
+          "markers": []
+        },
+        {
+          "slug": "dizziness-check",
+          "name": "Анализы при головокружении",
+          "cover_image": "/assets/plans/dizziness-check.png", 
+          "category": "dizziness",
+          "panel_type": "thematic",
+          "thematic_type": "symptom",
+          "gender": null,
+          "age_min": 18,
+          "age_max": null,
+          "seo_title": "Какие анализы сдать при головокружении",
+          "seo_description": "Панель анализов при головокружении и слабости.",
+          "short_description": "Железо, кровь и обмен веществ при головокружении.",
+          "description": "Панель помогает выявить анемию, дефициты и нарушения обмена веществ.",
+          "sort_order": 170,
+          "is_active": true,
+          "sections": [
+            {
+              "slug": "cbc-deficiencies",
+              "name": "Кровь и дефициты",
+              "description": "Оценка анемии и дефицитов.",
+              "priority": 10,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                "hemoglobin",
+                "ferritin",
+                "vitamin-b12",
+                "folate",
+                "glucose"
+              ]
+            }
+          ],
+          "markers": []
+        },
+        {
+          "slug": "anxiety-check",
+          "name": "Анализы при тревожности",
+          "cover_image": "/assets/plans/anxiety-check.png", 
+          "category": "anxiety",
+          "panel_type": "thematic",
+          "thematic_type": "symptom",
+          "gender": null,
+          "age_min": 18,
+          "age_max": null,
+          "seo_title": "Какие анализы сдать при тревожности",
+          "seo_description": "Панель анализов при тревожности и подозрении на дефициты.",
+          "short_description": "Щитовидная железа, витамины и магний при тревожности.",
+          "description": "Панель помогает оценить возможные лабораторные факторы тревожности и повышенной утомляемости.",
+          "sort_order": 180,
+          "is_active": true,
+          "sections": [
+            {
+              "slug": "thyroid-deficiencies",
+              "name": "Щитовидная железа и дефициты",
+              "description": "Оценка щитовидной железы и микроэлементов.",
+              "priority": 10,
+              "frequency_months": 12,
+              "is_required": true,
+              "markers": [
+                "tsh",
+                "free-t4",
+                "vitamin-d",
+                "magnesium",
+                "vitamin-b12"
+              ]
+            }
+          ],
+          "markers": []
+        }
+      
+ 
+  ]
+}

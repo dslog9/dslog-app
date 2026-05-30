@@ -1,0 +1,674 @@
+{
+  "sections": [
+    {
+      "slug": "cbc",
+      "name": "Общий анализ крови",
+      "description": "Базовая оценка клеток крови, признаков анемии, воспаления и тромбоцитов.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "basic-yearly",
+      "source_order": 1
+    },
+    {
+      "slug": "biochemistry",
+      "name": "Базовая биохимия крови",
+      "description": "Оценка функции печени, почек, белкового обмена и общего метаболического состояния.",
+      "priority": 20,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "basic-yearly",
+      "source_order": 2
+    },
+    {
+      "slug": "glucose-metabolism",
+      "name": "Углеводный обмен",
+      "description": "Проверка глюкозы, среднего сахара и признаков инсулинорезистентности.",
+      "priority": 30,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "basic-yearly",
+      "source_order": 3
+    },
+    {
+      "slug": "lipids",
+      "name": "Липидный профиль",
+      "description": "Оценка холестерина и липопротеинов для понимания сердечно-сосудистого риска.",
+      "priority": 40,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "basic-yearly",
+      "source_order": 4
+    },
+    {
+      "slug": "urine",
+      "name": "Общий анализ мочи",
+      "description": "Базовая оценка мочевыделительной системы, белка, воспаления и обменных признаков.",
+      "priority": 50,
+      "frequency_months": 12,
+      "is_required": false,
+      "panel_slug": "basic-yearly",
+      "source_order": 5
+    },
+    {
+      "slug": "cbc",
+      "name": "Общий анализ крови",
+      "description": "Оценка клеток крови, признаков анемии и воспаления.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-18-29",
+      "source_order": 1
+    },
+    {
+      "slug": "iron-deficiencies",
+      "name": "Железо и дефициты",
+      "description": "Оценка железа и частых дефицитов.",
+      "priority": 20,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-18-29",
+      "source_order": 2
+    },
+    {
+      "slug": "thyroid",
+      "name": "Щитовидная железа",
+      "description": "Базовая оценка функции щитовидной железы.",
+      "priority": 30,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-18-29",
+      "source_order": 3
+    },
+    {
+      "slug": "glucose-metabolism",
+      "name": "Углеводный обмен",
+      "description": "Оценка сахара крови и ранних метаболических рисков.",
+      "priority": 40,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-18-29",
+      "source_order": 4
+    },
+    {
+      "slug": "cbc",
+      "name": "Общий анализ крови",
+      "description": "Оценка клеток крови, признаков анемии и воспаления.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-45-59",
+      "source_order": 1
+    },
+    {
+      "slug": "heart-risk",
+      "name": "Сердечно-сосудистый риск",
+      "description": "Оценка липидов и факторов сердечно-сосудистого риска.",
+      "priority": 20,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-45-59",
+      "source_order": 2
+    },
+    {
+      "slug": "glucose-metabolism",
+      "name": "Углеводный обмен",
+      "description": "Оценка сахара крови и метаболических рисков.",
+      "priority": 30,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-45-59",
+      "source_order": 3
+    },
+    {
+      "slug": "thyroid-deficiencies",
+      "name": "Щитовидная железа и дефициты",
+      "description": "Оценка щитовидной железы, железа и витаминов.",
+      "priority": 40,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-45-59",
+      "source_order": 4
+    },
+    {
+      "slug": "liver-kidneys",
+      "name": "Печень и почки",
+      "description": "Базовая оценка функции печени и почек.",
+      "priority": 50,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-45-59",
+      "source_order": 5
+    },
+    {
+      "slug": "cbc",
+      "name": "Общий анализ крови",
+      "description": "Оценка клеток крови, анемии и воспаления.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-60-plus",
+      "source_order": 1
+    },
+    {
+      "slug": "heart-metabolic",
+      "name": "Сердце и обмен веществ",
+      "description": "Оценка сердечно-сосудистых и метаболических рисков.",
+      "priority": 20,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-60-plus",
+      "source_order": 2
+    },
+    {
+      "slug": "liver-kidneys",
+      "name": "Печень и почки",
+      "description": "Оценка функции печени и почек.",
+      "priority": 30,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-60-plus",
+      "source_order": 3
+    },
+    {
+      "slug": "thyroid-deficiencies",
+      "name": "Щитовидная железа и дефициты",
+      "description": "Оценка щитовидной железы и частых возрастных дефицитов.",
+      "priority": 40,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-60-plus",
+      "source_order": 4
+    },
+    {
+      "slug": "cbc",
+      "name": "Общий анализ крови",
+      "description": "Базовая оценка клеток крови, признаков анемии, воспаления и тромбоцитов.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-30-44",
+      "source_order": 1
+    },
+    {
+      "slug": "iron-deficiencies",
+      "name": "Железо и дефициты",
+      "description": "Оценка запасов железа и частых дефицитов у женщин.",
+      "priority": 20,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-30-44",
+      "source_order": 2
+    },
+    {
+      "slug": "thyroid",
+      "name": "Щитовидная железа",
+      "description": "Оценка функции щитовидной железы.",
+      "priority": 30,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-30-44",
+      "source_order": 3
+    },
+    {
+      "slug": "glucose-metabolism",
+      "name": "Углеводный обмен",
+      "description": "Проверка глюкозы, среднего сахара и признаков инсулинорезистентности.",
+      "priority": 40,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-30-44",
+      "source_order": 4
+    },
+    {
+      "slug": "heart-risk",
+      "name": "Сердечно-сосудистый риск",
+      "description": "Оценка холестерина и липопротеинов.",
+      "priority": 50,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-30-44",
+      "source_order": 5
+    },
+    {
+      "slug": "liver-kidneys",
+      "name": "Печень и почки",
+      "description": "Базовая оценка функции печени и почек.",
+      "priority": 60,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "women-30-44",
+      "source_order": 6
+    },
+    {
+      "slug": "cbc",
+      "name": "Общий анализ крови",
+      "description": "Оценка клеток крови и признаков воспаления.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "men-18-29",
+      "source_order": 1
+    },
+    {
+      "slug": "metabolism",
+      "name": "Обмен веществ",
+      "description": "Оценка сахара крови и метаболических рисков.",
+      "priority": 20,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "men-18-29",
+      "source_order": 2
+    },
+    {
+      "slug": "liver-kidneys",
+      "name": "Печень и почки",
+      "description": "Базовая оценка функции печени и почек.",
+      "priority": 30,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "men-18-29",
+      "source_order": 3
+    },
+    {
+      "slug": "deficiencies",
+      "name": "Дефициты",
+      "description": "Оценка частых дефицитов.",
+      "priority": 40,
+      "frequency_months": 12,
+      "is_required": false,
+      "panel_slug": "men-18-29",
+      "source_order": 4
+    },
+    {
+      "slug": "cbc",
+      "name": "Общий анализ крови",
+      "description": "Оценка клеток крови и признаков воспаления.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "men-30-44",
+      "source_order": 1
+    },
+    {
+      "slug": "heart-risk",
+      "name": "Сердечно-сосудистый риск",
+      "description": "Оценка липидов и факторов риска.",
+      "priority": 20,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "men-30-44",
+      "source_order": 2
+    },
+    {
+      "slug": "metabolism",
+      "name": "Обмен веществ",
+      "description": "Оценка сахара крови и метаболических рисков.",
+      "priority": 30,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "men-30-44",
+      "source_order": 3
+    },
+    {
+      "slug": "liver-kidneys",
+      "name": "Печень и почки",
+      "description": "Базовая оценка функции печени и почек.",
+      "priority": 40,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "men-30-44",
+      "source_order": 4
+    },
+    {
+      "slug": "cbc",
+      "name": "Общий анализ крови",
+      "description": "Оценка клеток крови и признаков воспаления.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "men-45-59",
+      "source_order": 1
+    },
+    {
+      "slug": "heart-metabolic",
+      "name": "Сердце и обмен веществ",
+      "description": "Оценка сердечно-сосудистых и метаболических рисков.",
+      "priority": 20,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "men-45-59",
+      "source_order": 2
+    },
+    {
+      "slug": "prostate",
+      "name": "Простата",
+      "description": "Возрастная оценка PSA по показаниям.",
+      "priority": 30,
+      "frequency_months": 12,
+      "is_required": false,
+      "panel_slug": "men-45-59",
+      "source_order": 3
+    },
+    {
+      "slug": "liver-kidneys",
+      "name": "Печень и почки",
+      "description": "Оценка функции печени и почек.",
+      "priority": 40,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "men-45-59",
+      "source_order": 4
+    },
+    {
+      "slug": "cbc",
+      "name": "Общий анализ крови",
+      "description": "Оценка клеток крови и признаков воспаления.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "men-60-plus",
+      "source_order": 1
+    },
+    {
+      "slug": "heart-metabolic",
+      "name": "Сердце и обмен веществ",
+      "description": "Оценка сердечно-сосудистых и метаболических рисков.",
+      "priority": 20,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "men-60-plus",
+      "source_order": 2
+    },
+    {
+      "slug": "prostate",
+      "name": "Простата",
+      "description": "Возрастная оценка PSA по показаниям.",
+      "priority": 30,
+      "frequency_months": 12,
+      "is_required": false,
+      "panel_slug": "men-60-plus",
+      "source_order": 3
+    },
+    {
+      "slug": "liver-kidneys",
+      "name": "Печень и почки",
+      "description": "Оценка функции печени и почек.",
+      "priority": 40,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "men-60-plus",
+      "source_order": 4
+    },
+    {
+      "slug": "lipids",
+      "name": "Липидный профиль",
+      "description": "Оценка холестерина и липопротеинов для понимания сердечно-сосудистого риска.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "heart-risk",
+      "source_order": 1
+    },
+    {
+      "slug": "glucose-metabolism",
+      "name": "Углеводный обмен",
+      "description": "Проверка глюкозы, среднего сахара и признаков инсулинорезистентности.",
+      "priority": 20,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "heart-risk",
+      "source_order": 2
+    },
+    {
+      "slug": "inflammation",
+      "name": "Воспаление",
+      "description": "Неспецифическая оценка воспалительной активности.",
+      "priority": 30,
+      "frequency_months": 12,
+      "is_required": false,
+      "panel_slug": "heart-risk",
+      "source_order": 3
+    },
+    {
+      "slug": "kidney-extended",
+      "name": "Почки",
+      "description": "Оценка функции почек и ранних признаков почечного риска.",
+      "priority": 40,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "heart-risk",
+      "source_order": 4
+    },
+    {
+      "slug": "thyroid",
+      "name": "Щитовидная железа",
+      "description": "Оценка функции щитовидной железы и аутоиммунных маркеров.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "thyroid",
+      "source_order": 1
+    },
+    {
+      "slug": "cbc",
+      "name": "Общий анализ крови",
+      "description": "Базовая оценка клеток крови, признаков анемии, воспаления и тромбоцитов.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "iron-anemia",
+      "source_order": 1
+    },
+    {
+      "slug": "iron-anemia",
+      "name": "Железо и анемия",
+      "description": "Оценка запасов железа и частых причин анемии или скрытого дефицита.",
+      "priority": 20,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "iron-anemia",
+      "source_order": 2
+    },
+    {
+      "slug": "glucose-metabolism",
+      "name": "Углеводный обмен",
+      "description": "Проверка глюкозы, среднего сахара и признаков инсулинорезистентности.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "metabolic",
+      "source_order": 1
+    },
+    {
+      "slug": "lipids",
+      "name": "Липидный профиль",
+      "description": "Оценка холестерина и липопротеинов для понимания сердечно-сосудистого риска.",
+      "priority": 20,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "metabolic",
+      "source_order": 2
+    },
+    {
+      "slug": "biochemistry",
+      "name": "Базовая биохимия крови",
+      "description": "Оценка функции печени, почек, белкового обмена и общего метаболического состояния.",
+      "priority": 30,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "metabolic",
+      "source_order": 3
+    },
+    {
+      "slug": "liver-enzymes",
+      "name": "Печёночные ферменты",
+      "description": "Оценка ферментов печени и желчного обмена.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "check-liver",
+      "source_order": 1
+    },
+    {
+      "slug": "protein-function",
+      "name": "Белковая функция печени",
+      "description": "Оценка синтетической функции печени.",
+      "priority": 20,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "check-liver",
+      "source_order": 2
+    },
+    {
+      "slug": "kidney-function",
+      "name": "Функция почек",
+      "description": "Базовая оценка фильтрации и почечной функции.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "check-kidneys",
+      "source_order": 1
+    },
+    {
+      "slug": "urine",
+      "name": "Общий анализ мочи",
+      "description": "Оценка белка, воспаления и обменных признаков.",
+      "priority": 20,
+      "frequency_months": 12,
+      "is_required": false,
+      "panel_slug": "check-kidneys",
+      "source_order": 2
+    },
+    {
+      "slug": "iron-deficiencies",
+      "name": "Железо и дефициты",
+      "description": "Частые дефициты, связанные со слабостью и утомляемостью.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "fatigue",
+      "source_order": 1
+    },
+    {
+      "slug": "thyroid",
+      "name": "Щитовидная железа",
+      "description": "Оценка функции щитовидной железы.",
+      "priority": 20,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "fatigue",
+      "source_order": 2
+    },
+    {
+      "slug": "metabolism",
+      "name": "Обмен веществ",
+      "description": "Оценка сахара крови и обмена веществ.",
+      "priority": 30,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "fatigue",
+      "source_order": 3
+    },
+    {
+      "slug": "iron-deficiencies",
+      "name": "Железо и дефициты",
+      "description": "Оценка железа и частых дефицитов.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "hair-loss",
+      "source_order": 1
+    },
+    {
+      "slug": "thyroid",
+      "name": "Щитовидная железа",
+      "description": "Оценка функции щитовидной железы.",
+      "priority": 20,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "hair-loss",
+      "source_order": 2
+    },
+    {
+      "slug": "cbc",
+      "name": "Общий анализ крови",
+      "description": "Проверка анемии и воспаления.",
+      "priority": 30,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "hair-loss",
+      "source_order": 3
+    },
+    {
+      "slug": "glucose-metabolism",
+      "name": "Углеводный обмен",
+      "description": "Оценка сахара крови и инсулинорезистентности.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "diabetes-risk",
+      "source_order": 1
+    },
+    {
+      "slug": "deficiencies",
+      "name": "Витамины и микроэлементы",
+      "description": "Оценка железа и витаминных дефицитов.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "deficiency-check",
+      "source_order": 1
+    },
+    {
+      "slug": "inflammation",
+      "name": "Воспаление",
+      "description": "Неспецифические маркеры воспаления.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "inflammation-check",
+      "source_order": 1
+    },
+    {
+      "slug": "energy",
+      "name": "Энергия и обмен веществ",
+      "description": "Частые причины сонливости и усталости.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "sleepiness-check",
+      "source_order": 1
+    },
+    {
+      "slug": "metabolic",
+      "name": "Метаболическое здоровье",
+      "description": "Оценка обмена веществ и факторов набора веса.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "weight-gain-check",
+      "source_order": 1
+    },
+    {
+      "slug": "cbc-deficiencies",
+      "name": "Кровь и дефициты",
+      "description": "Оценка анемии и дефицитов.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "dizziness-check",
+      "source_order": 1
+    },
+    {
+      "slug": "thyroid-deficiencies",
+      "name": "Щитовидная железа и дефициты",
+      "description": "Оценка щитовидной железы и микроэлементов.",
+      "priority": 10,
+      "frequency_months": 12,
+      "is_required": true,
+      "panel_slug": "anxiety-check",
+      "source_order": 1
+    }
+  ]
+}

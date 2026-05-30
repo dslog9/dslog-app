@@ -1,0 +1,3881 @@
+{
+  "markers": [
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "cbc",
+      "marker": "hemoglobin",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "hemoglobin"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "cbc",
+      "marker": "rbc",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "rbc"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "cbc",
+      "marker": "hematocrit",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "hematocrit"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "cbc",
+      "marker": "wbc",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "wbc"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "cbc",
+      "marker": "neutrophils",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "neutrophils"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "cbc",
+      "marker": "lymphocytes",
+      "role": null,
+      "source_order": 6,
+      "raw_marker": "lymphocytes"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "cbc",
+      "marker": "monocytes",
+      "role": null,
+      "source_order": 7,
+      "raw_marker": "monocytes"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "cbc",
+      "marker": "eosinophils",
+      "role": null,
+      "source_order": 8,
+      "raw_marker": "eosinophils"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "cbc",
+      "marker": "basophils",
+      "role": null,
+      "source_order": 9,
+      "raw_marker": "basophils"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "cbc",
+      "marker": "platelets",
+      "role": null,
+      "source_order": 10,
+      "raw_marker": "platelets"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "cbc",
+      "marker": "mcv",
+      "role": null,
+      "source_order": 11,
+      "raw_marker": "mcv"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "cbc",
+      "marker": "mch",
+      "role": null,
+      "source_order": 12,
+      "raw_marker": "mch"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "cbc",
+      "marker": "mchc",
+      "role": null,
+      "source_order": 13,
+      "raw_marker": "mchc"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "cbc",
+      "marker": "rdw",
+      "role": null,
+      "source_order": 14,
+      "raw_marker": "rdw"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "cbc",
+      "marker": "mpv",
+      "role": null,
+      "source_order": 15,
+      "raw_marker": "mpv"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "cbc",
+      "marker": "esr",
+      "role": null,
+      "source_order": 16,
+      "raw_marker": "esr"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "biochemistry",
+      "marker": "alt",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "alt"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "biochemistry",
+      "marker": "ast",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "ast"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "biochemistry",
+      "marker": "ggt",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "ggt"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "biochemistry",
+      "marker": "bilirubin-total",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "bilirubin-total"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "biochemistry",
+      "marker": "bilirubin-direct",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "bilirubin-direct"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "biochemistry",
+      "marker": "total-protein",
+      "role": null,
+      "source_order": 6,
+      "raw_marker": "total-protein"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "biochemistry",
+      "marker": "albumin",
+      "role": null,
+      "source_order": 7,
+      "raw_marker": "albumin"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "biochemistry",
+      "marker": "creatinine",
+      "role": null,
+      "source_order": 8,
+      "raw_marker": "creatinine"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "biochemistry",
+      "marker": "egfr",
+      "role": null,
+      "source_order": 9,
+      "raw_marker": "egfr"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "biochemistry",
+      "marker": "urea",
+      "role": null,
+      "source_order": 10,
+      "raw_marker": "urea"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "biochemistry",
+      "marker": "uric-acid",
+      "role": null,
+      "source_order": 11,
+      "raw_marker": "uric-acid"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "glucose-metabolism",
+      "marker": "glucose",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "glucose"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "glucose-metabolism",
+      "marker": "hba1c",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "hba1c"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "glucose-metabolism",
+      "marker": "insulin",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "insulin"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "glucose-metabolism",
+      "marker": "homa-ir",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "homa-ir"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "glucose-metabolism",
+      "marker": "c-peptide",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "c-peptide"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "lipids",
+      "marker": "total-cholesterol",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "total-cholesterol"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "lipids",
+      "marker": "ldl",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "ldl"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "lipids",
+      "marker": "hdl",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "hdl"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "lipids",
+      "marker": "triglycerides",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "triglycerides"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "lipids",
+      "marker": "lipoprotein-a",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "lipoprotein-a"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "urine",
+      "marker": "urine-protein",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "urine-protein"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "urine",
+      "marker": "urine-glucose",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "urine-glucose"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "urine",
+      "marker": "urine-ketones",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "urine-ketones"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "urine",
+      "marker": "urine-rbc",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "urine-rbc"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "urine",
+      "marker": "urine-wbc",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "urine-wbc"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "urine",
+      "marker": "urine-nitrite",
+      "role": null,
+      "source_order": 6,
+      "raw_marker": "urine-nitrite"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "urine",
+      "marker": "urine-specific-gravity",
+      "role": null,
+      "source_order": 7,
+      "raw_marker": "urine-specific-gravity"
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "section_slug": "urine",
+      "marker": "urine-ph",
+      "role": null,
+      "source_order": 8,
+      "raw_marker": "urine-ph"
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "cbc",
+      "marker": "hemoglobin",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "hemoglobin",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "cbc",
+      "marker": "wbc",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "wbc",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "cbc",
+      "marker": "platelets",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "platelets",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "cbc",
+      "marker": "rbc",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "rbc",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "cbc",
+      "marker": "hematocrit",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "hematocrit",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "cbc",
+      "marker": "mcv",
+      "role": "recommended",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "mcv",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "cbc",
+      "marker": "mch",
+      "role": "recommended",
+      "source_order": 7,
+      "raw_marker": {
+        "marker": "mch",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "cbc",
+      "marker": "mchc",
+      "role": "extended",
+      "source_order": 8,
+      "raw_marker": {
+        "marker": "mchc",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "cbc",
+      "marker": "rdw",
+      "role": "recommended",
+      "source_order": 9,
+      "raw_marker": {
+        "marker": "rdw",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "cbc",
+      "marker": "esr",
+      "role": "extended",
+      "source_order": 10,
+      "raw_marker": {
+        "marker": "esr",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "iron-deficiencies",
+      "marker": "ferritin",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "ferritin",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "iron-deficiencies",
+      "marker": "serum-iron",
+      "role": "recommended",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "serum-iron",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "iron-deficiencies",
+      "marker": "vitamin-d",
+      "role": "recommended",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "vitamin-d",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "iron-deficiencies",
+      "marker": "vitamin-b12",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "vitamin-b12",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "iron-deficiencies",
+      "marker": "folate",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "folate",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "thyroid",
+      "marker": "tsh",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "tsh",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "thyroid",
+      "marker": "free-t4",
+      "role": "recommended",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "free-t4",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "thyroid",
+      "marker": "free-t3",
+      "role": "extended",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "free-t3",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "thyroid",
+      "marker": "anti-tpo",
+      "role": "extended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "anti-tpo",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "glucose-metabolism",
+      "marker": "glucose",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "glucose",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "glucose-metabolism",
+      "marker": "hba1c",
+      "role": "recommended",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "hba1c",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "glucose-metabolism",
+      "marker": "insulin",
+      "role": "extended",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "insulin",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "section_slug": "glucose-metabolism",
+      "marker": "homa-ir",
+      "role": "extended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "homa-ir",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "cbc",
+      "marker": "hemoglobin",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "hemoglobin",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "cbc",
+      "marker": "wbc",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "wbc",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "cbc",
+      "marker": "platelets",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "platelets",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "cbc",
+      "marker": "rbc",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "rbc",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "cbc",
+      "marker": "hematocrit",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "hematocrit",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "cbc",
+      "marker": "mcv",
+      "role": "recommended",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "mcv",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "cbc",
+      "marker": "mch",
+      "role": "recommended",
+      "source_order": 7,
+      "raw_marker": {
+        "marker": "mch",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "cbc",
+      "marker": "mchc",
+      "role": "extended",
+      "source_order": 8,
+      "raw_marker": {
+        "marker": "mchc",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "cbc",
+      "marker": "rdw",
+      "role": "recommended",
+      "source_order": 9,
+      "raw_marker": {
+        "marker": "rdw",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "cbc",
+      "marker": "esr",
+      "role": "extended",
+      "source_order": 10,
+      "raw_marker": {
+        "marker": "esr",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "heart-risk",
+      "marker": "ldl",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "ldl",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "heart-risk",
+      "marker": "hdl",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "hdl",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "heart-risk",
+      "marker": "triglycerides",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "triglycerides",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "heart-risk",
+      "marker": "total-cholesterol",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "total-cholesterol",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "heart-risk",
+      "marker": "lipoprotein-a",
+      "role": "extended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "lipoprotein-a",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "glucose-metabolism",
+      "marker": "glucose",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "glucose",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "glucose-metabolism",
+      "marker": "hba1c",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "hba1c",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "glucose-metabolism",
+      "marker": "insulin",
+      "role": "extended",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "insulin",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "glucose-metabolism",
+      "marker": "homa-ir",
+      "role": "extended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "homa-ir",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "thyroid-deficiencies",
+      "marker": "tsh",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "tsh",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "thyroid-deficiencies",
+      "marker": "free-t4",
+      "role": "recommended",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "free-t4",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "thyroid-deficiencies",
+      "marker": "anti-tpo",
+      "role": "extended",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "anti-tpo",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "thyroid-deficiencies",
+      "marker": "ferritin",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "ferritin",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "thyroid-deficiencies",
+      "marker": "vitamin-d",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "vitamin-d",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "thyroid-deficiencies",
+      "marker": "vitamin-b12",
+      "role": "recommended",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "vitamin-b12",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "liver-kidneys",
+      "marker": "alt",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "alt",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "liver-kidneys",
+      "marker": "ast",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "ast",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "liver-kidneys",
+      "marker": "creatinine",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "creatinine",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "liver-kidneys",
+      "marker": "egfr",
+      "role": "core",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "egfr",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "liver-kidneys",
+      "marker": "ggt",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "ggt",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "section_slug": "liver-kidneys",
+      "marker": "urea",
+      "role": "recommended",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "urea",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "cbc",
+      "marker": "hemoglobin",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "hemoglobin",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "cbc",
+      "marker": "wbc",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "wbc",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "cbc",
+      "marker": "platelets",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "platelets",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "cbc",
+      "marker": "rbc",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "rbc",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "cbc",
+      "marker": "hematocrit",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "hematocrit",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "cbc",
+      "marker": "mcv",
+      "role": "recommended",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "mcv",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "cbc",
+      "marker": "mch",
+      "role": "recommended",
+      "source_order": 7,
+      "raw_marker": {
+        "marker": "mch",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "cbc",
+      "marker": "rdw",
+      "role": "recommended",
+      "source_order": 8,
+      "raw_marker": {
+        "marker": "rdw",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "cbc",
+      "marker": "esr",
+      "role": "extended",
+      "source_order": 9,
+      "raw_marker": {
+        "marker": "esr",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "ldl",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "ldl",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "hdl",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "hdl",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "triglycerides",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "triglycerides",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "total-cholesterol",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "total-cholesterol",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "lipoprotein-a",
+      "role": "extended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "lipoprotein-a",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "glucose",
+      "role": "core",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "glucose",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "hba1c",
+      "role": "core",
+      "source_order": 7,
+      "raw_marker": {
+        "marker": "hba1c",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "insulin",
+      "role": "extended",
+      "source_order": 8,
+      "raw_marker": {
+        "marker": "insulin",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "homa-ir",
+      "role": "extended",
+      "source_order": 9,
+      "raw_marker": {
+        "marker": "homa-ir",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "liver-kidneys",
+      "marker": "alt",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "alt",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "liver-kidneys",
+      "marker": "ast",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "ast",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "liver-kidneys",
+      "marker": "creatinine",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "creatinine",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "liver-kidneys",
+      "marker": "egfr",
+      "role": "core",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "egfr",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "liver-kidneys",
+      "marker": "ggt",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "ggt",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "liver-kidneys",
+      "marker": "urea",
+      "role": "recommended",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "urea",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "thyroid-deficiencies",
+      "marker": "tsh",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "tsh",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "thyroid-deficiencies",
+      "marker": "free-t4",
+      "role": "recommended",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "free-t4",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "thyroid-deficiencies",
+      "marker": "vitamin-d",
+      "role": "recommended",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "vitamin-d",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "thyroid-deficiencies",
+      "marker": "vitamin-b12",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "vitamin-b12",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "section_slug": "thyroid-deficiencies",
+      "marker": "ferritin",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "ferritin",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "cbc",
+      "marker": "hemoglobin",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "hemoglobin",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "cbc",
+      "marker": "rbc",
+      "role": "recommended",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "rbc",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "cbc",
+      "marker": "hematocrit",
+      "role": "recommended",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "hematocrit",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "cbc",
+      "marker": "wbc",
+      "role": "core",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "wbc",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "cbc",
+      "marker": "platelets",
+      "role": "core",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "platelets",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "cbc",
+      "marker": "mcv",
+      "role": "recommended",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "mcv",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "cbc",
+      "marker": "mch",
+      "role": "recommended",
+      "source_order": 7,
+      "raw_marker": {
+        "marker": "mch",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "cbc",
+      "marker": "mchc",
+      "role": "extended",
+      "source_order": 8,
+      "raw_marker": {
+        "marker": "mchc",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "cbc",
+      "marker": "rdw",
+      "role": "recommended",
+      "source_order": 9,
+      "raw_marker": {
+        "marker": "rdw",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "cbc",
+      "marker": "esr",
+      "role": "extended",
+      "source_order": 10,
+      "raw_marker": {
+        "marker": "esr",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "iron-deficiencies",
+      "marker": "ferritin",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "ferritin",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "iron-deficiencies",
+      "marker": "serum-iron",
+      "role": "recommended",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "serum-iron",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "iron-deficiencies",
+      "marker": "vitamin-b12",
+      "role": "recommended",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "vitamin-b12",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "iron-deficiencies",
+      "marker": "folate",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "folate",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "iron-deficiencies",
+      "marker": "vitamin-d",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "vitamin-d",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "thyroid",
+      "marker": "tsh",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "tsh",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "thyroid",
+      "marker": "free-t4",
+      "role": "recommended",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "free-t4",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "thyroid",
+      "marker": "free-t3",
+      "role": "extended",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "free-t3",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "thyroid",
+      "marker": "anti-tpo",
+      "role": "extended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "anti-tpo",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "glucose-metabolism",
+      "marker": "glucose",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "glucose",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "glucose-metabolism",
+      "marker": "hba1c",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "hba1c",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "glucose-metabolism",
+      "marker": "insulin",
+      "role": "extended",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "insulin",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "glucose-metabolism",
+      "marker": "homa-ir",
+      "role": "extended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "homa-ir",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "heart-risk",
+      "marker": "total-cholesterol",
+      "role": "recommended",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "total-cholesterol",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "heart-risk",
+      "marker": "ldl",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "ldl",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "heart-risk",
+      "marker": "hdl",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "hdl",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "heart-risk",
+      "marker": "triglycerides",
+      "role": "core",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "triglycerides",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "heart-risk",
+      "marker": "lipoprotein-a",
+      "role": "extended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "lipoprotein-a",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "liver-kidneys",
+      "marker": "alt",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "alt",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "liver-kidneys",
+      "marker": "ast",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "ast",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "liver-kidneys",
+      "marker": "ggt",
+      "role": "recommended",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "ggt",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "liver-kidneys",
+      "marker": "bilirubin-total",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "bilirubin-total",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "liver-kidneys",
+      "marker": "creatinine",
+      "role": "core",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "creatinine",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "liver-kidneys",
+      "marker": "egfr",
+      "role": "core",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "egfr",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "section_slug": "liver-kidneys",
+      "marker": "urea",
+      "role": "recommended",
+      "source_order": 7,
+      "raw_marker": {
+        "marker": "urea",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "cbc",
+      "marker": "hemoglobin",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "hemoglobin",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "cbc",
+      "marker": "wbc",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "wbc",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "cbc",
+      "marker": "platelets",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "platelets",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "cbc",
+      "marker": "rbc",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "rbc",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "cbc",
+      "marker": "hematocrit",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "hematocrit",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "cbc",
+      "marker": "mcv",
+      "role": "recommended",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "mcv",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "cbc",
+      "marker": "mch",
+      "role": "recommended",
+      "source_order": 7,
+      "raw_marker": {
+        "marker": "mch",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "cbc",
+      "marker": "rdw",
+      "role": "recommended",
+      "source_order": 8,
+      "raw_marker": {
+        "marker": "rdw",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "cbc",
+      "marker": "esr",
+      "role": "extended",
+      "source_order": 9,
+      "raw_marker": {
+        "marker": "esr",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "metabolism",
+      "marker": "glucose",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "glucose",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "metabolism",
+      "marker": "hba1c",
+      "role": "recommended",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "hba1c",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "metabolism",
+      "marker": "insulin",
+      "role": "extended",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "insulin",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "liver-kidneys",
+      "marker": "alt",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "alt",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "liver-kidneys",
+      "marker": "ast",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "ast",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "liver-kidneys",
+      "marker": "creatinine",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "creatinine",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "liver-kidneys",
+      "marker": "egfr",
+      "role": "core",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "egfr",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "liver-kidneys",
+      "marker": "ggt",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "ggt",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "liver-kidneys",
+      "marker": "urea",
+      "role": "recommended",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "urea",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "deficiencies",
+      "marker": "vitamin-d",
+      "role": "recommended",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "vitamin-d",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "deficiencies",
+      "marker": "vitamin-b12",
+      "role": "extended",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "vitamin-b12",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "section_slug": "deficiencies",
+      "marker": "ferritin",
+      "role": "extended",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "ferritin",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "cbc",
+      "marker": "hemoglobin",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "hemoglobin",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "cbc",
+      "marker": "wbc",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "wbc",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "cbc",
+      "marker": "platelets",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "platelets",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "cbc",
+      "marker": "rbc",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "rbc",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "cbc",
+      "marker": "hematocrit",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "hematocrit",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "cbc",
+      "marker": "mcv",
+      "role": "recommended",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "mcv",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "cbc",
+      "marker": "mch",
+      "role": "recommended",
+      "source_order": 7,
+      "raw_marker": {
+        "marker": "mch",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "cbc",
+      "marker": "rdw",
+      "role": "recommended",
+      "source_order": 8,
+      "raw_marker": {
+        "marker": "rdw",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "cbc",
+      "marker": "esr",
+      "role": "extended",
+      "source_order": 9,
+      "raw_marker": {
+        "marker": "esr",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "heart-risk",
+      "marker": "ldl",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "ldl",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "heart-risk",
+      "marker": "hdl",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "hdl",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "heart-risk",
+      "marker": "triglycerides",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "triglycerides",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "heart-risk",
+      "marker": "total-cholesterol",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "total-cholesterol",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "heart-risk",
+      "marker": "lipoprotein-a",
+      "role": "extended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "lipoprotein-a",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "metabolism",
+      "marker": "glucose",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "glucose",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "metabolism",
+      "marker": "hba1c",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "hba1c",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "metabolism",
+      "marker": "insulin",
+      "role": "extended",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "insulin",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "metabolism",
+      "marker": "homa-ir",
+      "role": "extended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "homa-ir",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "liver-kidneys",
+      "marker": "alt",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "alt",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "liver-kidneys",
+      "marker": "ast",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "ast",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "liver-kidneys",
+      "marker": "creatinine",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "creatinine",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "liver-kidneys",
+      "marker": "egfr",
+      "role": "core",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "egfr",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "liver-kidneys",
+      "marker": "ggt",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "ggt",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "section_slug": "liver-kidneys",
+      "marker": "urea",
+      "role": "recommended",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "urea",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "cbc",
+      "marker": "hemoglobin",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "hemoglobin",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "cbc",
+      "marker": "wbc",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "wbc",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "cbc",
+      "marker": "platelets",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "platelets",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "cbc",
+      "marker": "rbc",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "rbc",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "cbc",
+      "marker": "hematocrit",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "hematocrit",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "cbc",
+      "marker": "mcv",
+      "role": "recommended",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "mcv",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "cbc",
+      "marker": "mch",
+      "role": "recommended",
+      "source_order": 7,
+      "raw_marker": {
+        "marker": "mch",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "cbc",
+      "marker": "rdw",
+      "role": "recommended",
+      "source_order": 8,
+      "raw_marker": {
+        "marker": "rdw",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "cbc",
+      "marker": "esr",
+      "role": "extended",
+      "source_order": 9,
+      "raw_marker": {
+        "marker": "esr",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "heart-metabolic",
+      "marker": "ldl",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "ldl",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "heart-metabolic",
+      "marker": "hdl",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "hdl",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "heart-metabolic",
+      "marker": "triglycerides",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "triglycerides",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "heart-metabolic",
+      "marker": "total-cholesterol",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "total-cholesterol",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "heart-metabolic",
+      "marker": "lipoprotein-a",
+      "role": "extended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "lipoprotein-a",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "heart-metabolic",
+      "marker": "glucose",
+      "role": "core",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "glucose",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "heart-metabolic",
+      "marker": "hba1c",
+      "role": "core",
+      "source_order": 7,
+      "raw_marker": {
+        "marker": "hba1c",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "heart-metabolic",
+      "marker": "insulin",
+      "role": "extended",
+      "source_order": 8,
+      "raw_marker": {
+        "marker": "insulin",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "heart-metabolic",
+      "marker": "homa-ir",
+      "role": "extended",
+      "source_order": 9,
+      "raw_marker": {
+        "marker": "homa-ir",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "prostate",
+      "marker": "psa-total",
+      "role": "recommended",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "psa-total",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "prostate",
+      "marker": "psa-free",
+      "role": "extended",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "psa-free",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "liver-kidneys",
+      "marker": "alt",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "alt",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "liver-kidneys",
+      "marker": "ast",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "ast",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "liver-kidneys",
+      "marker": "creatinine",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "creatinine",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "liver-kidneys",
+      "marker": "egfr",
+      "role": "core",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "egfr",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "liver-kidneys",
+      "marker": "ggt",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "ggt",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "section_slug": "liver-kidneys",
+      "marker": "urea",
+      "role": "recommended",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "urea",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "cbc",
+      "marker": "hemoglobin",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "hemoglobin",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "cbc",
+      "marker": "wbc",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "wbc",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "cbc",
+      "marker": "platelets",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "platelets",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "cbc",
+      "marker": "rbc",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "rbc",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "cbc",
+      "marker": "hematocrit",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "hematocrit",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "cbc",
+      "marker": "mcv",
+      "role": "recommended",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "mcv",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "cbc",
+      "marker": "mch",
+      "role": "recommended",
+      "source_order": 7,
+      "raw_marker": {
+        "marker": "mch",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "cbc",
+      "marker": "rdw",
+      "role": "recommended",
+      "source_order": 8,
+      "raw_marker": {
+        "marker": "rdw",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "cbc",
+      "marker": "esr",
+      "role": "extended",
+      "source_order": 9,
+      "raw_marker": {
+        "marker": "esr",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "ldl",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "ldl",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "hdl",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "hdl",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "triglycerides",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "triglycerides",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "total-cholesterol",
+      "role": "recommended",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "total-cholesterol",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "lipoprotein-a",
+      "role": "extended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "lipoprotein-a",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "glucose",
+      "role": "core",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "glucose",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "hba1c",
+      "role": "core",
+      "source_order": 7,
+      "raw_marker": {
+        "marker": "hba1c",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "insulin",
+      "role": "extended",
+      "source_order": 8,
+      "raw_marker": {
+        "marker": "insulin",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "heart-metabolic",
+      "marker": "homa-ir",
+      "role": "extended",
+      "source_order": 9,
+      "raw_marker": {
+        "marker": "homa-ir",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "prostate",
+      "marker": "psa-total",
+      "role": "recommended",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "psa-total",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "prostate",
+      "marker": "psa-free",
+      "role": "extended",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "psa-free",
+        "role": "extended"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "liver-kidneys",
+      "marker": "alt",
+      "role": "core",
+      "source_order": 1,
+      "raw_marker": {
+        "marker": "alt",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "liver-kidneys",
+      "marker": "ast",
+      "role": "core",
+      "source_order": 2,
+      "raw_marker": {
+        "marker": "ast",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "liver-kidneys",
+      "marker": "creatinine",
+      "role": "core",
+      "source_order": 3,
+      "raw_marker": {
+        "marker": "creatinine",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "liver-kidneys",
+      "marker": "egfr",
+      "role": "core",
+      "source_order": 4,
+      "raw_marker": {
+        "marker": "egfr",
+        "role": "core"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "liver-kidneys",
+      "marker": "ggt",
+      "role": "recommended",
+      "source_order": 5,
+      "raw_marker": {
+        "marker": "ggt",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "section_slug": "liver-kidneys",
+      "marker": "urea",
+      "role": "recommended",
+      "source_order": 6,
+      "raw_marker": {
+        "marker": "urea",
+        "role": "recommended"
+      }
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "lipids",
+      "marker": "total-cholesterol",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "total-cholesterol"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "lipids",
+      "marker": "ldl",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "ldl"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "lipids",
+      "marker": "hdl",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "hdl"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "lipids",
+      "marker": "triglycerides",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "triglycerides"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "lipids",
+      "marker": "lipoprotein-a",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "lipoprotein-a"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "glucose-metabolism",
+      "marker": "glucose",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "glucose"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "glucose-metabolism",
+      "marker": "hba1c",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "hba1c"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "glucose-metabolism",
+      "marker": "insulin",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "insulin"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "glucose-metabolism",
+      "marker": "homa-ir",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "homa-ir"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "glucose-metabolism",
+      "marker": "c-peptide",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "c-peptide"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "inflammation",
+      "marker": "crp",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "crp"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "inflammation",
+      "marker": "hs-crp",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "hs-crp"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "inflammation",
+      "marker": "esr",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "esr"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "inflammation",
+      "marker": "fibrinogen",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "fibrinogen"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "kidney-extended",
+      "marker": "creatinine",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "creatinine"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "kidney-extended",
+      "marker": "egfr",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "egfr"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "kidney-extended",
+      "marker": "urea",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "urea"
+    },
+    {
+      "panel_slug": "heart-risk",
+      "section_slug": "kidney-extended",
+      "marker": "uric-acid",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "uric-acid"
+    },
+    {
+      "panel_slug": "thyroid",
+      "section_slug": "thyroid",
+      "marker": "tsh",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "tsh"
+    },
+    {
+      "panel_slug": "thyroid",
+      "section_slug": "thyroid",
+      "marker": "free-t4",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "free-t4"
+    },
+    {
+      "panel_slug": "thyroid",
+      "section_slug": "thyroid",
+      "marker": "free-t3",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "free-t3"
+    },
+    {
+      "panel_slug": "thyroid",
+      "section_slug": "thyroid",
+      "marker": "anti-tpo",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "anti-tpo"
+    },
+    {
+      "panel_slug": "thyroid",
+      "section_slug": "thyroid",
+      "marker": "trab",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "trab"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "cbc",
+      "marker": "hemoglobin",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "hemoglobin"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "cbc",
+      "marker": "rbc",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "rbc"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "cbc",
+      "marker": "hematocrit",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "hematocrit"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "cbc",
+      "marker": "wbc",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "wbc"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "cbc",
+      "marker": "neutrophils",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "neutrophils"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "cbc",
+      "marker": "lymphocytes",
+      "role": null,
+      "source_order": 6,
+      "raw_marker": "lymphocytes"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "cbc",
+      "marker": "monocytes",
+      "role": null,
+      "source_order": 7,
+      "raw_marker": "monocytes"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "cbc",
+      "marker": "eosinophils",
+      "role": null,
+      "source_order": 8,
+      "raw_marker": "eosinophils"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "cbc",
+      "marker": "basophils",
+      "role": null,
+      "source_order": 9,
+      "raw_marker": "basophils"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "cbc",
+      "marker": "platelets",
+      "role": null,
+      "source_order": 10,
+      "raw_marker": "platelets"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "cbc",
+      "marker": "mcv",
+      "role": null,
+      "source_order": 11,
+      "raw_marker": "mcv"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "cbc",
+      "marker": "mch",
+      "role": null,
+      "source_order": 12,
+      "raw_marker": "mch"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "cbc",
+      "marker": "mchc",
+      "role": null,
+      "source_order": 13,
+      "raw_marker": "mchc"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "cbc",
+      "marker": "rdw",
+      "role": null,
+      "source_order": 14,
+      "raw_marker": "rdw"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "cbc",
+      "marker": "mpv",
+      "role": null,
+      "source_order": 15,
+      "raw_marker": "mpv"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "cbc",
+      "marker": "esr",
+      "role": null,
+      "source_order": 16,
+      "raw_marker": "esr"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "iron-anemia",
+      "marker": "ferritin",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "ferritin"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "iron-anemia",
+      "marker": "serum-iron",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "serum-iron"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "iron-anemia",
+      "marker": "transferrin",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "transferrin"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "iron-anemia",
+      "marker": "tibc",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "tibc"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "iron-anemia",
+      "marker": "transferrin-saturation",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "transferrin-saturation"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "iron-anemia",
+      "marker": "vitamin-b12",
+      "role": null,
+      "source_order": 6,
+      "raw_marker": "vitamin-b12"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "iron-anemia",
+      "marker": "folate",
+      "role": null,
+      "source_order": 7,
+      "raw_marker": "folate"
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "section_slug": "iron-anemia",
+      "marker": "reticulocytes",
+      "role": null,
+      "source_order": 8,
+      "raw_marker": "reticulocytes"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "glucose-metabolism",
+      "marker": "glucose",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "glucose"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "glucose-metabolism",
+      "marker": "hba1c",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "hba1c"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "glucose-metabolism",
+      "marker": "insulin",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "insulin"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "glucose-metabolism",
+      "marker": "homa-ir",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "homa-ir"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "glucose-metabolism",
+      "marker": "c-peptide",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "c-peptide"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "lipids",
+      "marker": "total-cholesterol",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "total-cholesterol"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "lipids",
+      "marker": "ldl",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "ldl"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "lipids",
+      "marker": "hdl",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "hdl"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "lipids",
+      "marker": "triglycerides",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "triglycerides"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "lipids",
+      "marker": "lipoprotein-a",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "lipoprotein-a"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "biochemistry",
+      "marker": "alt",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "alt"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "biochemistry",
+      "marker": "ast",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "ast"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "biochemistry",
+      "marker": "ggt",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "ggt"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "biochemistry",
+      "marker": "bilirubin-total",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "bilirubin-total"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "biochemistry",
+      "marker": "bilirubin-direct",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "bilirubin-direct"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "biochemistry",
+      "marker": "total-protein",
+      "role": null,
+      "source_order": 6,
+      "raw_marker": "total-protein"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "biochemistry",
+      "marker": "albumin",
+      "role": null,
+      "source_order": 7,
+      "raw_marker": "albumin"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "biochemistry",
+      "marker": "creatinine",
+      "role": null,
+      "source_order": 8,
+      "raw_marker": "creatinine"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "biochemistry",
+      "marker": "egfr",
+      "role": null,
+      "source_order": 9,
+      "raw_marker": "egfr"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "biochemistry",
+      "marker": "urea",
+      "role": null,
+      "source_order": 10,
+      "raw_marker": "urea"
+    },
+    {
+      "panel_slug": "metabolic",
+      "section_slug": "biochemistry",
+      "marker": "uric-acid",
+      "role": null,
+      "source_order": 11,
+      "raw_marker": "uric-acid"
+    },
+    {
+      "panel_slug": "check-liver",
+      "section_slug": "liver-enzymes",
+      "marker": "alt",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "alt"
+    },
+    {
+      "panel_slug": "check-liver",
+      "section_slug": "liver-enzymes",
+      "marker": "ast",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "ast"
+    },
+    {
+      "panel_slug": "check-liver",
+      "section_slug": "liver-enzymes",
+      "marker": "ggt",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "ggt"
+    },
+    {
+      "panel_slug": "check-liver",
+      "section_slug": "liver-enzymes",
+      "marker": "alp",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "alp"
+    },
+    {
+      "panel_slug": "check-liver",
+      "section_slug": "liver-enzymes",
+      "marker": "bilirubin-total",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "bilirubin-total"
+    },
+    {
+      "panel_slug": "check-liver",
+      "section_slug": "liver-enzymes",
+      "marker": "bilirubin-direct",
+      "role": null,
+      "source_order": 6,
+      "raw_marker": "bilirubin-direct"
+    },
+    {
+      "panel_slug": "check-liver",
+      "section_slug": "protein-function",
+      "marker": "albumin",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "albumin"
+    },
+    {
+      "panel_slug": "check-liver",
+      "section_slug": "protein-function",
+      "marker": "total-protein",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "total-protein"
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "section_slug": "kidney-function",
+      "marker": "creatinine",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "creatinine"
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "section_slug": "kidney-function",
+      "marker": "egfr",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "egfr"
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "section_slug": "kidney-function",
+      "marker": "urea",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "urea"
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "section_slug": "kidney-function",
+      "marker": "uric-acid",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "uric-acid"
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "section_slug": "urine",
+      "marker": "urine-protein",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "urine-protein"
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "section_slug": "urine",
+      "marker": "urine-rbc",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "urine-rbc"
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "section_slug": "urine",
+      "marker": "urine-wbc",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "urine-wbc"
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "section_slug": "urine",
+      "marker": "urine-specific-gravity",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "urine-specific-gravity"
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "section_slug": "urine",
+      "marker": "urine-ph",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "urine-ph"
+    },
+    {
+      "panel_slug": "fatigue",
+      "section_slug": "iron-deficiencies",
+      "marker": "hemoglobin",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "hemoglobin"
+    },
+    {
+      "panel_slug": "fatigue",
+      "section_slug": "iron-deficiencies",
+      "marker": "ferritin",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "ferritin"
+    },
+    {
+      "panel_slug": "fatigue",
+      "section_slug": "iron-deficiencies",
+      "marker": "vitamin-b12",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "vitamin-b12"
+    },
+    {
+      "panel_slug": "fatigue",
+      "section_slug": "iron-deficiencies",
+      "marker": "folate",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "folate"
+    },
+    {
+      "panel_slug": "fatigue",
+      "section_slug": "iron-deficiencies",
+      "marker": "vitamin-d",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "vitamin-d"
+    },
+    {
+      "panel_slug": "fatigue",
+      "section_slug": "thyroid",
+      "marker": "tsh",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "tsh"
+    },
+    {
+      "panel_slug": "fatigue",
+      "section_slug": "thyroid",
+      "marker": "free-t4",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "free-t4"
+    },
+    {
+      "panel_slug": "fatigue",
+      "section_slug": "metabolism",
+      "marker": "glucose",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "glucose"
+    },
+    {
+      "panel_slug": "fatigue",
+      "section_slug": "metabolism",
+      "marker": "hba1c",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "hba1c"
+    },
+    {
+      "panel_slug": "hair-loss",
+      "section_slug": "iron-deficiencies",
+      "marker": "ferritin",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "ferritin"
+    },
+    {
+      "panel_slug": "hair-loss",
+      "section_slug": "iron-deficiencies",
+      "marker": "serum-iron",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "serum-iron"
+    },
+    {
+      "panel_slug": "hair-loss",
+      "section_slug": "iron-deficiencies",
+      "marker": "vitamin-b12",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "vitamin-b12"
+    },
+    {
+      "panel_slug": "hair-loss",
+      "section_slug": "iron-deficiencies",
+      "marker": "folate",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "folate"
+    },
+    {
+      "panel_slug": "hair-loss",
+      "section_slug": "iron-deficiencies",
+      "marker": "vitamin-d",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "vitamin-d"
+    },
+    {
+      "panel_slug": "hair-loss",
+      "section_slug": "iron-deficiencies",
+      "marker": "zinc",
+      "role": null,
+      "source_order": 6,
+      "raw_marker": "zinc"
+    },
+    {
+      "panel_slug": "hair-loss",
+      "section_slug": "thyroid",
+      "marker": "tsh",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "tsh"
+    },
+    {
+      "panel_slug": "hair-loss",
+      "section_slug": "thyroid",
+      "marker": "free-t4",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "free-t4"
+    },
+    {
+      "panel_slug": "hair-loss",
+      "section_slug": "cbc",
+      "marker": "hemoglobin",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "hemoglobin"
+    },
+    {
+      "panel_slug": "hair-loss",
+      "section_slug": "cbc",
+      "marker": "rbc",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "rbc"
+    },
+    {
+      "panel_slug": "hair-loss",
+      "section_slug": "cbc",
+      "marker": "hematocrit",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "hematocrit"
+    },
+    {
+      "panel_slug": "hair-loss",
+      "section_slug": "cbc",
+      "marker": "mcv",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "mcv"
+    },
+    {
+      "panel_slug": "hair-loss",
+      "section_slug": "cbc",
+      "marker": "rdw",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "rdw"
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "section_slug": "glucose-metabolism",
+      "marker": "glucose",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "glucose"
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "section_slug": "glucose-metabolism",
+      "marker": "hba1c",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "hba1c"
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "section_slug": "glucose-metabolism",
+      "marker": "insulin",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "insulin"
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "section_slug": "glucose-metabolism",
+      "marker": "homa-ir",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "homa-ir"
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "section_slug": "glucose-metabolism",
+      "marker": "c-peptide",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "c-peptide"
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "section_slug": "deficiencies",
+      "marker": "ferritin",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "ferritin"
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "section_slug": "deficiencies",
+      "marker": "vitamin-d",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "vitamin-d"
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "section_slug": "deficiencies",
+      "marker": "vitamin-b12",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "vitamin-b12"
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "section_slug": "deficiencies",
+      "marker": "folate",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "folate"
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "section_slug": "deficiencies",
+      "marker": "zinc",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "zinc"
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "section_slug": "deficiencies",
+      "marker": "magnesium",
+      "role": null,
+      "source_order": 6,
+      "raw_marker": "magnesium"
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "section_slug": "inflammation",
+      "marker": "crp",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "crp"
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "section_slug": "inflammation",
+      "marker": "hs-crp",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "hs-crp"
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "section_slug": "inflammation",
+      "marker": "esr",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "esr"
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "section_slug": "inflammation",
+      "marker": "fibrinogen",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "fibrinogen"
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "section_slug": "energy",
+      "marker": "hemoglobin",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "hemoglobin"
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "section_slug": "energy",
+      "marker": "ferritin",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "ferritin"
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "section_slug": "energy",
+      "marker": "tsh",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "tsh"
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "section_slug": "energy",
+      "marker": "free-t4",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "free-t4"
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "section_slug": "energy",
+      "marker": "glucose",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "glucose"
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "section_slug": "energy",
+      "marker": "vitamin-d",
+      "role": null,
+      "source_order": 6,
+      "raw_marker": "vitamin-d"
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "section_slug": "metabolic",
+      "marker": "tsh",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "tsh"
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "section_slug": "metabolic",
+      "marker": "free-t4",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "free-t4"
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "section_slug": "metabolic",
+      "marker": "glucose",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "glucose"
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "section_slug": "metabolic",
+      "marker": "hba1c",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "hba1c"
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "section_slug": "metabolic",
+      "marker": "insulin",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "insulin"
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "section_slug": "metabolic",
+      "marker": "triglycerides",
+      "role": null,
+      "source_order": 6,
+      "raw_marker": "triglycerides"
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "section_slug": "cbc-deficiencies",
+      "marker": "hemoglobin",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "hemoglobin"
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "section_slug": "cbc-deficiencies",
+      "marker": "ferritin",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "ferritin"
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "section_slug": "cbc-deficiencies",
+      "marker": "vitamin-b12",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "vitamin-b12"
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "section_slug": "cbc-deficiencies",
+      "marker": "folate",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "folate"
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "section_slug": "cbc-deficiencies",
+      "marker": "glucose",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "glucose"
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "section_slug": "thyroid-deficiencies",
+      "marker": "tsh",
+      "role": null,
+      "source_order": 1,
+      "raw_marker": "tsh"
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "section_slug": "thyroid-deficiencies",
+      "marker": "free-t4",
+      "role": null,
+      "source_order": 2,
+      "raw_marker": "free-t4"
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "section_slug": "thyroid-deficiencies",
+      "marker": "vitamin-d",
+      "role": null,
+      "source_order": 3,
+      "raw_marker": "vitamin-d"
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "section_slug": "thyroid-deficiencies",
+      "marker": "magnesium",
+      "role": null,
+      "source_order": 4,
+      "raw_marker": "magnesium"
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "section_slug": "thyroid-deficiencies",
+      "marker": "vitamin-b12",
+      "role": null,
+      "source_order": 5,
+      "raw_marker": "vitamin-b12"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Services\AiService;
+
+class AnalyzeController extends Controller
+{
+    public function analyze(Request $request, AiService $ai)
+    {
+        $text = $request->input('text');
+
+        if ($request->hasFile('file')) {
+            $file = $request->file('file');
+            $text = "Текст извлечён из файла (пока заглушка)";
+        }
+
+        if (!$text) {
+            return response()->json([
+                'error' => 'No text or file provided'
+            ], 400, [], JSON_UNESCAPED_UNICODE);
+        }
+
+        $result = $ai->analyze($text);
+
+        return response()->json($result, 200, [], JSON_UNESCAPED_UNICODE);
+    }
+}

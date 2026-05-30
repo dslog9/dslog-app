@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSlog — Расшифровка анализов</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f3f6fb;
+            margin: 0;
+            padding: 40px 20px;
+            color: #111827;
+        }
+
+        .wrap {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 32px;
+            box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+        }
+
+        h1 {
+            margin-top: 0;
+            font-size: 42px;
+        }
+
+        p {
+            color: #6b7280;
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        label {
+            display: block;
+            margin: 24px 0 10px;
+            font-weight: bold;
+        }
+
+        textarea {
+            width: 100%;
+            min-height: 180px;
+            padding: 14px;
+            font-size: 16px;
+            border: 1px solid #cbd5e1;
+            border-radius: 12px;
+            box-sizing: border-box;
+        }
+
+        .file-box {
+            border: 1px dashed #cbd5e1;
+            border-radius: 12px;
+            padding: 16px;
+            background: #f8fafc;
+        }
+
+        button {
+            margin-top: 24px;
+            background: #2563eb;
+            color: #fff;
+            border: none;
+            border-radius: 12px;
+            padding: 14px 22px;
+            font-size: 16px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .result-title {
+            margin-top: 36px;
+            padding-top: 24px;
+            border-top: 1px solid #e5e7eb;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .result {
+            margin-top: 16px;
+            background: #0b1736;
+            color: #e5e7eb;
+            border-radius: 14px;
+            padding: 20px;
+            min-height: 120px;
+            line-height: 1.7;
+        }
+
+        .item {
+            margin-bottom: 18px;
+        }
+
+        .item:last-child {
+            margin-bottom: 0;
+        }
+
+        .item-title {
+            font-weight: bold;
+            color: #ffffff;
+            margin-bottom: 6px;
+        }
+
+        .error {
+            color: #fecaca;
+            font-weight: bold;
+        }
+
+        .loading {
+            color: #93c5fd;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <h1>Расшифровка анализов</h1>
+        <p>Вставьте текст анализа или загрузите файл. Пока это MVP-версия с тестовой логикой ответа.</p>
+
+        <label for="text">Текст анализа</label>
+        <textarea id="text" placeholder="Например: Гемоглобин 110 г/л, норма 120–160"></textarea>
+
+        <label for="file">Файл анализа</label>
+        <div class="file-box">
+            <input type="file" id="file" name="file">
+        </div>
+
+        <button id="analyzeBtn" onclick="send()">Анализировать</button>
+
+        <div class="result-title">Результат</div>
+    </div>        <div id="result" class="result">З
+
+    <script>
+        async function send() {
+            const text = document.getElementById('text').value.trim();
+            const fileInput = document.getElementById('file');
+            const result = document.getElementById('result');
+            const button = document.getElementById('analyzeBtn');
+
+            const formData = new FormData();
+
+            if (fileInput.files.length > 0) {
+                formData.append('file', fileInput.files[0]);
+            } else if (text) {
+                formData.append('text', text);
+            } else {
+                result.innerHTML = '<span class="error">Введите текст или выберите файл.</span>';
+                return;
+            }
+
+            button.disabled = true;
+            result.innerHTML = '<span class="loading">Анализируем...</span>';
+
+            try {
+                const response = await fetch('/api/analyze', {
+                    method: 'POST',
+            headers: { 'Accept': 'application/json' },
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    result.innerHTML = '<span class="error">' + (data.error || 'Произошла ошибка.') + '</span>';
+                    return;
+                }
+
+                result.innerHTML =
+                    '<div class="item"><div class="item-title">Кратко</div><div>' + (data.summary || '-') + '</div></div>' +
+                    '<div class="item"><div class="item-title">Детали</div><div>' + (data.details || '-') + '</div></div>' +
+                    '<div class="item"><div class="item-title">Риски</div><div>' + (data.risks || '-') + '</div></div>' +
+                    '<div class="item"><div class="item-title">Рекомендации</div><div>' + (data.recommendations || '-') + '</div></div>';
+            } catch (error) {
+                result.innerHTML = '<span class="error">Ошибка запроса: ' + error.message + '</span>';
+            } finally {
+                button.disabled = false;
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,1471 @@
+{
+  "relations": [
+    {
+      "marker": "hemoglobin",
+      "related": [
+        "ferritin",
+        "serum-iron",
+        "tibc",
+        "transferrin",
+        "transferrin-saturation",
+        "rbc",
+        "hematocrit",
+        "mcv",
+        "mch",
+        "vitamin-b12",
+        "folate",
+        "reticulocytes"
+      ]
+    },
+    {
+      "marker": "rbc",
+      "related": [
+        "hemoglobin",
+        "hematocrit",
+        "mcv"
+      ]
+    },
+    {
+      "marker": "hematocrit",
+      "related": [
+        "hemoglobin",
+        "rbc"
+      ]
+    },
+    {
+      "marker": "mcv",
+      "related": [
+        "hemoglobin",
+        "ferritin",
+        "vitamin-b12"
+      ]
+    },
+    {
+      "marker": "mch",
+      "related": [
+        "hemoglobin",
+        "mcv",
+        "mchc"
+      ]
+    },
+    {
+      "marker": "mchc",
+      "related": [
+        "hemoglobin",
+        "mch",
+        "mcv"
+      ]
+    },
+    {
+      "marker": "rdw",
+      "related": [
+        "mcv",
+        "ferritin",
+        "vitamin-b12"
+      ]
+    },
+    {
+      "marker": "wbc",
+      "related": [
+        "neutrophils",
+        "lymphocytes",
+        "crp"
+      ]
+    },
+    {
+      "marker": "neutrophils",
+      "related": [
+        "wbc",
+        "crp"
+      ]
+    },
+    {
+      "marker": "lymphocytes",
+      "related": [
+        "wbc",
+        "neutrophils"
+      ]
+    },
+    {
+      "marker": "monocytes",
+      "related": [
+        "wbc",
+        "crp"
+      ]
+    },
+    {
+      "marker": "eosinophils",
+      "related": [
+        "wbc",
+        "ige-total"
+      ]
+    },
+    {
+      "marker": "basophils",
+      "related": [
+        "wbc"
+      ]
+    },
+    {
+      "marker": "platelets",
+      "related": [
+        "ferritin",
+        "crp",
+        "mpv"
+      ]
+    },
+    {
+      "marker": "mpv",
+      "related": [
+        "platelets"
+      ]
+    },
+    {
+      "marker": "plateletcrit",
+      "related": [
+        "platelets",
+        "mpv"
+      ]
+    },
+    {
+      "marker": "pdw",
+      "related": [
+        "platelets",
+        "mpv"
+      ]
+    },
+    {
+      "marker": "reticulocytes",
+      "related": [
+        "hemoglobin",
+        "ferritin",
+        "vitamin-b12"
+      ]
+    },
+    {
+      "marker": "nucleated-rbc",
+      "related": [
+        "hemoglobin",
+        "reticulocytes"
+      ]
+    },
+    {
+      "marker": "esr",
+      "related": [
+        "crp",
+        "hemoglobin"
+      ]
+    },
+    {
+      "marker": "glucose",
+      "related": [
+        "hba1c",
+        "insulin"
+      ]
+    },
+    {
+      "marker": "hba1c",
+      "related": [
+        "glucose",
+        "insulin"
+      ]
+    },
+    {
+      "marker": "insulin",
+      "related": [
+        "glucose",
+        "hba1c",
+        "c-peptide"
+      ]
+    },
+    {
+      "marker": "c-peptide",
+      "related": [
+        "insulin",
+        "glucose"
+      ]
+    },
+    {
+      "marker": "homa-ir",
+      "related": [
+        "glucose",
+        "insulin"
+      ]
+    },
+    {
+      "marker": "alt",
+      "related": [
+        "ast",
+        "ggt",
+        "bilirubin-total"
+      ]
+    },
+    {
+      "marker": "ast",
+      "related": [
+        "alt",
+        "ggt",
+        "ck"
+      ]
+    },
+    {
+      "marker": "ggt",
+      "related": [
+        "alt",
+        "ast",
+        "alp"
+      ]
+    },
+    {
+      "marker": "alp",
+      "related": [
+        "ggt",
+        "bilirubin-total",
+        "calcium"
+      ]
+    },
+    {
+      "marker": "bilirubin-total",
+      "related": [
+        "bilirubin-direct",
+        "alt",
+        "ast"
+      ]
+    },
+    {
+      "marker": "bilirubin-direct",
+      "related": [
+        "bilirubin-total",
+        "ggt",
+        "alp"
+      ]
+    },
+    {
+      "marker": "bilirubin-indirect",
+      "related": [
+        "bilirubin-total",
+        "hemoglobin"
+      ]
+    },
+    {
+      "marker": "total-protein",
+      "related": [
+        "albumin",
+        "globulin"
+      ]
+    },
+    {
+      "marker": "albumin",
+      "related": [
+        "total-protein",
+        "creatinine"
+      ]
+    },
+    {
+      "marker": "globulin",
+      "related": [
+        "total-protein",
+        "albumin"
+      ]
+    },
+    {
+      "marker": "albumin-globulin-ratio",
+      "related": [
+        "albumin",
+        "globulin"
+      ]
+    },
+    {
+      "marker": "creatinine",
+      "related": [
+        "egfr",
+        "urea"
+      ]
+    },
+    {
+      "marker": "egfr",
+      "related": [
+        "creatinine",
+        "urea"
+      ]
+    },
+    {
+      "marker": "urea",
+      "related": [
+        "creatinine",
+        "egfr"
+      ]
+    },
+    {
+      "marker": "uric-acid",
+      "related": [
+        "creatinine"
+      ]
+    },
+    {
+      "marker": "cystatin-c",
+      "related": [
+        "egfr",
+        "creatinine"
+      ]
+    },
+    {
+      "marker": "bun",
+      "related": [
+        "urea",
+        "creatinine"
+      ]
+    },
+    {
+      "marker": "sodium",
+      "related": [
+        "potassium",
+        "chloride"
+      ]
+    },
+    {
+      "marker": "potassium",
+      "related": [
+        "sodium",
+        "creatinine"
+      ]
+    },
+    {
+      "marker": "chloride",
+      "related": [
+        "sodium",
+        "potassium"
+      ]
+    },
+    {
+      "marker": "calcium",
+      "related": [
+        "vitamin-d",
+        "albumin",
+        "phosphorus"
+      ]
+    },
+    {
+      "marker": "calcium-ionized",
+      "related": [
+        "calcium",
+        "vitamin-d",
+        "pth"
+      ]
+    },
+    {
+      "marker": "magnesium",
+      "related": [
+        "calcium",
+        "potassium"
+      ]
+    },
+    {
+      "marker": "phosphorus",
+      "related": [
+        "calcium",
+        "vitamin-d",
+        "creatinine"
+      ]
+    },
+    {
+      "marker": "bicarbonate",
+      "related": [
+        "chloride",
+        "sodium"
+      ]
+    },
+    {
+      "marker": "anion-gap",
+      "related": [
+        "bicarbonate",
+        "sodium",
+        "chloride"
+      ]
+    },
+    {
+      "marker": "osmolality",
+      "related": [
+        "sodium",
+        "glucose",
+        "urea"
+      ]
+    },
+    {
+      "marker": "ldh",
+      "related": [
+        "ast",
+        "ck",
+        "bilirubin-total"
+      ]
+    },
+    {
+      "marker": "ck",
+      "related": [
+        "ast",
+        "ldh"
+      ]
+    },
+    {
+      "marker": "amylase",
+      "related": [
+        "lipase"
+      ]
+    },
+    {
+      "marker": "lipase",
+      "related": [
+        "amylase"
+      ]
+    },
+    {
+      "marker": "total-cholesterol",
+      "related": [
+        "ldl",
+        "hdl",
+        "triglycerides"
+      ]
+    },
+    {
+      "marker": "ldl",
+      "related": [
+        "total-cholesterol",
+        "hdl"
+      ]
+    },
+    {
+      "marker": "hdl",
+      "related": [
+        "ldl",
+        "triglycerides"
+      ]
+    },
+    {
+      "marker": "triglycerides",
+      "related": [
+        "glucose",
+        "hdl"
+      ]
+    },
+    {
+      "marker": "non-hdl-cholesterol",
+      "related": [
+        "total-cholesterol",
+        "hdl",
+        "ldl"
+      ]
+    },
+    {
+      "marker": "apolipoprotein-a1",
+      "related": [
+        "hdl",
+        "apolipoprotein-b"
+      ]
+    },
+    {
+      "marker": "apolipoprotein-b",
+      "related": [
+        "ldl",
+        "non-hdl-cholesterol"
+      ]
+    },
+    {
+      "marker": "lipoprotein-a",
+      "related": [
+        "ldl",
+        "apolipoprotein-b"
+      ]
+    },
+    {
+      "marker": "ferritin",
+      "related": [
+        "hemoglobin",
+        "mcv",
+        "serum-iron"
+      ]
+    },
+    {
+      "marker": "serum-iron",
+      "related": [
+        "ferritin",
+        "tibc"
+      ]
+    },
+    {
+      "marker": "transferrin",
+      "related": [
+        "ferritin",
+        "serum-iron"
+      ]
+    },
+    {
+      "marker": "tibc",
+      "related": [
+        "serum-iron",
+        "ferritin"
+      ]
+    },
+    {
+      "marker": "uibc",
+      "related": [
+        "tibc",
+        "serum-iron"
+      ]
+    },
+    {
+      "marker": "transferrin-saturation",
+      "related": [
+        "ferritin",
+        "serum-iron"
+      ]
+    },
+    {
+      "marker": "vitamin-b12",
+      "related": [
+        "mcv",
+        "folate"
+      ]
+    },
+    {
+      "marker": "folate",
+      "related": [
+        "vitamin-b12",
+        "mcv"
+      ]
+    },
+    {
+      "marker": "vitamin-d",
+      "related": [
+        "calcium",
+        "phosphorus"
+      ]
+    },
+    {
+      "marker": "vitamin-b1",
+      "related": [
+        "magnesium"
+      ]
+    },
+    {
+      "marker": "vitamin-b6",
+      "related": [
+        "vitamin-b12",
+        "folate"
+      ]
+    },
+    {
+      "marker": "vitamin-a",
+      "related": [
+        "vitamin-d"
+      ]
+    },
+    {
+      "marker": "vitamin-e",
+      "related": []
+    },
+    {
+      "marker": "zinc",
+      "related": [
+        "copper"
+      ]
+    },
+    {
+      "marker": "copper",
+      "related": [
+        "zinc",
+        "ceruloplasmin"
+      ]
+    },
+    {
+      "marker": "ceruloplasmin",
+      "related": [
+        "copper"
+      ]
+    },
+    {
+      "marker": "selenium",
+      "related": []
+    },
+    {
+      "marker": "crp",
+      "related": [
+        "wbc",
+        "esr"
+      ]
+    },
+    {
+      "marker": "hs-crp",
+      "related": [
+        "crp",
+        "ldl"
+      ]
+    },
+    {
+      "marker": "procalcitonin",
+      "related": [
+        "crp",
+        "wbc"
+      ]
+    },
+    {
+      "marker": "interleukin-6",
+      "related": [
+        "crp"
+      ]
+    },
+    {
+      "marker": "tnf-alpha",
+      "related": [
+        "interleukin-6"
+      ]
+    },
+    {
+      "marker": "fibrinogen",
+      "related": [
+        "crp",
+        "inr"
+      ]
+    },
+    {
+      "marker": "pt",
+      "related": [
+        "inr"
+      ]
+    },
+    {
+      "marker": "inr",
+      "related": [
+        "pt"
+      ]
+    },
+    {
+      "marker": "aptt",
+      "related": [
+        "fibrinogen"
+      ]
+    },
+    {
+      "marker": "thrombin-time",
+      "related": [
+        "fibrinogen"
+      ]
+    },
+    {
+      "marker": "d-dimer",
+      "related": [
+        "fibrinogen",
+        "inr"
+      ]
+    },
+    {
+      "marker": "antithrombin-iii",
+      "related": [
+        "d-dimer"
+      ]
+    },
+    {
+      "marker": "protein-c",
+      "related": [
+        "protein-s"
+      ]
+    },
+    {
+      "marker": "protein-s",
+      "related": [
+        "protein-c"
+      ]
+    },
+    {
+      "marker": "lupus-anticoagulant",
+      "related": [
+        "anticardiolipin-igg",
+        "beta-2-glycoprotein-igg"
+      ]
+    },
+    {
+      "marker": "tsh",
+      "related": [
+        "free-t4",
+        "free-t3",
+        "anti-tpo"
+      ]
+    },
+    {
+      "marker": "free-t4",
+      "related": [
+        "tsh",
+        "free-t3"
+      ]
+    },
+    {
+      "marker": "free-t3",
+      "related": [
+        "tsh",
+        "free-t4"
+      ]
+    },
+    {
+      "marker": "total-t4",
+      "related": [
+        "tsh",
+        "free-t4"
+      ]
+    },
+    {
+      "marker": "total-t3",
+      "related": [
+        "tsh",
+        "free-t3"
+      ]
+    },
+    {
+      "marker": "anti-tpo",
+      "related": [
+        "tsh",
+        "free-t4"
+      ]
+    },
+    {
+      "marker": "anti-thyroglobulin",
+      "related": [
+        "anti-tpo",
+        "tsh"
+      ]
+    },
+    {
+      "marker": "trab",
+      "related": [
+        "tsh",
+        "free-t4"
+      ]
+    },
+    {
+      "marker": "thyroglobulin",
+      "related": [
+        "anti-thyroglobulin"
+      ]
+    },
+    {
+      "marker": "pth",
+      "related": [
+        "calcium",
+        "vitamin-d"
+      ]
+    },
+    {
+      "marker": "cortisol",
+      "related": [
+        "acth",
+        "sodium",
+        "potassium"
+      ]
+    },
+    {
+      "marker": "acth",
+      "related": [
+        "cortisol"
+      ]
+    },
+    {
+      "marker": "dhea-s",
+      "related": [
+        "testosterone-total",
+        "cortisol"
+      ]
+    },
+    {
+      "marker": "aldosterone",
+      "related": [
+        "renin",
+        "potassium"
+      ]
+    },
+    {
+      "marker": "renin",
+      "related": [
+        "aldosterone"
+      ]
+    },
+    {
+      "marker": "prolactin",
+      "related": [
+        "tsh",
+        "estradiol"
+      ]
+    },
+    {
+      "marker": "fsh",
+      "related": [
+        "lh",
+        "estradiol"
+      ]
+    },
+    {
+      "marker": "lh",
+      "related": [
+        "fsh",
+        "estradiol"
+      ]
+    },
+    {
+      "marker": "estradiol",
+      "related": [
+        "fsh",
+        "lh",
+        "progesterone"
+      ]
+    },
+    {
+      "marker": "progesterone",
+      "related": [
+        "estradiol",
+        "lh"
+      ]
+    },
+    {
+      "marker": "testosterone-total",
+      "related": [
+        "testosterone-free",
+        "shbg",
+        "lh",
+        "fsh",
+        "prolactin",
+        "dhea-s",
+        "estradiol",
+        "tsh"
+      ]
+    },
+    {
+      "marker": "testosterone-free",
+      "related": [
+        "testosterone-total",
+        "shbg"
+      ]
+    },
+    {
+      "marker": "shbg",
+      "related": [
+        "testosterone-total",
+        "estradiol"
+      ]
+    },
+    {
+      "marker": "amh",
+      "related": [
+        "fsh",
+        "estradiol"
+      ]
+    },
+    {
+      "marker": "hcg",
+      "related": [
+        "progesterone"
+      ]
+    },
+    {
+      "marker": "afp-pregnancy",
+      "related": [
+        "hcg"
+      ]
+    },
+    {
+      "marker": "inhibin-b",
+      "related": [
+        "fsh",
+        "amh"
+      ]
+    },
+    {
+      "marker": "urine-color",
+      "related": [
+        "urine-specific-gravity"
+      ]
+    },
+    {
+      "marker": "urine-specific-gravity",
+      "related": [
+        "creatinine",
+        "egfr"
+      ]
+    },
+    {
+      "marker": "urine-ph",
+      "related": [
+        "urine-protein",
+        "urine-nitrite"
+      ]
+    },
+    {
+      "marker": "urine-protein",
+      "related": [
+        "urine-albumin-creatinine-ratio",
+        "creatinine"
+      ]
+    },
+    {
+      "marker": "urine-glucose",
+      "related": [
+        "glucose",
+        "hba1c"
+      ]
+    },
+    {
+      "marker": "urine-ketones",
+      "related": [
+        "glucose"
+      ]
+    },
+    {
+      "marker": "urine-blood",
+      "related": [
+        "urine-rbc",
+        "creatinine"
+      ]
+    },
+    {
+      "marker": "urine-rbc",
+      "related": [
+        "urine-blood"
+      ]
+    },
+    {
+      "marker": "urine-wbc",
+      "related": [
+        "urine-nitrite",
+        "urine-bacteria"
+      ]
+    },
+    {
+      "marker": "urine-nitrite",
+      "related": [
+        "urine-wbc",
+        "urine-bacteria"
+      ]
+    },
+    {
+      "marker": "urine-bacteria",
+      "related": [
+        "urine-wbc",
+        "urine-nitrite"
+      ]
+    },
+    {
+      "marker": "urine-epithelial-cells",
+      "related": [
+        "urine-wbc"
+      ]
+    },
+    {
+      "marker": "urine-casts",
+      "related": [
+        "urine-protein",
+        "creatinine"
+      ]
+    },
+    {
+      "marker": "urine-albumin-creatinine-ratio",
+      "related": [
+        "creatinine",
+        "egfr"
+      ]
+    },
+    {
+      "marker": "urine-microalbumin",
+      "related": [
+        "urine-albumin-creatinine-ratio"
+      ]
+    },
+    {
+      "marker": "urine-creatinine",
+      "related": [
+        "creatinine"
+      ]
+    },
+    {
+      "marker": "urine-calcium",
+      "related": [
+        "calcium",
+        "pth"
+      ]
+    },
+    {
+      "marker": "urine-oxalate",
+      "related": [
+        "urine-calcium"
+      ]
+    },
+    {
+      "marker": "urine-citrate",
+      "related": [
+        "urine-calcium"
+      ]
+    },
+    {
+      "marker": "fecal-occult-blood",
+      "related": [
+        "hemoglobin",
+        "ferritin"
+      ]
+    },
+    {
+      "marker": "fecal-calprotectin",
+      "related": [
+        "crp",
+        "esr"
+      ]
+    },
+    {
+      "marker": "fecal-elastase",
+      "related": [
+        "lipase",
+        "amylase"
+      ]
+    },
+    {
+      "marker": "stool-ph",
+      "related": [
+        "fecal-calprotectin"
+      ]
+    },
+    {
+      "marker": "stool-fat",
+      "related": [
+        "fecal-elastase"
+      ]
+    },
+    {
+      "marker": "helicobacter-pylori-antigen",
+      "related": []
+    },
+    {
+      "marker": "helicobacter-urease-test",
+      "related": [
+        "helicobacter-pylori-antigen"
+      ]
+    },
+    {
+      "marker": "pancreatic-amylase",
+      "related": [
+        "amylase",
+        "lipase"
+      ]
+    },
+    {
+      "marker": "pepsinogen-1",
+      "related": [
+        "pepsinogen-2"
+      ]
+    },
+    {
+      "marker": "pepsinogen-2",
+      "related": [
+        "pepsinogen-1"
+      ]
+    },
+    {
+      "marker": "gastrin-17",
+      "related": [
+        "pepsinogen-1"
+      ]
+    },
+    {
+      "marker": "troponin-i",
+      "related": [
+        "ck-mb",
+        "nt-probnp"
+      ]
+    },
+    {
+      "marker": "troponin-t",
+      "related": [
+        "troponin-i",
+        "ck-mb"
+      ]
+    },
+    {
+      "marker": "ck-mb",
+      "related": [
+        "ck",
+        "troponin-i"
+      ]
+    },
+    {
+      "marker": "myoglobin",
+      "related": [
+        "ck",
+        "troponin-i"
+      ]
+    },
+    {
+      "marker": "bnp",
+      "related": [
+        "nt-probnp"
+      ]
+    },
+    {
+      "marker": "nt-probnp",
+      "related": [
+        "bnp"
+      ]
+    },
+    {
+      "marker": "homocysteine",
+      "related": [
+        "vitamin-b12",
+        "folate"
+      ]
+    },
+    {
+      "marker": "lp-pla2",
+      "related": [
+        "hs-crp",
+        "ldl"
+      ]
+    },
+    {
+      "marker": "high-sensitivity-troponin",
+      "related": [
+        "troponin-i",
+        "troponin-t"
+      ]
+    },
+    {
+      "marker": "ana",
+      "related": [
+        "anti-dsdna",
+        "ena-screen"
+      ]
+    },
+    {
+      "marker": "anti-dsdna",
+      "related": [
+        "ana",
+        "c3-complement"
+      ]
+    },
+    {
+      "marker": "ena-screen",
+      "related": [
+        "ana"
+      ]
+    },
+    {
+      "marker": "rheumatoid-factor",
+      "related": [
+        "anti-ccp",
+        "crp"
+      ]
+    },
+    {
+      "marker": "anti-ccp",
+      "related": [
+        "rheumatoid-factor"
+      ]
+    },
+    {
+      "marker": "c3-complement",
+      "related": [
+        "c4-complement",
+        "anti-dsdna"
+      ]
+    },
+    {
+      "marker": "c4-complement",
+      "related": [
+        "c3-complement"
+      ]
+    },
+    {
+      "marker": "anca",
+      "related": [
+        "crp",
+        "esr"
+      ]
+    },
+    {
+      "marker": "anti-mpo",
+      "related": [
+        "anca"
+      ]
+    },
+    {
+      "marker": "anti-pr3",
+      "related": [
+        "anca"
+      ]
+    },
+    {
+      "marker": "anticardiolipin-igg",
+      "related": [
+        "lupus-anticoagulant"
+      ]
+    },
+    {
+      "marker": "anticardiolipin-igm",
+      "related": [
+        "lupus-anticoagulant"
+      ]
+    },
+    {
+      "marker": "beta-2-glycoprotein-igg",
+      "related": [
+        "lupus-anticoagulant"
+      ]
+    },
+    {
+      "marker": "beta-2-glycoprotein-igm",
+      "related": [
+        "lupus-anticoagulant"
+      ]
+    },
+    {
+      "marker": "anti-tissue-transglutaminase-iga",
+      "related": [
+        "total-iga"
+      ]
+    },
+    {
+      "marker": "anti-deamidated-gliadin-igg",
+      "related": [
+        "total-iga"
+      ]
+    },
+    {
+      "marker": "total-iga",
+      "related": [
+        "anti-tissue-transglutaminase-iga"
+      ]
+    },
+    {
+      "marker": "total-igg",
+      "related": [
+        "total-iga",
+        "total-igm"
+      ]
+    },
+    {
+      "marker": "total-igm",
+      "related": [
+        "total-igg"
+      ]
+    },
+    {
+      "marker": "ige-total",
+      "related": [
+        "eosinophils"
+      ]
+    },
+    {
+      "marker": "tryptase",
+      "related": [
+        "ige-total"
+      ]
+    },
+    {
+      "marker": "ebv-vca-igm",
+      "related": [
+        "ebv-vca-igg"
+      ]
+    },
+    {
+      "marker": "ebv-vca-igg",
+      "related": [
+        "ebv-vca-igm"
+      ]
+    },
+    {
+      "marker": "cmv-igm",
+      "related": [
+        "cmv-igg"
+      ]
+    },
+    {
+      "marker": "cmv-igg",
+      "related": [
+        "cmv-igm"
+      ]
+    },
+    {
+      "marker": "toxoplasma-igm",
+      "related": [
+        "toxoplasma-igg"
+      ]
+    },
+    {
+      "marker": "toxoplasma-igg",
+      "related": [
+        "toxoplasma-igm"
+      ]
+    },
+    {
+      "marker": "hbsag",
+      "related": [
+        "anti-hbs",
+        "anti-hbc-total"
+      ]
+    },
+    {
+      "marker": "anti-hbs",
+      "related": [
+        "hbsag"
+      ]
+    },
+    {
+      "marker": "anti-hbc-total",
+      "related": [
+        "hbsag",
+        "anti-hbs"
+      ]
+    },
+    {
+      "marker": "anti-hcv",
+      "related": [
+        "hcv-rna"
+      ]
+    },
+    {
+      "marker": "hcv-rna",
+      "related": [
+        "anti-hcv"
+      ]
+    },
+    {
+      "marker": "hiv-ag-ab",
+      "related": []
+    },
+    {
+      "marker": "rpr",
+      "related": [
+        "treponema-pallidum-antibodies"
+      ]
+    },
+    {
+      "marker": "treponema-pallidum-antibodies",
+      "related": [
+        "rpr"
+      ]
+    },
+    {
+      "marker": "psa-total",
+      "related": [
+        "psa-free"
+      ]
+    },
+    {
+      "marker": "psa-free",
+      "related": [
+        "psa-total"
+      ]
+    },
+    {
+      "marker": "cea",
+      "related": []
+    },
+    {
+      "marker": "ca-125",
+      "related": [
+        "he4",
+        "cea",
+        "hcg",
+        "afp",
+        "crp"
+      ]
+    },
+    {
+      "marker": "he4",
+      "related": [
+        "ca-125",
+        "cea",
+        "crp"
+      ]
+    },
+    {
+      "marker": "ca-15-3",
+      "related": [
+        "cea",
+        "ca-125",
+        "alp",
+        "alt",
+        "ast"
+      ]
+    },
+    {
+      "marker": "ca-19-9",
+      "related": [
+        "cea",
+        "bilirubin-total",
+        "bilirubin-direct",
+        "ggt",
+        "alp",
+        "alt",
+        "ast"
+      ]
+    },
+    {
+      "marker": "afp",
+      "related": [
+        "alt",
+        "ast",
+        "ggt",
+        "bilirubin-total",
+        "hbsag",
+        "anti-hcv"
+      ]
+    },
+    {
+      "marker": "beta-hcg",
+      "related": [
+        "hcg",
+        "afp",
+        "testosterone-total",
+        "lh",
+        "fsh"
+      ]
+    },
+    {
+      "marker": "calcitonin",
+      "related": [
+        "calcium",
+        "calcium-ionized",
+        "pth",
+        "cea",
+        "tsh"
+      ]
+    },
+    {
+      "marker": "chromogranin-a",
+      "related": [
+        "gastrin-17",
+        "cea",
+        "calcium",
+        "creatinine"
+      ]
+    },
+    {
+      "marker": "nse",
+      "related": [
+        "chromogranin-a",
+        "cea",
+        "ldh",
+        "crp"
+      ]
+    },
+    {
+      "marker": "cyfra-21-1",
+      "related": [
+        "cea",
+        "nse",
+        "crp",
+        "ldh"
+      ]
+    },
+    {
+      "marker": "scc-antigen",
+      "related": [
+        "cea",
+        "cyfra-21-1",
+        "crp"
+      ]
+    }
+  ]
+}

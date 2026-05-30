@@ -1,0 +1,580 @@
+{
+  "related_panels": [
+    {
+      "panel_slug": "basic-yearly",
+      "related_panel_slug": "heart-risk",
+      "title": "Сердечно-сосудистый риск",
+      "description": "Липиды, ApoB, Lp(a), hs-CRP, глюкоза и почечные маркеры для оценки риска сердца и сосудов.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "related_panel_slug": "thyroid",
+      "title": "Щитовидная железа",
+      "description": "ТТГ, свободные Т4/Т3 и антитела для проверки функции щитовидной железы.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "related_panel_slug": "iron-anemia",
+      "title": "Железо и анемия",
+      "description": "Гемоглобин, ферритин, железо, трансферрин, B12 и фолат для оценки анемии и дефицитов.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "women-18-29",
+      "related_panel_slug": "iron-anemia",
+      "title": "Железо и анемия",
+      "description": "Гемоглобин, ферритин, железо, трансферрин, B12 и фолат для оценки анемии и дефицитов.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "women-18-29",
+      "related_panel_slug": "thyroid",
+      "title": "Щитовидная железа",
+      "description": "ТТГ, свободные Т4/Т3 и антитела для проверки функции щитовидной железы.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "women-18-29",
+      "related_panel_slug": "deficiency-check",
+      "title": "Проверка дефицитов",
+      "description": "Ферритин, витамин D, B12, фолат и микроэлементы.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "women-45-59",
+      "related_panel_slug": "iron-anemia",
+      "title": "Железо и анемия",
+      "description": "Гемоглобин, ферритин, железо, трансферрин, B12 и фолат для оценки анемии и дефицитов.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "women-45-59",
+      "related_panel_slug": "thyroid",
+      "title": "Щитовидная железа",
+      "description": "ТТГ, свободные Т4/Т3 и антитела для проверки функции щитовидной железы.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "women-45-59",
+      "related_panel_slug": "deficiency-check",
+      "title": "Проверка дефицитов",
+      "description": "Ферритин, витамин D, B12, фолат и микроэлементы.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "related_panel_slug": "iron-anemia",
+      "title": "Железо и анемия",
+      "description": "Гемоглобин, ферритин, железо, трансферрин, B12 и фолат для оценки анемии и дефицитов.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "related_panel_slug": "thyroid",
+      "title": "Щитовидная железа",
+      "description": "ТТГ, свободные Т4/Т3 и антитела для проверки функции щитовидной железы.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "related_panel_slug": "deficiency-check",
+      "title": "Проверка дефицитов",
+      "description": "Ферритин, витамин D, B12, фолат и микроэлементы.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "women-30-44",
+      "related_panel_slug": "iron-anemia",
+      "title": "Железо и анемия",
+      "description": "Гемоглобин, ферритин, железо, трансферрин, B12 и фолат для оценки анемии и дефицитов.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "women-30-44",
+      "related_panel_slug": "thyroid",
+      "title": "Щитовидная железа",
+      "description": "ТТГ, свободные Т4/Т3 и антитела для проверки функции щитовидной железы.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "women-30-44",
+      "related_panel_slug": "deficiency-check",
+      "title": "Проверка дефицитов",
+      "description": "Ферритин, витамин D, B12, фолат и микроэлементы.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "men-18-29",
+      "related_panel_slug": "heart-risk",
+      "title": "Сердечно-сосудистый риск",
+      "description": "Липиды, ApoB, Lp(a), hs-CRP, глюкоза и почечные маркеры для оценки риска сердца и сосудов.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "men-18-29",
+      "related_panel_slug": "metabolic",
+      "title": "Метаболическое здоровье",
+      "description": "Глюкоза, HbA1c, инсулин, липиды и печёночные показатели для оценки метаболического риска.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "men-18-29",
+      "related_panel_slug": "check-liver",
+      "title": "Проверка печени",
+      "description": "ALT, AST, GGT, билирубин и белковые показатели для оценки состояния печени.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "men-30-44",
+      "related_panel_slug": "heart-risk",
+      "title": "Сердечно-сосудистый риск",
+      "description": "Липиды, ApoB, Lp(a), hs-CRP, глюкоза и почечные маркеры для оценки риска сердца и сосудов.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "men-30-44",
+      "related_panel_slug": "metabolic",
+      "title": "Метаболическое здоровье",
+      "description": "Глюкоза, HbA1c, инсулин, липиды и печёночные показатели для оценки метаболического риска.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "men-30-44",
+      "related_panel_slug": "check-liver",
+      "title": "Проверка печени",
+      "description": "ALT, AST, GGT, билирубин и белковые показатели для оценки состояния печени.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "men-45-59",
+      "related_panel_slug": "heart-risk",
+      "title": "Сердечно-сосудистый риск",
+      "description": "Липиды, ApoB, Lp(a), hs-CRP, глюкоза и почечные маркеры для оценки риска сердца и сосудов.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "men-45-59",
+      "related_panel_slug": "metabolic",
+      "title": "Метаболическое здоровье",
+      "description": "Глюкоза, HbA1c, инсулин, липиды и печёночные показатели для оценки метаболического риска.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "men-45-59",
+      "related_panel_slug": "check-liver",
+      "title": "Проверка печени",
+      "description": "ALT, AST, GGT, билирубин и белковые показатели для оценки состояния печени.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "related_panel_slug": "heart-risk",
+      "title": "Сердечно-сосудистый риск",
+      "description": "Липиды, ApoB, Lp(a), hs-CRP, глюкоза и почечные маркеры для оценки риска сердца и сосудов.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "related_panel_slug": "metabolic",
+      "title": "Метаболическое здоровье",
+      "description": "Глюкоза, HbA1c, инсулин, липиды и печёночные показатели для оценки метаболического риска.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "related_panel_slug": "check-liver",
+      "title": "Проверка печени",
+      "description": "ALT, AST, GGT, билирубин и белковые показатели для оценки состояния печени.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "heart-risk",
+      "related_panel_slug": "metabolic",
+      "title": "Метаболическое здоровье",
+      "description": "Глюкоза, HbA1c, инсулин, липиды и печёночные показатели для оценки метаболического риска.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "heart-risk",
+      "related_panel_slug": "diabetes-risk",
+      "title": "Риск диабета и инсулинорезистентность",
+      "description": "Глюкоза, HbA1c, инсулин и HOMA-IR для оценки риска диабета.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "heart-risk",
+      "related_panel_slug": "inflammation-check",
+      "title": "Воспаление и иммунный ответ",
+      "description": "CRP, СОЭ и фибриноген для оценки воспаления.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "thyroid",
+      "related_panel_slug": "fatigue",
+      "title": "Анализы при усталости",
+      "description": "Железо, щитовидная железа, витамины и сахар крови при усталости.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "thyroid",
+      "related_panel_slug": "weight-gain-check",
+      "title": "Анализы при наборе веса",
+      "description": "Щитовидная железа, сахар и липиды при наборе веса.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "thyroid",
+      "related_panel_slug": "anxiety-check",
+      "title": "Анализы при тревожности",
+      "description": "Щитовидная железа, витамины и магний при тревожности.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "related_panel_slug": "fatigue",
+      "title": "Анализы при усталости",
+      "description": "Железо, щитовидная железа, витамины и сахар крови при усталости.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "related_panel_slug": "hair-loss",
+      "title": "Анализы при выпадении волос",
+      "description": "Железо, витамины и щитовидная железа при выпадении волос.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "related_panel_slug": "dizziness-check",
+      "title": "Анализы при головокружении",
+      "description": "Железо, кровь и обмен веществ при головокружении.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "metabolic",
+      "related_panel_slug": "diabetes-risk",
+      "title": "Риск диабета и инсулинорезистентность",
+      "description": "Глюкоза, HbA1c, инсулин и HOMA-IR для оценки риска диабета.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "metabolic",
+      "related_panel_slug": "heart-risk",
+      "title": "Сердечно-сосудистый риск",
+      "description": "Липиды, ApoB, Lp(a), hs-CRP, глюкоза и почечные маркеры для оценки риска сердца и сосудов.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "metabolic",
+      "related_panel_slug": "weight-gain-check",
+      "title": "Анализы при наборе веса",
+      "description": "Щитовидная железа, сахар и липиды при наборе веса.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "check-liver",
+      "related_panel_slug": "metabolic",
+      "title": "Метаболическое здоровье",
+      "description": "Глюкоза, HbA1c, инсулин, липиды и печёночные показатели для оценки метаболического риска.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "check-liver",
+      "related_panel_slug": "heart-risk",
+      "title": "Сердечно-сосудистый риск",
+      "description": "Липиды, ApoB, Lp(a), hs-CRP, глюкоза и почечные маркеры для оценки риска сердца и сосудов.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "check-liver",
+      "related_panel_slug": "basic-yearly",
+      "title": "Базовый ежегодный чек-ап",
+      "description": "Основные анализы для ежегодной проверки крови, обмена веществ, печени, почек и сердечно-сосудистых рисков.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "related_panel_slug": "heart-risk",
+      "title": "Сердечно-сосудистый риск",
+      "description": "Липиды, ApoB, Lp(a), hs-CRP, глюкоза и почечные маркеры для оценки риска сердца и сосудов.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "related_panel_slug": "basic-yearly",
+      "title": "Базовый ежегодный чек-ап",
+      "description": "Основные анализы для ежегодной проверки крови, обмена веществ, печени, почек и сердечно-сосудистых рисков.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "related_panel_slug": "metabolic",
+      "title": "Метаболическое здоровье",
+      "description": "Глюкоза, HbA1c, инсулин, липиды и печёночные показатели для оценки метаболического риска.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "fatigue",
+      "related_panel_slug": "iron-anemia",
+      "title": "Железо и анемия",
+      "description": "Гемоглобин, ферритин, железо, трансферрин, B12 и фолат для оценки анемии и дефицитов.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "fatigue",
+      "related_panel_slug": "thyroid",
+      "title": "Щитовидная железа",
+      "description": "ТТГ, свободные Т4/Т3 и антитела для проверки функции щитовидной железы.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "fatigue",
+      "related_panel_slug": "deficiency-check",
+      "title": "Проверка дефицитов",
+      "description": "Ферритин, витамин D, B12, фолат и микроэлементы.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "hair-loss",
+      "related_panel_slug": "iron-anemia",
+      "title": "Железо и анемия",
+      "description": "Гемоглобин, ферритин, железо, трансферрин, B12 и фолат для оценки анемии и дефицитов.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "hair-loss",
+      "related_panel_slug": "thyroid",
+      "title": "Щитовидная железа",
+      "description": "ТТГ, свободные Т4/Т3 и антитела для проверки функции щитовидной железы.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "hair-loss",
+      "related_panel_slug": "deficiency-check",
+      "title": "Проверка дефицитов",
+      "description": "Ферритин, витамин D, B12, фолат и микроэлементы.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "related_panel_slug": "metabolic",
+      "title": "Метаболическое здоровье",
+      "description": "Глюкоза, HbA1c, инсулин, липиды и печёночные показатели для оценки метаболического риска.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "related_panel_slug": "heart-risk",
+      "title": "Сердечно-сосудистый риск",
+      "description": "Липиды, ApoB, Lp(a), hs-CRP, глюкоза и почечные маркеры для оценки риска сердца и сосудов.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "related_panel_slug": "weight-gain-check",
+      "title": "Анализы при наборе веса",
+      "description": "Щитовидная железа, сахар и липиды при наборе веса.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "related_panel_slug": "iron-anemia",
+      "title": "Железо и анемия",
+      "description": "Гемоглобин, ферритин, железо, трансферрин, B12 и фолат для оценки анемии и дефицитов.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "related_panel_slug": "fatigue",
+      "title": "Анализы при усталости",
+      "description": "Железо, щитовидная железа, витамины и сахар крови при усталости.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "related_panel_slug": "hair-loss",
+      "title": "Анализы при выпадении волос",
+      "description": "Железо, витамины и щитовидная железа при выпадении волос.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "related_panel_slug": "heart-risk",
+      "title": "Сердечно-сосудистый риск",
+      "description": "Липиды, ApoB, Lp(a), hs-CRP, глюкоза и почечные маркеры для оценки риска сердца и сосудов.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "related_panel_slug": "basic-yearly",
+      "title": "Базовый ежегодный чек-ап",
+      "description": "Основные анализы для ежегодной проверки крови, обмена веществ, печени, почек и сердечно-сосудистых рисков.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "related_panel_slug": "metabolic",
+      "title": "Метаболическое здоровье",
+      "description": "Глюкоза, HbA1c, инсулин, липиды и печёночные показатели для оценки метаболического риска.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "related_panel_slug": "fatigue",
+      "title": "Анализы при усталости",
+      "description": "Железо, щитовидная железа, витамины и сахар крови при усталости.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "related_panel_slug": "thyroid",
+      "title": "Щитовидная железа",
+      "description": "ТТГ, свободные Т4/Т3 и антитела для проверки функции щитовидной железы.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "related_panel_slug": "deficiency-check",
+      "title": "Проверка дефицитов",
+      "description": "Ферритин, витамин D, B12, фолат и микроэлементы.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "related_panel_slug": "metabolic",
+      "title": "Метаболическое здоровье",
+      "description": "Глюкоза, HbA1c, инсулин, липиды и печёночные показатели для оценки метаболического риска.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "related_panel_slug": "diabetes-risk",
+      "title": "Риск диабета и инсулинорезистентность",
+      "description": "Глюкоза, HbA1c, инсулин и HOMA-IR для оценки риска диабета.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "related_panel_slug": "thyroid",
+      "title": "Щитовидная железа",
+      "description": "ТТГ, свободные Т4/Т3 и антитела для проверки функции щитовидной железы.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "related_panel_slug": "iron-anemia",
+      "title": "Железо и анемия",
+      "description": "Гемоглобин, ферритин, железо, трансферрин, B12 и фолат для оценки анемии и дефицитов.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "related_panel_slug": "fatigue",
+      "title": "Анализы при усталости",
+      "description": "Железо, щитовидная железа, витамины и сахар крови при усталости.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "related_panel_slug": "basic-yearly",
+      "title": "Базовый ежегодный чек-ап",
+      "description": "Основные анализы для ежегодной проверки крови, обмена веществ, печени, почек и сердечно-сосудистых рисков.",
+      "sort_order": 30,
+      "is_active": true
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "related_panel_slug": "thyroid",
+      "title": "Щитовидная железа",
+      "description": "ТТГ, свободные Т4/Т3 и антитела для проверки функции щитовидной железы.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "related_panel_slug": "deficiency-check",
+      "title": "Проверка дефицитов",
+      "description": "Ферритин, витамин D, B12, фолат и микроэлементы.",
+      "sort_order": 20,
+      "is_active": true
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "related_panel_slug": "fatigue",
+      "title": "Анализы при усталости",
+      "description": "Железо, щитовидная железа, витамины и сахар крови при усталости.",
+      "sort_order": 30,
+      "is_active": true
+    }
+  ]
+}

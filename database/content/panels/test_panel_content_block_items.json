@@ -1,0 +1,4982 @@
+{
+  "items": [
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "risk_areas",
+      "title": "Общий анализ крови",
+      "description": "Базовая оценка клеток крови, признаков анемии, воспаления и тромбоцитов.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "risk_areas",
+      "title": "Базовая биохимия крови",
+      "description": "Оценка функции печени, почек, белкового обмена и общего метаболического состояния.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "risk_areas",
+      "title": "Углеводный обмен",
+      "description": "Проверка глюкозы, среднего сахара и признаков инсулинорезистентности.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "who_is_for",
+      "title": "Если нужен понятный тематический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "who_is_for",
+      "title": "Если уже были пограничные или изменённые показатели",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "who_is_for",
+      "title": "Если хочется отслеживать результаты в динамике",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "гемоглобин",
+          "эритроциты",
+          "гематокрит",
+          "лейкоциты"
+        ]
+      }
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "Общий анализ крови",
+          "Базовая биохимия крови",
+          "Углеводный обмен"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "Общий анализ крови",
+          "Базовая биохимия крови",
+          "Углеводный обмен"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "early_signals",
+      "title": "Скрытый дефицит железа",
+      "description": "Запасы железа могут снижаться постепенно, ещё до выраженных изменений самочувствия или гемоглобина.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "early_signals",
+      "title": "Сердечно-сосудистые факторы риска",
+      "description": "Липидные и метаболические показатели помогают раньше заметить факторы риска, которые полезно обсудить с врачом.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "early_signals",
+      "title": "Нарушения обмена веществ",
+      "description": "Изменения глюкозы, HbA1c, инсулина и липидов помогают раньше заметить метаболические риски.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "dynamic_tracking",
+      "title": "Общий анализ крови",
+      "description": "Показатели блока «Общий анализ крови» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "dynamic_tracking",
+      "title": "Базовая биохимия крови",
+      "description": "Показатели блока «Базовая биохимия крови» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "dynamic_tracking",
+      "title": "Углеводный обмен",
+      "description": "Показатели блока «Углеводный обмен» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "basic-yearly",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "risk_areas",
+      "title": "Общий анализ крови",
+      "description": "Оценка клеток крови, признаков анемии и воспаления.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "risk_areas",
+      "title": "Железо и дефициты",
+      "description": "Оценка железа и частых дефицитов.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "risk_areas",
+      "title": "Щитовидная железа",
+      "description": "Базовая оценка функции щитовидной железы.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "who_is_for",
+      "title": "Если вы хотите пройти ежегодный профилактический контроль",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "who_is_for",
+      "title": "Если есть усталость, снижение энергии, выпадение волос или изменения самочувствия",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "who_is_for",
+      "title": "Если важно проверить железо, щитовидную железу, обмен веществ и возрастные риски",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "гемоглобин",
+          "лейкоциты",
+          "тромбоциты",
+          "ферритин"
+        ]
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "эритроциты",
+          "гематокрит",
+          "MCV"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "mchc",
+          "СОЭ",
+          "свободный Т3"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "early_signals",
+      "title": "Скрытый дефицит железа",
+      "description": "Запасы железа могут снижаться постепенно, ещё до выраженных изменений самочувствия или гемоглобина.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "early_signals",
+      "title": "Изменения функции щитовидной железы",
+      "description": "Показатели щитовидной железы могут быть связаны с энергией, весом, концентрацией и общим самочувствием.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "early_signals",
+      "title": "Нарушения обмена веществ",
+      "description": "Изменения глюкозы, HbA1c, инсулина и липидов помогают раньше заметить метаболические риски.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "dynamic_tracking",
+      "title": "Общий анализ крови",
+      "description": "Показатели блока «Общий анализ крови» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "dynamic_tracking",
+      "title": "Железо и дефициты",
+      "description": "Показатели блока «Железо и дефициты» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "dynamic_tracking",
+      "title": "Щитовидная железа",
+      "description": "Показатели блока «Щитовидная железа» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-18-29",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "risk_areas",
+      "title": "Общий анализ крови",
+      "description": "Оценка клеток крови, признаков анемии и воспаления.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "risk_areas",
+      "title": "Сердечно-сосудистый риск",
+      "description": "Оценка липидов и факторов сердечно-сосудистого риска.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "risk_areas",
+      "title": "Углеводный обмен",
+      "description": "Оценка сахара крови и метаболических рисков.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "who_is_for",
+      "title": "Если вы хотите пройти ежегодный профилактический контроль",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "who_is_for",
+      "title": "Если есть усталость, снижение энергии, выпадение волос или изменения самочувствия",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "who_is_for",
+      "title": "Если важно проверить железо, щитовидную железу, обмен веществ и возрастные риски",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "гемоглобин",
+          "лейкоциты",
+          "тромбоциты",
+          "ЛПНП"
+        ]
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "эритроциты",
+          "гематокрит",
+          "MCV"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "mchc",
+          "СОЭ",
+          "lipoprotein a"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "early_signals",
+      "title": "Скрытый дефицит железа",
+      "description": "Запасы железа могут снижаться постепенно, ещё до выраженных изменений самочувствия или гемоглобина.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "early_signals",
+      "title": "Сердечно-сосудистые факторы риска",
+      "description": "Липидные и метаболические показатели помогают раньше заметить факторы риска, которые полезно обсудить с врачом.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "early_signals",
+      "title": "Изменения функции щитовидной железы",
+      "description": "Показатели щитовидной железы могут быть связаны с энергией, весом, концентрацией и общим самочувствием.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "dynamic_tracking",
+      "title": "Общий анализ крови",
+      "description": "Показатели блока «Общий анализ крови» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "dynamic_tracking",
+      "title": "Сердечно-сосудистый риск",
+      "description": "Показатели блока «Сердечно-сосудистый риск» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "dynamic_tracking",
+      "title": "Углеводный обмен",
+      "description": "Показатели блока «Углеводный обмен» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-45-59",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "risk_areas",
+      "title": "Общий анализ крови",
+      "description": "Оценка клеток крови, анемии и воспаления.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "risk_areas",
+      "title": "Сердце и обмен веществ",
+      "description": "Оценка сердечно-сосудистых и метаболических рисков.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "risk_areas",
+      "title": "Печень и почки",
+      "description": "Оценка функции печени и почек.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "who_is_for",
+      "title": "Если вы хотите пройти ежегодный профилактический контроль",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "who_is_for",
+      "title": "Если есть усталость, снижение энергии, выпадение волос или изменения самочувствия",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "who_is_for",
+      "title": "Если важно проверить железо, щитовидную железу, обмен веществ и возрастные риски",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "гемоглобин",
+          "лейкоциты",
+          "тромбоциты",
+          "ЛПНП"
+        ]
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "эритроциты",
+          "гематокрит",
+          "MCV"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "СОЭ",
+          "lipoprotein a",
+          "инсулин"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "early_signals",
+      "title": "Скрытый дефицит железа",
+      "description": "Запасы железа могут снижаться постепенно, ещё до выраженных изменений самочувствия или гемоглобина.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "early_signals",
+      "title": "Сердечно-сосудистые факторы риска",
+      "description": "Липидные и метаболические показатели помогают раньше заметить факторы риска, которые полезно обсудить с врачом.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "early_signals",
+      "title": "Изменения функции щитовидной железы",
+      "description": "Показатели щитовидной железы могут быть связаны с энергией, весом, концентрацией и общим самочувствием.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "dynamic_tracking",
+      "title": "Общий анализ крови",
+      "description": "Показатели блока «Общий анализ крови» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "dynamic_tracking",
+      "title": "Сердце и обмен веществ",
+      "description": "Показатели блока «Сердце и обмен веществ» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "dynamic_tracking",
+      "title": "Печень и почки",
+      "description": "Показатели блока «Печень и почки» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-60-plus",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "risk_areas",
+      "title": "Общий анализ крови",
+      "description": "Базовая оценка клеток крови, признаков анемии, воспаления и тромбоцитов.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "risk_areas",
+      "title": "Железо и дефициты",
+      "description": "Оценка запасов железа и частых дефицитов у женщин.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "risk_areas",
+      "title": "Щитовидная железа",
+      "description": "Оценка функции щитовидной железы.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "who_is_for",
+      "title": "Если вы хотите пройти ежегодный профилактический контроль",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "who_is_for",
+      "title": "Если есть усталость, снижение энергии, выпадение волос или изменения самочувствия",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "who_is_for",
+      "title": "Если важно проверить железо, щитовидную железу, обмен веществ и возрастные риски",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "гемоглобин",
+          "лейкоциты",
+          "тромбоциты",
+          "ферритин"
+        ]
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "эритроциты",
+          "гематокрит",
+          "MCV"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "mchc",
+          "СОЭ",
+          "свободный Т3"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "early_signals",
+      "title": "Скрытый дефицит железа",
+      "description": "Запасы железа могут снижаться постепенно, ещё до выраженных изменений самочувствия или гемоглобина.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "early_signals",
+      "title": "Сердечно-сосудистые факторы риска",
+      "description": "Липидные и метаболические показатели помогают раньше заметить факторы риска, которые полезно обсудить с врачом.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "early_signals",
+      "title": "Изменения функции щитовидной железы",
+      "description": "Показатели щитовидной железы могут быть связаны с энергией, весом, концентрацией и общим самочувствием.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "dynamic_tracking",
+      "title": "Общий анализ крови",
+      "description": "Показатели блока «Общий анализ крови» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "dynamic_tracking",
+      "title": "Железо и дефициты",
+      "description": "Показатели блока «Железо и дефициты» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "dynamic_tracking",
+      "title": "Щитовидная железа",
+      "description": "Показатели блока «Щитовидная железа» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "women-30-44",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "risk_areas",
+      "title": "Общий анализ крови",
+      "description": "Оценка клеток крови и признаков воспаления.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "risk_areas",
+      "title": "Обмен веществ",
+      "description": "Оценка сахара крови и метаболических рисков.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "risk_areas",
+      "title": "Печень и почки",
+      "description": "Базовая оценка функции печени и почек.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "who_is_for",
+      "title": "Если вы хотите пройти ежегодный профилактический контроль",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "who_is_for",
+      "title": "Если важно проверить сердечно-сосудистые и метаболические риски",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "who_is_for",
+      "title": "Если нужны базовые показатели крови, печени, почек и обмена веществ",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "гемоглобин",
+          "лейкоциты",
+          "тромбоциты",
+          "глюкоза"
+        ]
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "эритроциты",
+          "гематокрит",
+          "MCV"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "СОЭ",
+          "инсулин",
+          "витамин B12"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "early_signals",
+      "title": "Нарушения обмена веществ",
+      "description": "Изменения глюкозы, HbA1c, инсулина и липидов помогают раньше заметить метаболические риски.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "dynamic_tracking",
+      "title": "Общий анализ крови",
+      "description": "Показатели блока «Общий анализ крови» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "dynamic_tracking",
+      "title": "Обмен веществ",
+      "description": "Показатели блока «Обмен веществ» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "dynamic_tracking",
+      "title": "Печень и почки",
+      "description": "Показатели блока «Печень и почки» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-18-29",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "risk_areas",
+      "title": "Общий анализ крови",
+      "description": "Оценка клеток крови и признаков воспаления.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "risk_areas",
+      "title": "Сердечно-сосудистый риск",
+      "description": "Оценка липидов и факторов риска.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "risk_areas",
+      "title": "Обмен веществ",
+      "description": "Оценка сахара крови и метаболических рисков.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "who_is_for",
+      "title": "Если вы хотите пройти ежегодный профилактический контроль",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "who_is_for",
+      "title": "Если важно проверить сердечно-сосудистые и метаболические риски",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "who_is_for",
+      "title": "Если нужны базовые показатели крови, печени, почек и обмена веществ",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "гемоглобин",
+          "лейкоциты",
+          "тромбоциты",
+          "ЛПНП"
+        ]
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "эритроциты",
+          "гематокрит",
+          "MCV"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "СОЭ",
+          "lipoprotein a",
+          "инсулин"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "early_signals",
+      "title": "Сердечно-сосудистые факторы риска",
+      "description": "Липидные и метаболические показатели помогают раньше заметить факторы риска, которые полезно обсудить с врачом.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "early_signals",
+      "title": "Нарушения обмена веществ",
+      "description": "Изменения глюкозы, HbA1c, инсулина и липидов помогают раньше заметить метаболические риски.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "dynamic_tracking",
+      "title": "Общий анализ крови",
+      "description": "Показатели блока «Общий анализ крови» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "dynamic_tracking",
+      "title": "Сердечно-сосудистый риск",
+      "description": "Показатели блока «Сердечно-сосудистый риск» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "dynamic_tracking",
+      "title": "Обмен веществ",
+      "description": "Показатели блока «Обмен веществ» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-30-44",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "risk_areas",
+      "title": "Общий анализ крови",
+      "description": "Оценка клеток крови и признаков воспаления.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "risk_areas",
+      "title": "Сердце и обмен веществ",
+      "description": "Оценка сердечно-сосудистых и метаболических рисков.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "risk_areas",
+      "title": "Простата",
+      "description": "Возрастная оценка PSA по показаниям.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "who_is_for",
+      "title": "Если вы хотите пройти ежегодный профилактический контроль",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "who_is_for",
+      "title": "Если важно проверить сердечно-сосудистые и метаболические риски",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "who_is_for",
+      "title": "Если нужны базовые показатели крови, печени, почек и обмена веществ",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "гемоглобин",
+          "лейкоциты",
+          "тромбоциты",
+          "ЛПНП"
+        ]
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "эритроциты",
+          "гематокрит",
+          "MCV"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "СОЭ",
+          "lipoprotein a",
+          "инсулин"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "early_signals",
+      "title": "Сердечно-сосудистые факторы риска",
+      "description": "Липидные и метаболические показатели помогают раньше заметить факторы риска, которые полезно обсудить с врачом.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "early_signals",
+      "title": "Нарушения обмена веществ",
+      "description": "Изменения глюкозы, HbA1c, инсулина и липидов помогают раньше заметить метаболические риски.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "dynamic_tracking",
+      "title": "Общий анализ крови",
+      "description": "Показатели блока «Общий анализ крови» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "dynamic_tracking",
+      "title": "Сердце и обмен веществ",
+      "description": "Показатели блока «Сердце и обмен веществ» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "dynamic_tracking",
+      "title": "Простата",
+      "description": "Показатели блока «Простата» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-45-59",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "risk_areas",
+      "title": "Общий анализ крови",
+      "description": "Оценка клеток крови и признаков воспаления.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "risk_areas",
+      "title": "Сердце и обмен веществ",
+      "description": "Оценка сердечно-сосудистых и метаболических рисков.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "risk_areas",
+      "title": "Простата",
+      "description": "Возрастная оценка PSA по показаниям.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "who_is_for",
+      "title": "Если вы хотите пройти ежегодный профилактический контроль",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "who_is_for",
+      "title": "Если важно проверить сердечно-сосудистые и метаболические риски",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "who_is_for",
+      "title": "Если нужны базовые показатели крови, печени, почек и обмена веществ",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "гемоглобин",
+          "лейкоциты",
+          "тромбоциты",
+          "ЛПНП"
+        ]
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "эритроциты",
+          "гематокрит",
+          "MCV"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "СОЭ",
+          "lipoprotein a",
+          "инсулин"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "early_signals",
+      "title": "Сердечно-сосудистые факторы риска",
+      "description": "Липидные и метаболические показатели помогают раньше заметить факторы риска, которые полезно обсудить с врачом.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "early_signals",
+      "title": "Нарушения обмена веществ",
+      "description": "Изменения глюкозы, HbA1c, инсулина и липидов помогают раньше заметить метаболические риски.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "dynamic_tracking",
+      "title": "Общий анализ крови",
+      "description": "Показатели блока «Общий анализ крови» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "dynamic_tracking",
+      "title": "Сердце и обмен веществ",
+      "description": "Показатели блока «Сердце и обмен веществ» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "dynamic_tracking",
+      "title": "Простата",
+      "description": "Показатели блока «Простата» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "men-60-plus",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "risk_areas",
+      "title": "Липидный профиль",
+      "description": "Оценка холестерина и липопротеинов для понимания сердечно-сосудистого риска.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "risk_areas",
+      "title": "Углеводный обмен",
+      "description": "Проверка глюкозы, среднего сахара и признаков инсулинорезистентности.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "risk_areas",
+      "title": "Воспаление",
+      "description": "Неспецифическая оценка воспалительной активности.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "who_is_for",
+      "title": "Если нужен понятный тематический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "who_is_for",
+      "title": "Если уже были пограничные или изменённые показатели",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "who_is_for",
+      "title": "Если хочется отслеживать результаты в динамике",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "общий холестерин",
+          "ЛПНП",
+          "ЛПВП",
+          "триглицериды"
+        ]
+      }
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "Липидный профиль",
+          "Углеводный обмен",
+          "Воспаление"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "Липидный профиль",
+          "Углеводный обмен",
+          "Воспаление"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "early_signals",
+      "title": "Сердечно-сосудистые факторы риска",
+      "description": "Липидные и метаболические показатели помогают раньше заметить факторы риска, которые полезно обсудить с врачом.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "early_signals",
+      "title": "Нарушения обмена веществ",
+      "description": "Изменения глюкозы, HbA1c, инсулина и липидов помогают раньше заметить метаболические риски.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "dynamic_tracking",
+      "title": "Липидный профиль",
+      "description": "Показатели блока «Липидный профиль» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "dynamic_tracking",
+      "title": "Углеводный обмен",
+      "description": "Показатели блока «Углеводный обмен» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "dynamic_tracking",
+      "title": "Воспаление",
+      "description": "Показатели блока «Воспаление» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "heart-risk",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "risk_areas",
+      "title": "Щитовидная железа",
+      "description": "Оценка функции щитовидной железы и аутоиммунных маркеров.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "risk_areas",
+      "title": "Обмен веществ",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "risk_areas",
+      "title": "Дефициты",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "who_is_for",
+      "title": "Если хочется проверить систему: щитовидная железа",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "who_is_for",
+      "title": "Если ранее были отклонения в связанных анализах",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "who_is_for",
+      "title": "Если нужен регулярный контроль показателей в динамике",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "ТТГ",
+          "свободный Т4",
+          "свободный Т3",
+          "anti tpo"
+        ]
+      }
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "Щитовидная железа"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "Щитовидная железа"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "early_signals",
+      "title": "Скрытый дефицит железа",
+      "description": "Запасы железа могут снижаться постепенно, ещё до выраженных изменений самочувствия или гемоглобина.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "early_signals",
+      "title": "Изменения функции щитовидной железы",
+      "description": "Показатели щитовидной железы могут быть связаны с энергией, весом, концентрацией и общим самочувствием.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "dynamic_tracking",
+      "title": "Щитовидная железа",
+      "description": "Показатели блока «Щитовидная железа» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "thyroid",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "risk_areas",
+      "title": "Общий анализ крови",
+      "description": "Базовая оценка клеток крови, признаков анемии, воспаления и тромбоцитов.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "risk_areas",
+      "title": "Железо и анемия",
+      "description": "Оценка запасов железа и частых причин анемии или скрытого дефицита.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "risk_areas",
+      "title": "Дефициты",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "who_is_for",
+      "title": "Если нужен понятный тематический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "who_is_for",
+      "title": "Если уже были пограничные или изменённые показатели",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "who_is_for",
+      "title": "Если хочется отслеживать результаты в динамике",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "гемоглобин",
+          "эритроциты",
+          "гематокрит",
+          "лейкоциты"
+        ]
+      }
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "Общий анализ крови",
+          "Железо и анемия"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "Общий анализ крови",
+          "Железо и анемия"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "early_signals",
+      "title": "Скрытый дефицит железа",
+      "description": "Запасы железа могут снижаться постепенно, ещё до выраженных изменений самочувствия или гемоглобина.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "dynamic_tracking",
+      "title": "Общий анализ крови",
+      "description": "Показатели блока «Общий анализ крови» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "dynamic_tracking",
+      "title": "Железо и анемия",
+      "description": "Показатели блока «Железо и анемия» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "iron-anemia",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "risk_areas",
+      "title": "Углеводный обмен",
+      "description": "Проверка глюкозы, среднего сахара и признаков инсулинорезистентности.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "risk_areas",
+      "title": "Липидный профиль",
+      "description": "Оценка холестерина и липопротеинов для понимания сердечно-сосудистого риска.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "risk_areas",
+      "title": "Базовая биохимия крови",
+      "description": "Оценка функции печени, почек, белкового обмена и общего метаболического состояния.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "who_is_for",
+      "title": "Если нужен понятный тематический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "who_is_for",
+      "title": "Если уже были пограничные или изменённые показатели",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "who_is_for",
+      "title": "Если хочется отслеживать результаты в динамике",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "глюкоза",
+          "HbA1c",
+          "инсулин",
+          "HOMA-IR"
+        ]
+      }
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "Углеводный обмен",
+          "Липидный профиль",
+          "Базовая биохимия крови"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "Углеводный обмен",
+          "Липидный профиль",
+          "Базовая биохимия крови"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "early_signals",
+      "title": "Сердечно-сосудистые факторы риска",
+      "description": "Липидные и метаболические показатели помогают раньше заметить факторы риска, которые полезно обсудить с врачом.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "early_signals",
+      "title": "Нарушения обмена веществ",
+      "description": "Изменения глюкозы, HbA1c, инсулина и липидов помогают раньше заметить метаболические риски.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "dynamic_tracking",
+      "title": "Углеводный обмен",
+      "description": "Показатели блока «Углеводный обмен» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "dynamic_tracking",
+      "title": "Липидный профиль",
+      "description": "Показатели блока «Липидный профиль» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "dynamic_tracking",
+      "title": "Базовая биохимия крови",
+      "description": "Показатели блока «Базовая биохимия крови» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "metabolic",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "risk_areas",
+      "title": "Печёночные ферменты",
+      "description": "Оценка ферментов печени и желчного обмена.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "risk_areas",
+      "title": "Белковая функция печени",
+      "description": "Оценка синтетической функции печени.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "risk_areas",
+      "title": "Дефициты",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "who_is_for",
+      "title": "Если хочется проверить систему: проверка печени",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "who_is_for",
+      "title": "Если ранее были отклонения в связанных анализах",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "who_is_for",
+      "title": "Если нужен регулярный контроль показателей в динамике",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "АЛТ",
+          "АСТ",
+          "ГГТ",
+          "alp"
+        ]
+      }
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "Печёночные ферменты",
+          "Белковая функция печени"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "Печёночные ферменты",
+          "Белковая функция печени"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "early_signals",
+      "title": "Нарушения обмена веществ",
+      "description": "Изменения глюкозы, HbA1c, инсулина и липидов помогают раньше заметить метаболические риски.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "dynamic_tracking",
+      "title": "Печёночные ферменты",
+      "description": "Показатели блока «Печёночные ферменты» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "dynamic_tracking",
+      "title": "Белковая функция печени",
+      "description": "Показатели блока «Белковая функция печени» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-liver",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "risk_areas",
+      "title": "Функция почек",
+      "description": "Базовая оценка фильтрации и почечной функции.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "risk_areas",
+      "title": "Общий анализ мочи",
+      "description": "Оценка белка, воспаления и обменных признаков.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "risk_areas",
+      "title": "Дефициты",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "who_is_for",
+      "title": "Если хочется проверить систему: проверка почек",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "who_is_for",
+      "title": "Если ранее были отклонения в связанных анализах",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "who_is_for",
+      "title": "Если нужен регулярный контроль показателей в динамике",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "креатинин",
+          "eGFR",
+          "мочевина",
+          "uric acid"
+        ]
+      }
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "Функция почек",
+          "Общий анализ мочи"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "Функция почек",
+          "Общий анализ мочи"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "early_signals",
+      "title": "Лабораторные сигналы до выраженных симптомов",
+      "description": "Некоторые показатели меняются постепенно, поэтому их полезно проверять до появления выраженных жалоб.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "early_signals",
+      "title": "Пограничные изменения",
+      "description": "Повторный контроль помогает понять, случайное это изменение или устойчивая тенденция.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "early_signals",
+      "title": "Связанные риски",
+      "description": "Несколько показателей вместе дают более понятную картину, чем один анализ отдельно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "dynamic_tracking",
+      "title": "Функция почек",
+      "description": "Показатели блока «Функция почек» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "dynamic_tracking",
+      "title": "Общий анализ мочи",
+      "description": "Показатели блока «Общий анализ мочи» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "check-kidneys",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "risk_areas",
+      "title": "Железо и дефициты",
+      "description": "Частые дефициты, связанные со слабостью и утомляемостью.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "risk_areas",
+      "title": "Щитовидная железа",
+      "description": "Оценка функции щитовидной железы.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "risk_areas",
+      "title": "Обмен веществ",
+      "description": "Оценка сахара крови и обмена веществ.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "who_is_for",
+      "title": "Если беспокоит тема: анализы при усталости",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "who_is_for",
+      "title": "Если хочется проверить частые лабораторные причины симптомов",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "who_is_for",
+      "title": "Если нужно собрать понятную картину перед консультацией врача",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "гемоглобин",
+          "ферритин",
+          "витамин B12",
+          "фолат"
+        ]
+      }
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "Железо и дефициты",
+          "Щитовидная железа",
+          "Обмен веществ"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "Железо и дефициты",
+          "Щитовидная железа",
+          "Обмен веществ"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "early_signals",
+      "title": "Скрытый дефицит железа",
+      "description": "Запасы железа могут снижаться постепенно, ещё до выраженных изменений самочувствия или гемоглобина.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "early_signals",
+      "title": "Изменения функции щитовидной железы",
+      "description": "Показатели щитовидной железы могут быть связаны с энергией, весом, концентрацией и общим самочувствием.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "early_signals",
+      "title": "Нарушения обмена веществ",
+      "description": "Изменения глюкозы, HbA1c, инсулина и липидов помогают раньше заметить метаболические риски.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "when_to_check",
+      "title": "Если усталости сохраняется или повторяется",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "when_to_check",
+      "title": "Если симптом сочетается с усталостью, слабостью или изменением веса",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "when_to_check",
+      "title": "Если нужно проверить частые лабораторные причины перед консультацией врача",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "dynamic_tracking",
+      "title": "Железо и дефициты",
+      "description": "Показатели блока «Железо и дефициты» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "dynamic_tracking",
+      "title": "Щитовидная железа",
+      "description": "Показатели блока «Щитовидная железа» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "dynamic_tracking",
+      "title": "Обмен веществ",
+      "description": "Показатели блока «Обмен веществ» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "fatigue",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "risk_areas",
+      "title": "Железо и дефициты",
+      "description": "Оценка железа и частых дефицитов.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "risk_areas",
+      "title": "Щитовидная железа",
+      "description": "Оценка функции щитовидной железы.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "risk_areas",
+      "title": "Общий анализ крови",
+      "description": "Проверка анемии и воспаления.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "who_is_for",
+      "title": "Если беспокоит тема: анализы при выпадении волос",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "who_is_for",
+      "title": "Если хочется проверить частые лабораторные причины симптомов",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "who_is_for",
+      "title": "Если нужно собрать понятную картину перед консультацией врача",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "ферритин",
+          "сывороточное железо",
+          "витамин B12",
+          "фолат"
+        ]
+      }
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "Железо и дефициты",
+          "Щитовидная железа",
+          "Общий анализ крови"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "Железо и дефициты",
+          "Щитовидная железа",
+          "Общий анализ крови"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "early_signals",
+      "title": "Скрытый дефицит железа",
+      "description": "Запасы железа могут снижаться постепенно, ещё до выраженных изменений самочувствия или гемоглобина.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "early_signals",
+      "title": "Изменения функции щитовидной железы",
+      "description": "Показатели щитовидной железы могут быть связаны с энергией, весом, концентрацией и общим самочувствием.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "when_to_check",
+      "title": "Если выпадении волос сохраняется или повторяется",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "when_to_check",
+      "title": "Если симптом сочетается с усталостью, слабостью или изменением веса",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "when_to_check",
+      "title": "Если нужно проверить частые лабораторные причины перед консультацией врача",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "dynamic_tracking",
+      "title": "Железо и дефициты",
+      "description": "Показатели блока «Железо и дефициты» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "dynamic_tracking",
+      "title": "Щитовидная железа",
+      "description": "Показатели блока «Щитовидная железа» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "dynamic_tracking",
+      "title": "Общий анализ крови",
+      "description": "Показатели блока «Общий анализ крови» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "hair-loss",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "risk_areas",
+      "title": "Углеводный обмен",
+      "description": "Оценка сахара крови и инсулинорезистентности.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "risk_areas",
+      "title": "Обмен веществ",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "risk_areas",
+      "title": "Дефициты",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "who_is_for",
+      "title": "Если нужен понятный тематический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "who_is_for",
+      "title": "Если уже были пограничные или изменённые показатели",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "who_is_for",
+      "title": "Если хочется отслеживать результаты в динамике",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "глюкоза",
+          "HbA1c",
+          "инсулин",
+          "HOMA-IR"
+        ]
+      }
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "Углеводный обмен"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "Углеводный обмен"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "early_signals",
+      "title": "Нарушения обмена веществ",
+      "description": "Изменения глюкозы, HbA1c, инсулина и липидов помогают раньше заметить метаболические риски.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "dynamic_tracking",
+      "title": "Углеводный обмен",
+      "description": "Показатели блока «Углеводный обмен» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "diabetes-risk",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "risk_areas",
+      "title": "Витамины и микроэлементы",
+      "description": "Оценка железа и витаминных дефицитов.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "risk_areas",
+      "title": "Обмен веществ",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "risk_areas",
+      "title": "Дефициты",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "who_is_for",
+      "title": "Если нужен понятный тематический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "who_is_for",
+      "title": "Если уже были пограничные или изменённые показатели",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "who_is_for",
+      "title": "Если хочется отслеживать результаты в динамике",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "ферритин",
+          "витамин D",
+          "витамин B12",
+          "фолат"
+        ]
+      }
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "Витамины и микроэлементы"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "Витамины и микроэлементы"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "early_signals",
+      "title": "Лабораторные сигналы до выраженных симптомов",
+      "description": "Некоторые показатели меняются постепенно, поэтому их полезно проверять до появления выраженных жалоб.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "early_signals",
+      "title": "Пограничные изменения",
+      "description": "Повторный контроль помогает понять, случайное это изменение или устойчивая тенденция.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "early_signals",
+      "title": "Связанные риски",
+      "description": "Несколько показателей вместе дают более понятную картину, чем один анализ отдельно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "dynamic_tracking",
+      "title": "Витамины и микроэлементы",
+      "description": "Показатели блока «Витамины и микроэлементы» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "deficiency-check",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "risk_areas",
+      "title": "Воспаление",
+      "description": "Неспецифические маркеры воспаления.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "risk_areas",
+      "title": "Обмен веществ",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "risk_areas",
+      "title": "Дефициты",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "who_is_for",
+      "title": "Если нужен понятный тематический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "who_is_for",
+      "title": "Если уже были пограничные или изменённые показатели",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "who_is_for",
+      "title": "Если хочется отслеживать результаты в динамике",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "CRP",
+          "hs-CRP",
+          "СОЭ",
+          "fibrinogen"
+        ]
+      }
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "Воспаление"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "Воспаление"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "early_signals",
+      "title": "Лабораторные сигналы до выраженных симптомов",
+      "description": "Некоторые показатели меняются постепенно, поэтому их полезно проверять до появления выраженных жалоб.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "early_signals",
+      "title": "Пограничные изменения",
+      "description": "Повторный контроль помогает понять, случайное это изменение или устойчивая тенденция.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "early_signals",
+      "title": "Связанные риски",
+      "description": "Несколько показателей вместе дают более понятную картину, чем один анализ отдельно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "when_to_check",
+      "title": "Если давно не сдавали базовые анализы",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "when_to_check",
+      "title": "Если уже были отклонения и нужно проверить динамику",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "when_to_check",
+      "title": "Если хочется пройти профилактический контроль без случайного набора анализов",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "dynamic_tracking",
+      "title": "Воспаление",
+      "description": "Показатели блока «Воспаление» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "inflammation-check",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "risk_areas",
+      "title": "Энергия и обмен веществ",
+      "description": "Частые причины сонливости и усталости.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "risk_areas",
+      "title": "Обмен веществ",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "risk_areas",
+      "title": "Дефициты",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "who_is_for",
+      "title": "Если беспокоит тема: анализы при сонливости",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "who_is_for",
+      "title": "Если хочется проверить частые лабораторные причины симптомов",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "who_is_for",
+      "title": "Если нужно собрать понятную картину перед консультацией врача",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "гемоглобин",
+          "ферритин",
+          "ТТГ",
+          "свободный Т4"
+        ]
+      }
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "Энергия и обмен веществ"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "Энергия и обмен веществ"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "early_signals",
+      "title": "Скрытый дефицит железа",
+      "description": "Запасы железа могут снижаться постепенно, ещё до выраженных изменений самочувствия или гемоглобина.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "early_signals",
+      "title": "Изменения функции щитовидной железы",
+      "description": "Показатели щитовидной железы могут быть связаны с энергией, весом, концентрацией и общим самочувствием.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "early_signals",
+      "title": "Нарушения обмена веществ",
+      "description": "Изменения глюкозы, HbA1c, инсулина и липидов помогают раньше заметить метаболические риски.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "when_to_check",
+      "title": "Если сонливости сохраняется или повторяется",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "when_to_check",
+      "title": "Если симптом сочетается с усталостью, слабостью или изменением веса",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "when_to_check",
+      "title": "Если нужно проверить частые лабораторные причины перед консультацией врача",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "dynamic_tracking",
+      "title": "Энергия и обмен веществ",
+      "description": "Показатели блока «Энергия и обмен веществ» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "sleepiness-check",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "risk_areas",
+      "title": "Метаболическое здоровье",
+      "description": "Оценка обмена веществ и факторов набора веса.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "risk_areas",
+      "title": "Обмен веществ",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "risk_areas",
+      "title": "Дефициты",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "who_is_for",
+      "title": "Если беспокоит тема: анализы при наборе веса",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "who_is_for",
+      "title": "Если хочется проверить частые лабораторные причины симптомов",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "who_is_for",
+      "title": "Если нужно собрать понятную картину перед консультацией врача",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "ТТГ",
+          "свободный Т4",
+          "глюкоза",
+          "HbA1c"
+        ]
+      }
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "Метаболическое здоровье"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "Метаболическое здоровье"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "early_signals",
+      "title": "Скрытый дефицит железа",
+      "description": "Запасы железа могут снижаться постепенно, ещё до выраженных изменений самочувствия или гемоглобина.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "early_signals",
+      "title": "Изменения функции щитовидной железы",
+      "description": "Показатели щитовидной железы могут быть связаны с энергией, весом, концентрацией и общим самочувствием.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "early_signals",
+      "title": "Нарушения обмена веществ",
+      "description": "Изменения глюкозы, HbA1c, инсулина и липидов помогают раньше заметить метаболические риски.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "when_to_check",
+      "title": "Если наборе веса сохраняется или повторяется",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "when_to_check",
+      "title": "Если симптом сочетается с усталостью, слабостью или изменением веса",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "when_to_check",
+      "title": "Если нужно проверить частые лабораторные причины перед консультацией врача",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "dynamic_tracking",
+      "title": "Метаболическое здоровье",
+      "description": "Показатели блока «Метаболическое здоровье» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "weight-gain-check",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "risk_areas",
+      "title": "Кровь и дефициты",
+      "description": "Оценка анемии и дефицитов.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "risk_areas",
+      "title": "Обмен веществ",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "risk_areas",
+      "title": "Дефициты",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "who_is_for",
+      "title": "Если беспокоит тема: анализы при головокружении",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "who_is_for",
+      "title": "Если хочется проверить частые лабораторные причины симптомов",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "who_is_for",
+      "title": "Если нужно собрать понятную картину перед консультацией врача",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "гемоглобин",
+          "ферритин",
+          "витамин B12",
+          "фолат"
+        ]
+      }
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "Кровь и дефициты"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "Кровь и дефициты"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "early_signals",
+      "title": "Скрытый дефицит железа",
+      "description": "Запасы железа могут снижаться постепенно, ещё до выраженных изменений самочувствия или гемоглобина.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "early_signals",
+      "title": "Нарушения обмена веществ",
+      "description": "Изменения глюкозы, HbA1c, инсулина и липидов помогают раньше заметить метаболические риски.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "when_to_check",
+      "title": "Если головокружении сохраняется или повторяется",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "when_to_check",
+      "title": "Если симптом сочетается с усталостью, слабостью или изменением веса",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "when_to_check",
+      "title": "Если нужно проверить частые лабораторные причины перед консультацией врача",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "dynamic_tracking",
+      "title": "Кровь и дефициты",
+      "description": "Показатели блока «Кровь и дефициты» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "dizziness-check",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "risk_areas",
+      "title": "Щитовидная железа и дефициты",
+      "description": "Оценка щитовидной железы и микроэлементов.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "risk_areas",
+      "title": "Обмен веществ",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "risk_areas",
+      "title": "Дефициты",
+      "description": "Помогает оценить важные лабораторные признаки и понять, какие показатели стоит контролировать дальше.",
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "who_is_for",
+      "title": "Если беспокоит тема: анализы при тревожности",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "who_is_for",
+      "title": "Если хочется проверить частые лабораторные причины симптомов",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "who_is_for",
+      "title": "Если нужно собрать понятную картину перед консультацией врача",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "levels",
+      "title": "Базовый уровень",
+      "description": "Содержит основные показатели, которые помогают оценить ключевые зоны контроля и самые частые причины скрытых отклонений.",
+      "sort_order": 10,
+      "meta": {
+        "markers": [
+          "ТТГ",
+          "свободный Т4",
+          "витамин D",
+          "магний"
+        ]
+      }
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "levels",
+      "title": "Расширенный уровень",
+      "description": "Добавляет маркеры для более глубокой оценки обмена веществ, дефицитов и факторов риска.",
+      "sort_order": 20,
+      "meta": {
+        "markers": [
+          "Щитовидная железа и дефициты"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "levels",
+      "title": "Полный уровень",
+      "description": "Помогает собрать максимально подробную картину и использовать DSlog для дальнейшего контроля показателей в динамике.",
+      "sort_order": 30,
+      "meta": {
+        "markers": [
+          "Щитовидная железа и дефициты"
+        ],
+        "is_additional": true
+      }
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "early_signals",
+      "title": "Скрытый дефицит железа",
+      "description": "Запасы железа могут снижаться постепенно, ещё до выраженных изменений самочувствия или гемоглобина.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "early_signals",
+      "title": "Изменения функции щитовидной железы",
+      "description": "Показатели щитовидной железы могут быть связаны с энергией, весом, концентрацией и общим самочувствием.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "when_to_check",
+      "title": "Если тревожности сохраняется или повторяется",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "when_to_check",
+      "title": "Если симптом сочетается с усталостью, слабостью или изменением веса",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "when_to_check",
+      "title": "Если нужно проверить частые лабораторные причины перед консультацией врача",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "preparation",
+      "title": "Сдавать кровь утром, если это возможно",
+      "description": null,
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "preparation",
+      "title": "Не есть 8–12 часов перед анализами, если лаборатория требует сдачу натощак",
+      "description": null,
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "preparation",
+      "title": "Избегать интенсивной нагрузки и алкоголя накануне",
+      "description": null,
+      "sort_order": 30,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "preparation",
+      "title": "Уточнить требования в конкретной лаборатории перед сдачей",
+      "description": null,
+      "sort_order": 40,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "dynamic_tracking",
+      "title": "Щитовидная железа и дефициты",
+      "description": "Показатели блока «Щитовидная железа и дефициты» полезно сравнивать между разными сдачами, чтобы видеть не только разовый результат, но и направление изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "after_checkup",
+      "title": "Сохраняет показатели",
+      "description": "Результаты анализов сохраняются по отдельным маркерам, чтобы можно было видеть историю изменений.",
+      "sort_order": 10,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "after_checkup",
+      "title": "Показывает динамику",
+      "description": "DSlog помогает сравнивать показатели между разными сдачами и замечать устойчивые изменения.",
+      "sort_order": 20,
+      "meta": {}
+    },
+    {
+      "panel_slug": "anxiety-check",
+      "block_type": "after_checkup",
+      "title": "Помогает планировать контроль",
+      "description": "Для отдельных маркеров можно отслеживать, когда стоит повторить анализы или проверить отклонения повторно.",
+      "sort_order": 30,
+      "meta": {}
+    }
+  ]
+}

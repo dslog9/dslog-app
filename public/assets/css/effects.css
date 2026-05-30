@@ -1,0 +1,314 @@
+/*
+
+1. Glowing
+
+Мягкое живое свечение.
+
+Ощущение:
+
+premium;
+AI/biotech;
+“живая система”.
+
+Лучше всего:
+
+hero cards;
+checkup cards;
+dashboard;
+backgrounds.
+
+Обычно:
+
+radial-gradient;
+blur;
+медленное движение.
+
+Ты сейчас именно это делаешь.
+
+2. Shimmer
+
+Бегущий блик.
+
+Ощущение:
+
+loading;
+processing;
+scanning;
+AI работает.
+
+Лучше:
+
+skeleton loading;
+processing state;
+hover.
+
+Хуже:
+
+постоянный фон всей страницы.
+
+Потому что быстро начинает выглядеть дешево.
+
+3. Aurora / Mesh Glow
+
+Очень дорогой современный эффект.
+
+Типа:
+
+размытые цветные облака
+
+Как у:
+
+Linear;
+Stripe;
+Raycast;
+AI startups.
+
+Техника:
+
+несколько radial gradients;
+blur 80–140px;
+медленная анимация.
+
+Для DSlog:
+
+супер для hero;
+backgrounds;
+onboarding.
+4. Noise / Grain
+
+Очень лёгкий шум поверх.
+
+Даёт:
+
+“материал”;
+меньше ощущения плоского CSS.
+
+Обычно:
+
+opacity: .02-.05
+mix-blend-mode
+
+Очень premium, если аккуратно.
+
+5. Glassmorphism
+
+Полупрозрачное стекло.
+
+backdrop-filter: blur(...)
+
+Ощущение:
+
+Apple;
+futuristic.
+
+Но:
+
+легко переборщить;
+для medical UI опасно.
+
+Я бы в DSlog использовал только:
+
+header;
+floating nav;
+sidebar.
+
+Не карточки анализов.
+
+6. Soft Gradient Flow
+
+Самый безопасный эффект.
+
+Не glow.
+Не shimmer.
+
+А просто:
+
+медленно живущий gradient background
+
+Например:
+
+background-size: 200% 200%;
+animation: gradientMove 12s ease infinite;
+
+Очень хорошо:
+
+hero;
+CTA blocks;
+plan cards.
+7. Hover Lift
+
+Карточка слегка:
+
+поднимается;
+усиливает тень;
+чуть scale.
+transform: translateY(-3px);
+
+Это must-have почти везде.
+
+8. Border Glow
+
+Светящаяся граница.
+
+Очень круто для:
+
+active card;
+selected plan;
+AI result.
+
+Например:
+
+box-shadow:
+    0 0 0 1px rgba(37,99,235,.2),
+    0 0 40px rgba(37,99,235,.15);
+9. Spotlight
+
+Свет следует за мышкой.
+
+Очень premium.
+
+JS:
+
+mouse position;
+radial-gradient follows cursor.
+
+Используют:
+
+Vercel;
+Linear;
+Framer.
+
+Но:
+
+пока рано для DSlog.
+10. Floating Particles
+
+Точки/частицы.
+
+У тебя уже визуальный язык с шарами, так что это потенциально сильная тема.
+
+Но:
+
+очень легко уйти в “crypto startup”.
+
+Нужно минимально.
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================
+   Glow effects
+========================================= */
+
+
+
+.is-glowing {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+}
+
+/* контент наверху */
+.is-glowing > * {
+    position: relative;
+    z-index: 2;
+}
+
+/* glow-слой */
+.is-glowing::before {
+    content: "";
+    position: absolute;
+    inset: -30%;
+    z-index: 0;
+    background: var(--glow-bg) ;
+    background-size: 220% 220%;
+    animation: cardFlow 8s ease-in-out infinite;
+    filter: blur(45px);
+    opacity: .8;
+    /*animation: glowMove 14s ease-in-out infinite alternate;*/
+    pointer-events: none;
+}
+
+.effect-circle-bg:before {
+    --glow-bg: var(--gradient-circle-bg)
+}
+
+.effect-circle-r {
+    --glow-bg: var(--gradient-circle-r)
+}
+
+.effect-linear-bg {
+    --glow-bg: var(--gradient-linear-bg)
+}
+
+@keyframes cardFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+/* =========================================
+   Shimmer effects
+========================================= */
+
+.is-shimmer {
+    position: relative;
+    overflow: hidden;
+}
+
+.is-shimmer::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transform: translateX(-120%);
+    background: linear-gradient(
+        110deg,
+        transparent 0%,
+        rgba(255,255,255,.0) 35%,
+        rgba(255,255,255,.55) 50%,
+        rgba(255,255,255,.0) 65%,
+        transparent 100%
+    );
+    animation: shimmerMove 5s ease-in-out infinite;
+    pointer-events: none;
+}
+
+@keyframes shimmerMove {
+    0%, 45% {
+        transform: translateX(-120%);
+    }
+    100% {
+        transform: translateX(120%);
+    }
+}
+/* =========================================
+   Hover motion
+========================================= */
+
+/* =========================================
+   Animated gradients
+========================================= */
+
+/* =========================================
+   Keyframes
+========================================= */
